@@ -24,7 +24,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
+          ruby-version: "3.1.1"
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@v0.13.1
@@ -38,8 +38,8 @@ jobs:
           pip3 install --upgrade jupyter
           npm install -g mermaid.cli
           npm install -g purgecss
-          export JEKYLL_ENV=production
           bundle add webrick
+          export JEKYLL_ENV=production
           bundle exec jekyll build --trace
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
