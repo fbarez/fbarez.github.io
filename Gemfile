@@ -31,4 +31,4 @@ group :other_plugins do
   gem 'httparty'
 end
 
-gem 'bundler', '>= 2.0.0'
+gem 'bundler', '>= 2.2.14'
