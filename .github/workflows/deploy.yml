@@ -33,12 +33,14 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Install Bundle dependancies 🔧
+        run: |
+          bundle add webrick
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           npm install -g mermaid.cli
           npm install -g purgecss
-          bundle add webrick
           export JEKYLL_ENV=production
           bundle exec jekyll build --trace
           purgecss -c purgecss.config.js
