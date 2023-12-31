@@ -21,15 +21,14 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: Install Bundle dependancies 🔧
-        run: |
-          bundle add webrick
-          bundle config set frozen false
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1.3"
           bundler-cache: true
+      - name: Install Bundle dependancies 🔧
+        run: |
+          bundle add webrick
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@v0.13.1
         with:
