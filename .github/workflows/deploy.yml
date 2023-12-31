@@ -36,6 +36,7 @@ jobs:
       - name: Install Bundle dependancies 🔧
         run: |
           bundle add webrick
+          bundle config set frozen false
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
