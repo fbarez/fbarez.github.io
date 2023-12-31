@@ -21,6 +21,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
+      - name: Install Bundle dependancies 🔧
+        run: |
+          bundle add webrick
+          bundle config set frozen false
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -33,10 +37,6 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
-      - name: Install Bundle dependancies 🔧
-        run: |
-          bundle add webrick
-          bundle config set frozen false
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
