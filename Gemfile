@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '3.1.3' # Add this line to specify the Ruby version
+ruby '3.2.2' # Add this line to specify the Ruby version
 
 gem 'jekyll'
 group :jekyll_plugins do
