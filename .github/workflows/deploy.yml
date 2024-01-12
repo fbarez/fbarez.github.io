@@ -42,7 +42,7 @@ jobs:
           npm install -g mermaid.cli
           npm install -g purgecss
           set JEKYLL_ENV=production
-          bundle exec jekyll build --trace
+          bundle exec jekyll build --trace --lsi
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
