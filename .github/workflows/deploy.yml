@@ -41,7 +41,6 @@ jobs:
           pip3 install --upgrade jupyter
           npm install -g mermaid.cli
           npm install -g purgecss
-          export JEKYLL_ENV=production
           bundle exec jekyll build --trace
           purgecss -c purgecss.config.js
       - name: Deploy 🚀
