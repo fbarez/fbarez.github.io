@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-01-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presented Measuring Value Alignment at NeurIPS 2023, New Orleans : [Presentation](https://arxiv.org/abs/2312.15241 "Link to the paper") -->

@@ -9,7 +9,7 @@ nav_order: 3
 
 ## **Talks**
 
-#### IOP Physical Acoustics Tutorial Day, London
+<!-- #### IOP Physical Acoustics Tutorial Day, London -->
 
 2021 - [🔗 Info](https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=1026420&eventID=1652) - [📄 Slides](/assets/pdf/2021_institute_of_physics.pdf)
 

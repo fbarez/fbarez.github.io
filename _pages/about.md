@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. AI safety and Interpretability researcher.
+subtitle: AI safety and Interpretability researcher.
 
 profile:
   align: left
@@ -17,4 +17,6 @@ social: true # includes social icons at the bottom of the page
 years: [2023, 2022, 2021]
 ---
 
-I recieved my PhD from Edinburgh Centre for Robotics. I am interested in Interpretability and AI Safety. For my recent work, please see my Google Scholar profile. If you’re interested in my work, please contact me. For more details about my experiences, visit my LinkedIn.
+I'm a Research Fellow at Torr vision Group (TVG), University of Oxford, where I lead the safety research. I'm also a Technology and Security Policy fellow at RAND and the Co-Director and Head of research at Apart Research. I'm also affiliated with the centre for the Study of Existential Risks at University of Cambridge and Future of Life Institute.
+
+Prior to that, I worked on Interpretability at Amazon, safe recommender systems at Huawei and on building a finance tool for budget management for economic scenario forecasting at Natwest Group. I hold a PhD in AI with focus on safety and interpretability and previously studied an MSc in Statistics and BA (Hons) in Economics.

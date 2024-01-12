@@ -210,10 +210,15 @@ blockquote {
   .contact-icons{
     font-size: 2rem;
     margin:25px 0;
+    
+    a {
+      color: #6c83f2;
+    }
   }
 
   img{
     width: 22vw;
+    height: 250px;
   }
 }
 
@@ -536,8 +541,10 @@ li {
 }
 
 .services li {
-    margin-bottom: 10px;
-	font-size:18px;
+  margin-bottom: 14px;
+  font-size: 17px;
+  display: flex;
+  align-items: baseline;
 }
 
 li i{
@@ -659,9 +666,9 @@ footer.sticky-bottom {
 }
 
 .awards-list{
-
+  // width: max-content;
+  font-weight: 400;
   .award-item{
-    
     margin: 20px 0;
     
   }
@@ -671,6 +678,8 @@ footer.sticky-bottom {
     padding: 4px 8px;
     border-radius: 6px;
     font-weight: 500;
+    font-size: small;
+    margin-right: 10px;
   }
 
 }
@@ -939,6 +948,7 @@ footer.sticky-bottom {
 
         >em {
           border-bottom: 1px solid;
+          font-weight: 600;
           font-style: normal;
         }
 
@@ -1246,6 +1256,14 @@ nav[data-toggle="toc"] {
       border-left-color: var(--global-hover-color);
     }
   }
+}
+
+.post-header > .post-title {
+  
+  font-size: 1.7em;
+  /* width: max-content; */
+  margin: 10px 0;
+  text-align: center;
 }
 
 /* small screens */

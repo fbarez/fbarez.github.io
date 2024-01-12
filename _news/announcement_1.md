@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-01-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+New Paper 🎉: [Can language models relearn removed concepts?](https://arxiv.org/pdf/2401.01814.pdf "Link to the paper")

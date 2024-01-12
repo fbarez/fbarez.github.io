@@ -4,17 +4,6 @@ layout: default
 
 <!-- about.html -->
 <div class="post" id="about">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold"
-        >{{ site.first_name }}</span
-      >
-      {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%-
-      endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
     {% if page.profile -%}
     <div
@@ -27,6 +16,16 @@ layout: default
       "img-fluid z-depth-1 rounded" -%} {% endif %} {% include figure.html
       path=profile_image_path class=profile_image_class alt=page.profile.image
       cache_bust=true -%} {% endif -%} {%- if page.profile.more_info %}
+      <header class="post-header">
+        <h1 class="post-title">
+          Hi, I'm {% if site.title == "blank" -%}<span class="font-weight-bold"
+            >{{ site.first_name }}</span
+          >
+          {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title
+          }}{%- endif %}
+        </h1>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
       <div class="more-info">
         {{ page.profile.more_info }}
         <div class="contact-icons">{% include social.html %}</div>
@@ -53,47 +52,53 @@ layout: default
 <div id="research">
   <h2 id="-research-interests-">Research Interests</h2>
   <p>
-    I am primarily interested in the decision-making and control of robots in
-    human environments. These days, my efforts are focused on designing
-    perception-based systems for contact-rich manipulation tasks, such as
-    articulated object interaction with mobile manipulators and in-hand
-    manipulation. Other areas of interest include hierarchical reinforcement
-    learning, optimal control, and 3D vision.
+    I care about making AI systems safe and beneficial to humanity. My interests
+    in machine learning research include interpretability, Safety, Alignment,
+    and Evaluation. I am also interested in learning about how knowledge of
+    philosophy, psychology and neuroscience can advance our understanding of how
+    AI models learn, adap, distribute and update knowledge.
   </p>
 </div>
 <div class="publications" id="publications">
   <h2>Publications</h2>
+  <p>* - Equal Contribution by the Person</p>
   {%- for y in page.years %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %} {% endfor %}
 </div>
 <div class="talks--container" id="talks">
   <h2><strong>Talks</strong></h2>
-  <h4 id="iop-physical-acoustics-tutorial-day-london">
-    IOP Physical Acoustics Tutorial Day, London
+  <h4 id="talk_1">
+    Interpretability for Safety and Alignment (Intelligent Cooperation Workshop,
+    Foresight Institute, SF, USA).
   </h4>
   <p>
-    2021 -
+    2023 -
     <a
       href="https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=1026420&amp;eventID=1652"
       >🔗 Info</a
     >
     - <a href="/assets/pdf/2021_institute_of_physics.pdf">📄 Slides</a>
   </p>
-  <h4 id="ukan-university-of-salford">UKAN, University of Salford</h4>
+  <h4 id="talk_2">
+    An Introduction to AI Safety and Alignment - Indaba Deep learning
+    Conference, Tunis, Tunisia.
+  </h4>
   <p>
-    2021 -
+    2022 -
     <a href="https://www.youtube.com/watch?v=MyDo6gF1TMA">🎥 Presentation</a>
   </p>
+  <h4 id="talk_3">
+    An Introduction to AI Safety and Alignment - AI safety Israel Conference -
+    Technion, Haifa, Israel.
+  </h4>
   <p>
-    Presentation of the
-    <a
-      href="https://www.sciencedirect.com/science/article/pii/S0021999121003259"
-      >learned iterative Helmholtz solver</a
-    >.
+    2022 -
+    <a href="https://www.youtube.com/watch?v=MyDo6gF1TMA">🎥 Presentation</a>
   </p>
+
   <hr />
-  <h2 id="-lectures-"><strong>Lectures</strong></h2>
+  <!-- <h2 id="-lectures-"><strong>Lectures</strong></h2>
   <h4
     id="advanced-neuroimaging-physical-sciences-module-2-p2-imaging-modalities"
   >
@@ -111,32 +116,42 @@ layout: default
   <p>
     Two lectures introducing ultrasound imaging and neuro-scientific
     applications.
-  </p>
+  </p> -->
 </div>
 <div class="awards--container" id="awards">
   <h2 id="-awards-and-honors-"><strong>Awards and Honors</strong> :</h2>
   <ul class="awards-list">
     <li class="award-item">
-      <span class="award-year">2023</span>
-      <span class="award-info">Lorem ipsum,</span>
-      <a href="https://example.com/dolor">Dolor</a>
+      <span class="award-year">2022 - 2023</span>
+      <span class="award-info"
+        >Future of Humanities institute PhD affiliate,</span
+      >
     </li>
     <li class="award-item">
-      <span class="award-year">2023-2024</span>
-      <span class="award-info">Lorem ipsum,</span>
-      <a href="https://example.com/dolor">Dolor</a>
+      <span class="award-year">2019 - 2023</span>
+      <span class="award-info"
+        >ESPRS PhD Student scholarship (full tuition and stipend),</span
+      >
+      <a href="#">Link</a>
     </li>
     <li class="award-item">
-      <span class="award-year">2022</span>
-      <span class="award-info">Lorem ipsum,</span>
-      <a href="https://example.com/dolor">Dolor</a>
+      <span class="award-year">2017 - 2018</span>
+      <span class="award-info">MSc Scholarship (Full tuition)</span>
+    </li>
+    <li class="award-item">
+      <span class="award-year">2013 - 2017 </span>
+      <span class="award-info"
+        >BA (Hons) Sports performance Scholarship (Partial Tuition and
+        stipend)</span
+      >
+      <a href="#">Link</a>
     </li>
   </ul>
 </div>
 <!-- Social -->
 {%- if page.social %}
 <div class="social">
-  <div class="contact-note">{{ site.contact_note }}</div>
+  <!-- <div class="contact-note">Thank you for reading till here</div> -->
 </div>
 {%- endif %}
 <script

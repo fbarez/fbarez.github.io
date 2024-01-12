@@ -192,7 +192,6 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
-  x86_64-linux
 
 DEPENDENCIES
   bundler (>= 2.0.0)
@@ -221,7 +220,7 @@ DEPENDENCIES
   webrick
 
 RUBY VERSION
-   ruby 3.1.3p185
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.5.3
