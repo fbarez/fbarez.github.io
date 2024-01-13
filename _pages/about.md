@@ -14,7 +14,7 @@ news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 selected_papers: true # includes a list of spapers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-years: [2023, 2022, 2021]
+years: [2024, 2023, 2022, 2021]
 ---
 
 I'm a Research Fellow at Torr vision Group (TVG), University of Oxford, where I lead the safety research. I'm also a Technology and Security Policy fellow at RAND and the Co-Director and Head of research at Apart Research. I'm also affiliated with the centre for the Study of Existential Risks at University of Cambridge and Future of Life Institute.
