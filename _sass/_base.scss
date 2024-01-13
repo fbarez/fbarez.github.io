@@ -209,7 +209,10 @@ blockquote {
 
   .contact-icons{
     font-size: 2rem;
-    margin:25px 0;
+    margin: 25px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
     
     a {
       color: #6c83f2;
@@ -461,6 +464,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
 
   .container {
     color: var(--global-footer-text-color);
@@ -581,20 +585,21 @@ li i{
 	 	padding:20px 40px; 
 	width:fit-content;
 	margin: 20px auto;
-	display:flex;
-	justify-content:center;
-	align-items:center;
+  font-size: larger;
 	background: #fdc8fd8a;
+  
+  a{
+    color: #6c83f2;
+    text-decoration: none;
+    margin: 0 15px;
+  }
 }
 
 .mailDiv:hover{
 	background:#fdc8fd;
 	cursor: pointer;
 }
-.mailDiv a {
-    color: #2f0032;
-    text-decoration: none;
-}
+
 //consulting page smaller devicesss
 
 @media (max-width: 960px ) {

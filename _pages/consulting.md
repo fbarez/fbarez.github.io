@@ -53,8 +53,13 @@ horizontal: false
             <h3>Let's Work Together</h3>
             <p>Ready to take your business to the next level? Contact me today to discuss your marketing needs.</p>
            <div class="mailDiv">
-    					  <a href="mailto:fazlbarez93@gmail.com">fazlbarez93@gmail.com</a>
-    				</div>
+
+    					 Mail me and let's get to work <a href="mailto:{{ site.email | encode_email }}" title="email"
+
+> <i class="fa-solid fa-envelope"></i
+> </a>
+
+    		</div>
         </section>
     </main>
 
