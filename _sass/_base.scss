@@ -208,14 +208,16 @@ blockquote {
   }
 
   .contact-icons{
-    font-size: 2rem;
+
+    font-size: 1.5rem;
     margin: 25px 0;
     display: flex;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
-    
+    flex-wrap: wrap;
+
     a {
-      color: #6c83f2;
+      color: #4159cf;
     }
   }
 
@@ -585,13 +587,17 @@ li i{
 	 	padding:20px 40px; 
 	width:fit-content;
 	margin: 20px auto;
-  font-size: larger;
+  font-size: medium;
 	background: #fdc8fd8a;
-  
+  font-weight: 600;
+color: #2c2929;
+
   a{
     color: #6c83f2;
     text-decoration: none;
     margin: 0 15px;
+    font-size: large;
+    vertical-align: middle;
   }
 }
 
