@@ -19,7 +19,7 @@
 
 
 <!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?f7a31c284c9101d9ee11787bb143ab27">
 <!-- <link rel="stylesheet" href="/assets/css/mdb.min.css?62a43d1430ddb46fc4886f9d0e3b49b8"> -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
@@ -45,12 +45,7 @@
 
 <!-- Dark Mode -->
 
-<link rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?e74e74bf055e5729d44a7d031a5ca6a5" media="none" id="highlight_theme_dark">
-<script src="/assets/js/theme.js?3dd82e91913a2c1265c0f80e41ff39e2"></script>
-<script src="/assets/js/dark_mode.js?6458e63976eae16c0cbe86b97023895a"></script>
-
-
-<script src="/assets/js/navbarChangeColor.js?4e6c1415b5efee12826d54b9e10648ef"></script>
+<!-- <script src="/assets/js/navbarChangeColor.js?1427805939035532332a894bbdd68e85"></script> -->
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WA-BtbFsdh6auBnmko2afCD1vbQ9_DS1Ykzq59GJC6o"></script>
 
   </head>
@@ -93,21 +88,6 @@
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="/consulting/">Consulting</a>
-          </li> 
-          <!-- Blog -->
-          <!-- <li
-            class="nav-item "
-          >
-            <a class="nav-link" href="/blog/"
-              >Misc</a>
-          </li> -->
-
-          <!-- Toogle theme mode -->
-          <li class="toggle-container">
-            <button id="light-toggle" title="Change theme">
-              <i class="fa-solid fa-moon"></i>
-              <i class="fa-solid fa-sun"></i>
-            </button>
           </li>
         </ul>
       </div>
@@ -158,6 +138,7 @@
 <a href="https://scholar.google.com/citations?user=EAjpNIMAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar-square"></i></a><a href="https://github.com/fbarez" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a>
 <a href="https://www.linkedin.com/in/fbarez" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fab fa-linkedin"></i></a>
 
+<a href="https://twitter.com/FazlBarez" title="X" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
 </div>
       </div>
     </div>
@@ -210,11 +191,10 @@
 </div>
 <div class="publications" id="publications">
   <h2>Publications</h2>
-  <p>* - Equal Contribution by the Person</p>
-  <h3 class="year">2023</h3>
-  <h2 class="bibliography">2023</h2>
-<ol class="bibliography">
-<li>
+  <p>* - Equal Contribution</p>
+  <h3 class="year">2024</h3>
+  <h2 class="bibliography">2024</h2>
+<ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
 <div class="row">
 <div class="col-sm-2 preview">
@@ -234,13 +214,73 @@
 </figure>
 </div>
 <!-- Entry bib key -->
-  <div id="fbarez2023detecting" class="col-sm-8">
+  <div id="lo2024large" class="col-sm-8">
     <!-- Title -->
-    <div class="title">Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark</div>
+    <div class="title">Large Language Models Relearn Removed Concepts</div>
     <!-- Author -->
     <div class="author">
-       Jason Hoelscher-Obermaier*, Julia Persson*, Esben Kran, Ioannis Konstas, and <em>Fazl Barez*</em>
+       Michelle Lo, Shay B. Cohen, and <em>Fazl Barez</em>
 </div>
+
+    <!-- Journal/Book title and date -->
+      <div class="periodical">
+<em></em> 2024</div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="http://arxiv.org/abs/2305.17553" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    </div>
+        <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This demonstrates that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons.</p>
+    </div>
+<!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lo2024large</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Large Language Models Relearn Removed Concepts}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lo, Michelle and Cohen, Shay B. and Barez, Fazl}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2024}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
+  <span class="na">conference</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Workshop on Vision-based Drones: What's Next?}</span><span class="p">,</span>
+  <span class="na">maintitle</span> <span class="p">=</span> <span class="s">{IROS}</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  </div>
+</div>
+</li></ol> 
+  <h3 class="year">2023</h3>
+  <h2 class="bibliography">2023</h2>
+<ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_15241-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_15241-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_15241-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/paper_15241.jpg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_15241.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+<!-- Entry bib key -->
+  <div id="barez2023measuring" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Measuring Value Alignment</div>
+    <!-- Author -->
+    <div class="author">
+       <em>Fazl Barez</em>, and Philip Torr</div>
 
     <!-- Journal/Book title and date -->
       <div class="periodical">
@@ -250,18 +290,18 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2305.17553" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2312.15241" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>Recent model editing techniques promise to mitigate the problem of memorizing false or outdated associations during LLM training. However, we show that these techniques can introduce large unwanted side effects which are not detected by existing specificity benchmarks. We extend the existing CounterFact benchmark to include a dynamic component and dub our benchmark CounterFact+. Additionally, we extend the metrics used for measuring specificity by a principled KL divergence-based metric. We use this improved benchmark to evaluate recent model editing techniques and find that they suffer from low specificity. Our findings highlight the need for improved specificity benchmarks that identify and prevent unwanted side effects. </p>
+      <p>Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This demonstrates that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons.</p>
     </div>
 <!-- Hidden bibtex block -->
     <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">fbarez2023detecting</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hoelscher-Obermaier*, Jason and Persson*, Julia and Kran, Esben and Konstas, Ioannis and Barez*, Fazl}</span><span class="p">,</span>
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">barez2023measuring</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Measuring Value Alignment}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Barez, Fazl and Torr, Philip}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
   <span class="na">conference</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics}</span><span class="p">,</span>
@@ -278,90 +318,24 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/brownian-motion.gif-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/brownian-motion.gif-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/brownian-motion.gif-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_04131-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_04131-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_04131-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/brownian-motion.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="brownian-motion.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/publication_preview/paper_04131.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_04131.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 </div>
 <!-- Entry bib key -->
-  <div id="valerio2023the" class="col-sm-8">
+  <div id="lan2023locating" class="col-sm-8">
     <!-- Title -->
-    <div class="title">The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python</div>
+    <div class="title">Locating Cross-Task Sequence Continuation Circuits in Transformers</div>
     <!-- Author -->
     <div class="author">
-       Antonio Valerio Miceli Barone*, <em>Fazl Barez*</em>, Ioannis Konstas, and Shay B Cohen</div>
-
-    <!-- Journal/Book title and date -->
-      <div class="periodical">
-<em></em> 2023</div>
-    <div class="periodical"></div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2305.15507" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    </div>
-        <!-- Hidden abstract block -->
-    <div class="abstract hidden">
-      <p>Large Language Models (LLMs) have successfully been applied to code generation tasks, raising the question of how well these models understand programming. Typical programming languages have invariances and equivariances in their semantics that human programmers intuitively understand and exploit, such as the (near) invariance to the renaming of identifiers. We show that LLMs not only fail to properly generate correct Python code when default function names are swapped, but some of them even become more confident in their incorrect predictions as the model size increases, an instance of the recently discovered phenomenon of Inverse Scaling, which runs contrary to the commonly observed trend of increasing prediction quality with increasing model size. Our findings indicate that, despite their astonishing typical-case performance, LLMs still lack a deep, abstract understanding of the content they manipulate, making them unsuitable for tasks that statistically deviate from their training data, and that mere scaling is not enough to achieve such capability.</p>
-    </div>
-<!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">valerio2023the</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Barone*, Antonio Valerio Miceli and Barez*, Fazl and Konstas, Ioannis and Cohen, Shay B}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-  </div>
-</div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-<div class="row">
-<div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_1991-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_1991-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_1991-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/paper_1991.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_1991.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-</div>
-<!-- Entry bib key -->
-  <div id="fbarez2023NeuronToGraph" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">Neuron to Graph: Interpreting Language Model Neurons at Scale</div>
-    <!-- Author -->
-    <div class="author">
-       Alex Foote*, Neel Nanda, Esben Kran, Ioannis Konstas, Shay Cohen, and
-      <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Fazl Barez*' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
+       Michael Lan, and <em>Fazl Barez</em>
 </div>
 
     <!-- Journal/Book title and date -->
@@ -372,20 +346,21 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2305.19911" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2311.04131" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>Advances in Large Language Models (LLMs) have led to remarkable capabilities, yet their inner mechanisms remain largely unknown. To understand these models, we need to unravel the functions of individual neurons and their contribution to the network. This paper introduces a novel automated approach designed to scale interpretability techniques across a vast array of neurons within LLMs, to make them more interpretable and ultimately safe. Conventional methods require examination of examples with strong neuron activation and manual identification of patterns to decipher the concepts a neuron responds to. We propose Neuron to Graph (N2G), an innovative tool that automatically extracts a neuron’s behaviour from the dataset it was trained on and translates it into an interpretable graph. N2G uses truncation and saliency methods to emphasise only the most pertinent tokens to a neuron while enriching dataset examples with diverse samples to better encompass the full spectrum of neuron behaviour.</p>
+      <p>While transformer models exhibit strong capabilities on linguistic tasks, their complex architectures make them difficult to interpret. Recent work has aimed to reverse engineer transformer models into human-readable representations called circuits that implement algorithmic functions. We extend this research by analyzing and comparing circuits for similar sequence continuation tasks, which include increasing sequences of digits, number words, and months. Through the application of circuit analysis techniques, we identify key sub-circuits responsible for detecting sequence members and for predicting the next member in a sequence.</p>
     </div>
 <!-- Hidden bibtex block -->
     <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">fbarez2023NeuronToGraph</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{Neuron to Graph: Interpreting Language Model Neurons at Scale}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Foote*, Alex and Nanda, Neel and Kran, Esben and Konstas, Ioannis and Cohen, Shay and Barez*, Fazl}</span><span class="p">,</span>
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">lan2023locating</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Locating Cross-Task Sequence Continuation Circuits in Transformers}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lan, Michael and Barez, Fazl}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
   <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
+  <span class="na">conference</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
     </div>
   </div>
@@ -426,7 +401,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2310.13121" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2310.13121" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -493,7 +468,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2310.08164" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2310.08164" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -547,7 +522,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/22310.05876" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/22310.05876" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -602,7 +577,7 @@
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2310.01870" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2310.01870" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -630,13 +605,13 @@
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_1991-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_1991-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_1991-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_alan_turing-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_alan_turing-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_alan_turing-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/paper_1991.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_1991.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/publication_preview/paper_alan_turing.jpg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_alan_turing.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
@@ -683,6 +658,183 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_15507-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_15507-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_15507-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/paper_15507.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_15507.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+<!-- Entry bib key -->
+  <div id="valerio2023the" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python</div>
+    <!-- Author -->
+    <div class="author">
+       Antonio Valerio Miceli Barone*, <em>Fazl Barez*</em>, Ioannis Konstas, and Shay B Cohen</div>
+
+    <!-- Journal/Book title and date -->
+      <div class="periodical">
+<em></em> 2023</div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="http://arxiv.org/abs/2305.15507" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    </div>
+        <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Large Language Models (LLMs) have successfully been applied to code generation tasks, raising the question of how well these models understand programming. Typical programming languages have invariances and equivariances in their semantics that human programmers intuitively understand and exploit, such as the (near) invariance to the renaming of identifiers. We show that LLMs not only fail to properly generate correct Python code when default function names are swapped, but some of them even become more confident in their incorrect predictions as the model size increases, an instance of the recently discovered phenomenon of Inverse Scaling, which runs contrary to the commonly observed trend of increasing prediction quality with increasing model size. Our findings indicate that, despite their astonishing typical-case performance, LLMs still lack a deep, abstract understanding of the content they manipulate, making them unsuitable for tasks that statistically deviate from their training data, and that mere scaling is not enough to achieve such capability.</p>
+    </div>
+<!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">valerio2023the</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Barone*, Antonio Valerio Miceli and Barez*, Fazl and Konstas, Ioannis and Cohen, Shay B}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_1991-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_1991-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_1991-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/paper_1991.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_1991.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+<!-- Entry bib key -->
+  <div id="fbarez2023NeuronToGraph" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Neuron to Graph: Interpreting Language Model Neurons at Scale</div>
+    <!-- Author -->
+    <div class="author">
+       Alex Foote*, Neel Nanda, Esben Kran, Ioannis Konstas, Shay Cohen, and
+      <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Fazl Barez*' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+    <!-- Journal/Book title and date -->
+      <div class="periodical">
+<em></em> 2023</div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="http://arxiv.org/abs/2305.19911" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    </div>
+        <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Advances in Large Language Models (LLMs) have led to remarkable capabilities, yet their inner mechanisms remain largely unknown. To understand these models, we need to unravel the functions of individual neurons and their contribution to the network. This paper introduces a novel automated approach designed to scale interpretability techniques across a vast array of neurons within LLMs, to make them more interpretable and ultimately safe. Conventional methods require examination of examples with strong neuron activation and manual identification of patterns to decipher the concepts a neuron responds to. We propose Neuron to Graph (N2G), an innovative tool that automatically extracts a neuron’s behaviour from the dataset it was trained on and translates it into an interpretable graph. N2G uses truncation and saliency methods to emphasise only the most pertinent tokens to a neuron while enriching dataset examples with diverse samples to better encompass the full spectrum of neuron behaviour.</p>
+    </div>
+<!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">fbarez2023NeuronToGraph</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Neuron to Graph: Interpreting Language Model Neurons at Scale}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Foote*, Alex and Nanda, Neel and Kran, Esben and Konstas, Ioannis and Cohen, Shay and Barez*, Fazl}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_17553-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_17553-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_17553-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/paper_17553.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_17553.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+</figure>
+</div>
+<!-- Entry bib key -->
+  <div id="fbarez2023detecting" class="col-sm-8">
+    <!-- Title -->
+    <div class="title">Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark</div>
+    <!-- Author -->
+    <div class="author">
+       Jason Hoelscher-Obermaier*, Julia Persson*, Esben Kran, Ioannis Konstas, and <em>Fazl Barez*</em>
+</div>
+
+    <!-- Journal/Book title and date -->
+      <div class="periodical">
+<em></em> 2023</div>
+    <div class="periodical"></div>
+
+    <!-- Links/Buttons -->
+    <div class="links">
+      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="http://arxiv.org/abs/2305.17553" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+    </div>
+        <!-- Hidden abstract block -->
+    <div class="abstract hidden">
+      <p>Recent model editing techniques promise to mitigate the problem of memorizing false or outdated associations during LLM training. However, we show that these techniques can introduce large unwanted side effects which are not detected by existing specificity benchmarks. We extend the existing CounterFact benchmark to include a dynamic component and dub our benchmark CounterFact+. Additionally, we extend the metrics used for measuring specificity by a principled KL divergence-based metric. We use this improved benchmark to evaluate recent model editing techniques and find that they suffer from low specificity. Our findings highlight the need for improved specificity benchmarks that identify and prevent unwanted side effects. </p>
+    </div>
+<!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">fbarez2023detecting</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Hoelscher-Obermaier*, Jason and Persson*, Julia and Kran, Esben and Konstas, Ioannis and Barez*, Fazl}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Courier Corporation}</span><span class="p">,</span>
+  <span class="na">conference</span> <span class="p">=</span> <span class="s">{Findings of the Association for Computational Linguistics}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+<div class="row">
+<div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_09826-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_09826-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_09826-1400.webp"></source>
@@ -710,7 +862,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2304.09826" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2304.09826" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -764,7 +916,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2302.13850" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2302.13850" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -818,7 +970,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2301.12561" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2301.12561" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -846,24 +998,24 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_pronouns_2023-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_pronouns_2023-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_pronouns_2023-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_11593-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_11593-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_11593-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/paper_pronouns_2023.jpg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_pronouns_2023.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/publication_preview/paper_11593.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_11593.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
 </div>
 <!-- Entry bib key -->
-  <div id="chris2023identifying" class="col-sm-8">
+  <div id="barez2023iii" class="col-sm-8">
     <!-- Title -->
-    <div class="title">Identifying a Preliminary Circuit for Predicting Gendered Pronouns in GPT-2 Small</div>
+    <div class="title">System III: Learning with Domain Knowledge for Safety Constraints</div>
     <!-- Author -->
     <div class="author">
-       Chris Mathwin, Guillaume Corlouer, Esben Kran, <em>Fazl Barez</em>, and Neel Nanda</div>
+       <em>Fazl Barez</em>, Hosien Hasanbieg, and Alesandro Abbate</div>
 
     <!-- Journal/Book title and date -->
       <div class="periodical">2023</div>
@@ -872,10 +1024,22 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      <a href="http://arxiv.org/abs/2304.11593" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
     <div class="abstract hidden">
-      <p>We identify the broad structure of a circuit that is associated with correctly predicting a gendered pronoun given the subject of a rhetorical question. Progress towards identifying this circuit is achieved through a variety of existing tools, namely Conmy’s Automatic Circuit Discovery and Nanda’s Exploratory Analysis tools. </p>
+      <p>Reinforcement learning agents naturally learn from extensive exploration. Exploration is costly and can be unsafe in \textitsafety-critical domains. This paper proposes a novel framework for incorporating domain knowledge to help guide safe exploration and boost sample efficiency. Previous approaches impose constraints, such as regularisation parameters in neural networks, that rely on large sample sets and often are not suitable for safety-critical domains where agents should almost always avoid unsafe actions</p>
+    </div>
+<!-- Hidden bibtex block -->
+    <div class="bibtex hidden">
+      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">barez2023iii</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{System III: Learning with Domain Knowledge for Safety Constraints}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Barez, Fazl and Hasanbieg, Hosien and Abbate, Alesandro}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
+  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.RL}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
     </div>
   </div>
 </div>
@@ -883,8 +1047,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
 </ol> 
   <h3 class="year">2022</h3>
   <h2 class="bibliography">2022</h2>
-<ol class="bibliography">
-<li>
+<ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
 <div class="row">
 <div class="col-sm-2 preview">
@@ -892,13 +1055,13 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/brownian-motion.gif-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/brownian-motion.gif-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/brownian-motion.gif-1400.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_08553-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_08553-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_08553-1400.webp"></source>
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/brownian-motion.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="brownian-motion.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/publication_preview/paper_08553.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_08553.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
 </figure>
@@ -932,7 +1095,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2311.08553" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2203.08553" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -950,62 +1113,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     </div>
   </div>
 </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-<div class="row">
-<div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/paper_12561-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/paper_12561-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/paper_12561-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/paper_12561.jpeg" class="preview z-depth-1 rounded" width="auto" height="auto" alt="paper_12561.jpeg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-  </picture>
-
-</figure>
-</div>
-<!-- Entry bib key -->
-  <div id="barez2023iii" class="col-sm-8">
-    <!-- Title -->
-    <div class="title">System III: Learning with Domain Knowledge for Safety Constraints</div>
-    <!-- Author -->
-    <div class="author">
-       <em>Fazl Barez</em>, Hosien Hasanbieg, and Alesandro Abbate</div>
-
-    <!-- Journal/Book title and date -->
-      <div class="periodical">2022</div>
-    <div class="periodical"></div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2301.12561" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-      <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-    </div>
-        <!-- Hidden abstract block -->
-    <div class="abstract hidden">
-      <p>Reinforcement learning agents naturally learn from extensive exploration. Exploration is costly and can be unsafe in \textitsafety-critical domains. This paper proposes a novel framework for incorporating domain knowledge to help guide safe exploration and boost sample efficiency. Previous approaches impose constraints, such as regularisation parameters in neural networks, that rely on large sample sets and often are not suitable for safety-critical domains where agents should almost always avoid unsafe actions</p>
-    </div>
-<!-- Hidden bibtex block -->
-    <div class="bibtex hidden">
-      <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@misc</span><span class="p">{</span><span class="nl">barez2023iii</span><span class="p">,</span>
-  <span class="na">title</span> <span class="p">=</span> <span class="s">{System III: Learning with Domain Knowledge for Safety Constraints}</span><span class="p">,</span>
-  <span class="na">author</span> <span class="p">=</span> <span class="s">{Barez, Fazl and Hasanbieg, Hosien and Abbate, Alesandro}</span><span class="p">,</span>
-  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
-  <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
-  <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.RL}</span><span class="p">,</span>
-<span class="p">}</span></code></pre></figure>
-    </div>
-  </div>
-</div>
-</li>
-</ol> 
+</li></ol> 
   <h3 class="year">2021</h3>
   <h2 class="bibliography">2021</h2>
 <ol class="bibliography">
@@ -1056,7 +1164,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <!-- Links/Buttons -->
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-      <a href="http://arxiv.org/abs/2112.02817" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+      <a href="http://arxiv.org/abs/2112.02817" class="arxiv btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     </div>
         <!-- Hidden abstract block -->
@@ -1150,8 +1258,8 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
   </h4>
   <p>
     2023 -
-    <a href="https://www.iopconferences.org/iop/frontend/reg/thome.csp?pageID=1026420&amp;eventID=1652" rel="external nofollow noopener" target="_blank">🔗 Info</a>
-    - <a href="/assets/pdf/2021_institute_of_physics.pdf">📄 Slides</a>
+    <a href="#">🔗 Info</a>
+    - <a href="#">📄 Slides</a>
   </p>
   <h4 id="talk_2">
     An Introduction to AI Safety and Alignment - Indaba Deep learning
@@ -1159,7 +1267,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
   </h4>
   <p>
     2022 -
-    <a href="https://www.youtube.com/watch?v=MyDo6gF1TMA" rel="external nofollow noopener" target="_blank">🎥 Presentation</a>
+    <a href="#">🎥 Presentation</a>
   </p>
   <h4 id="talk_3">
     An Introduction to AI Safety and Alignment - AI safety Israel Conference -
@@ -1167,7 +1275,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
   </h4>
   <p>
     2022 -
-    <a href="https://www.youtube.com/watch?v=MyDo6gF1TMA" rel="external nofollow noopener" target="_blank">🎥 Presentation</a>
+    <a href="#">🎥 Presentation</a>
   </p>
 
   <hr>
@@ -1193,7 +1301,8 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
 </div>
 <div class="awards--container" id="awards">
   <h2 id="-awards-and-honors-">
-<strong>Awards and Honors</strong> :</h2>
+    <strong>Selected Awards and Honors</strong> :
+  </h2>
   <ul class="awards-list">
     <li class="award-item">
       <span class="award-year">2022 - 2023</span>
@@ -1202,7 +1311,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
     <li class="award-item">
       <span class="award-year">2019 - 2023</span>
       <span class="award-info">ESPRS PhD Student scholarship (full tuition and stipend),</span>
-      <a href="#">Link</a>
+      <!-- <a href="#">Link</a> -->
     </li>
     <li class="award-item">
       <span class="award-year">2017 - 2018</span>
@@ -1212,7 +1321,7 @@ The Alan Turing Institute’s response to the House of Lords Large Language Mode
       <span class="award-year">2013 - 2017 </span>
       <span class="award-info">BA (Hons) Sports performance Scholarship (Partial Tuition and
         stipend)</span>
-      <a href="#">Link</a>
+      <!-- <a href="#">Link</a> -->
     </li>
   </ul>
 </div>
