@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-01-10
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
+New Paper 🎉: [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/pdf/2401.05566.pdf "Link to the paper")
