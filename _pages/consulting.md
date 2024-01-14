@@ -14,16 +14,13 @@ horizontal: false
         <h1>Fazl Barez</h1>
         <h2>AI safety and Interpretability Researcher</h2>
     </header>
-
     <main>
         <section class="profile-photo">
             <img src="../assets/img/fb2017.jpg" alt="Fazl Barez">
         </section>
-
         <section class="bio">
            <p>With over 5+ years of experience in artificial intelligence research, I specialize in developing advanced yet interpretable machine learning systems. In the past I have consulted with think tanks, charities, education and financial firms.</p>
         </section>
-
         <section class="services">
             <!-- <h3>Services</h3>
             <ul>
@@ -31,9 +28,9 @@ horizontal: false
                 </i>I co-founded and help run AISHED(https://aished.org), I run the ai safety reading group at Oxford, and mentor students from disadvantaged backgrounds (if you are one, please get in touch).</li>
                 <li><i class="fa-regular fa-circle-check"></i>I have been a reviewer for NeurIPS, ICLR, ICML, ACL, EMNLP, EACL and NACCL. </li>
                 <li><i class="fa-regular fa-circle-check"></i>I have also organised workshops at EACL.</li>
-                <!-- <li><i class="fa-regular fa-circle-check"></i></li>
                 <li><i class="fa-regular fa-circle-check"></i></li>
-                <li><i class="fa-regular fa-circle-check"></i></li> -->
+                <li><i class="fa-regular fa-circle-check"></i></li>
+                <li><i class="fa-regular fa-circle-check"></i></li>
             </ul> -->
              <h3>Consulting Expertise</h3>
             <ul>
@@ -43,8 +40,7 @@ horizontal: false
                 <li><i class="fa-regular fa-circle-check"></i> Thought leadership - Staying updated on the latest developments in AI safety and algorithmic transparency, actively publishing, reviewing papers, and running workshops.</li>
             </ul>
         </section>
-
-            <!-- <h3>Testimonials</h3>
+        <!-- <h3>Testimonials</h3>
         <section class="testimonials">
             <blockquote>"John's expertise in digital marketing helped us increase our website traffic by 50% and generate more leads. He's a true asset to our team." – Jane Smith, CEO of Acme Inc.</blockquote>
             <blockquote>"John's fresh ideas and creative approach to branding helped us revamp our image and stand out in the market." – Bob Johnson, Marketing Manager at XYZ Corp.</blockquote>
@@ -55,7 +51,6 @@ horizontal: false
     					 <span>– Bob Johnson, Marketing Manager at XYZ Corp.</span>
     				</blockquote>
         </section> -->
-
         <section class="contact">
             <p>
                 As an experienced researcher, I have served as a reviewer for conferences including NeurIPS, ICLR and ICML. I also mentor promising young academics looking to enter this exciting field.
@@ -70,21 +65,19 @@ horizontal: false
     </main>
     <script>
         const navResp = document.getElementsByClassName("navbar-toggler")[0];
-
             const navItems = document.getElementsByClassName("navbar-collapse")[0];
             navResp.addEventListener("click", () => {
-            if (navResp.classList.contains("collapsed")) {
-                navResp.classList.remove("collapsed");
-            } else navResp.classList.add("collapsed");
-
+                if (navResp.classList.contains("collapsed")) {
+                    navResp.classList.remove("collapsed");
+                } else navResp.classList.add("collapsed");
                 if (navItems.classList.contains("collapse")) {
                     navItems.classList.remove("collapse");
                     navItems.classList.add("show");
                 } else {
-                    navItems.classList.add("collapse");
-                    navItems.classList.remove("show");
+                        navItems.classList.add("collapse");
+                        navItems.classList.remove("show");
                 }
-        });
+            });
     </script>
 
 </div>

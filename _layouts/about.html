@@ -53,17 +53,9 @@ layout: default
 <div id="research">
   {% assign research_content = site.pages | where: "name", "research.md" | first
   %} {{ research_content.content | markdownify }}
-  <!-- <h2 id="-research-interests-">Research Interests</h2>
-  <p>
-    I care about making AI systems safe and beneficial to humanity. My interests
-    in machine learning research include interpretability, Safety, Alignment,
-    and Evaluation. I am also interested in learning about how knowledge of
-    philosophy, psychology and neuroscience can advance our understanding of how
-    AI models learn, adap, distribute and update knowledge.
-  </p> -->
 </div>
 <div class="publications" id="publications">
-  <h2>Publications</h2>
+  <h2><strong>Publications</strong></h2>
   <p>* = Equal Contribution</p>
   {%- for y in page.years %}
   <h3 class="year">{{y}}</h3>
