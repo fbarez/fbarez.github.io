@@ -8,7 +8,7 @@ nav_order: 7
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/consulting.md -->
 <div class="consulting">
     <header>
         <h1>Fazl Barez</h1>
@@ -68,5 +68,23 @@ horizontal: false
     		</div>
         </section>
     </main>
+    <script>
+        const navResp = document.getElementsByClassName("navbar-toggler")[0];
+
+            const navItems = document.getElementsByClassName("navbar-collapse")[0];
+            navResp.addEventListener("click", () => {
+            if (navResp.classList.contains("collapsed")) {
+                navResp.classList.remove("collapsed");
+            } else navResp.classList.add("collapsed");
+
+                if (navItems.classList.contains("collapse")) {
+                    navItems.classList.remove("collapse");
+                    navItems.classList.add("show");
+                } else {
+                    navItems.classList.add("collapse");
+                    navItems.classList.remove("show");
+                }
+        });
+    </script>
 
 </div>
