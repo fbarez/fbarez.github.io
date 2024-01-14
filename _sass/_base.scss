@@ -223,7 +223,7 @@ blockquote {
 
   img{
     width: 22vw;
-    height: 250px;
+    border-radius: 50%;
   }
 }
 
@@ -244,6 +244,7 @@ blockquote {
         display: block;
       }
     }
+
   }
 }
 
@@ -625,7 +626,9 @@ color: #2c2929;
 
 @media (max-width: 576px) {
 
-
+  .profile .contact-icons{
+    font-size: 2rem;
+  }
   .testimonials{
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
@@ -912,10 +915,15 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
+      .row{
+        gap:20px;
+      }
       .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+        // width: 100%;
+        // min-width: 80px;
+        // max-width: 200px;
+        width: 100px;
+        height: 100px;
       }
 
       .abbr {
@@ -1333,6 +1341,36 @@ nav[data-toggle="toc"] {
   }
   .projects * .grid-item{
     position: static !important;
+  }
+
+  .publications ol.bibliography {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+
+    li {
+      margin-bottom: 1rem;
+
+      .row{
+        gap:20px;
+      }
+      .preview {
+        // width: 100%;
+        // min-width: 80px;
+        // max-width: 200px;
+        width:auto;
+        height: 20vh;
+      }
+
+      .links a.btn{
+        scale: 1.1;
+        margin:10px 5px;
+      }
+    }
+  }
+
+  footer .container{
+    font-size: small;
   }
 }
 
