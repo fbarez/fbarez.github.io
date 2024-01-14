@@ -51,14 +51,16 @@ layout: default
   </article>
 </div>
 <div id="research">
-  <h2 id="-research-interests-">Research Interests</h2>
+  {% assign research_content = site.pages | where: "name", "research.md" | first
+  %} {{ research_content.content | markdownify }}
+  <!-- <h2 id="-research-interests-">Research Interests</h2>
   <p>
     I care about making AI systems safe and beneficial to humanity. My interests
     in machine learning research include interpretability, Safety, Alignment,
     and Evaluation. I am also interested in learning about how knowledge of
     philosophy, psychology and neuroscience can advance our understanding of how
     AI models learn, adap, distribute and update knowledge.
-  </p>
+  </p> -->
 </div>
 <div class="publications" id="publications">
   <h2>Publications</h2>
@@ -68,72 +70,31 @@ layout: default
   {% bibliography -f papers -q @*[year={{y}}]* %} {% endfor %}
 </div>
 <div class="talks--container" id="talks">
-  <h2><strong>Talks</strong></h2>
-  <h4 id="talk_1">
-    Interpretability for Safety and Alignment (Intelligent Cooperation Workshop,
-    Foresight Institute, SF, USA).
-  </h4>
-  <p>
-    2023 -
-    <a href="#">🔗 Info</a>
-    - <a href="#">📄 Slides</a>
-  </p>
-  <h4 id="talk_2">
-    An Introduction to AI Safety and Alignment - Indaba Deep learning
-    Conference, Tunis, Tunisia.
-  </h4>
-  <p>
-    2022 -
-    <a href="#">🎥 Presentation</a>
-  </p>
-  <h4 id="talk_3">
-    An Introduction to AI Safety and Alignment - AI safety Israel Conference -
-    Technion, Haifa, Israel.
-  </h4>
-  <p>
-    2022 -
-    <a href="#">🎥 Presentation</a>
-  </p>
+  {% assign talks_content = site.pages | where: "name", "talks.md" | first %} {{
+  talks_content.content | markdownify }}
 
   <hr />
-  <!-- <h2 id="-lectures-"><strong>Lectures</strong></h2>
-  <h4
-    id="advanced-neuroimaging-physical-sciences-module-2-p2-imaging-modalities"
-  >
-    Advanced Neuroimaging, Physical Sciences Module 2 (P2) - Imaging Modalities
-  </h4>
-  <p>
-    2021/2023 -
-    <a
-      href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/advanced-neuroimaging-msc"
-      >🔗 Info</a
-    >
-    - <a href="/assets/pdf/anim/lecture_slides_1.pdf">📄 Slides 1</a> -
-    <a href="/assets/pdf/anim/lecture_slides_2.pdf">📄 Slides 2</a>
-  </p>
-  <p>
-    Two lectures introducing ultrasound imaging and neuro-scientific
-    applications.
-  </p> -->
 </div>
 <div class="awards--container" id="awards">
-  <h2 id="-awards-and-honors-">
+  {% assign awards_content = site.pages | where: "name", "awards.md" | first %}
+  {{ awards_content.content | markdownify }}
+  <!-- <h2 id="-awards-and-honors-">
     <strong>Selected Awards and Honors</strong> :
   </h2>
   <ul class="awards-list">
     <li class="award-item">
       <span class="award-year">2022 - 2023</span>
       <span class="award-info"
-        >Future of Humanities institute PhD affiliate,</span
+        >Future of Humanities institute PhD affiliate</span
       >
     </li>
     <li class="award-item">
       <span class="award-year">2019 - 2023</span>
       <span class="award-info"
-        >ESPRS PhD Student scholarship (full tuition and stipend),</span
-      >
-      <!-- <a href="#">Link</a> -->
-    </li>
+        >ESPRS PhD Student scholarship (full tuition and stipend)</span
+      > -->
+  <!-- <a href="#">Link</a> -->
+  <!-- </li>
     <li class="award-item">
       <span class="award-year">2017 - 2018</span>
       <span class="award-info">MSc Scholarship (Full tuition)</span>
@@ -143,10 +104,10 @@ layout: default
       <span class="award-info"
         >BA (Hons) Sports performance Scholarship (Partial Tuition and
         stipend)</span
-      >
-      <!-- <a href="#">Link</a> -->
-    </li>
-  </ul>
+      > -->
+  <!-- <a href="#">Link</a> -->
+  <!-- </li> -->
+  <!-- </ul> -->
 </div>
 <!-- Social -->
 {%- if page.social %}
