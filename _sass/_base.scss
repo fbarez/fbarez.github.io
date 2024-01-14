@@ -1439,9 +1439,10 @@ nav .container{
 }
 
 @media only screen and (min-width: 1000px) {
-  .container{
-    width: 55vw;
+  body > .container{
+    width: 45vw;
     margin: 0 auto;
+    margin-left: 25vw;
   }
 
 }
