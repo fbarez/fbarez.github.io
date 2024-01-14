@@ -258,6 +258,22 @@
   function getWidthPercentage() {
     return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
   }
+
+  const navResp = document.getElementsByClassName("navbar-toggler")[0];
+  const navItems = document.getElementsByClassName("navbar-collapse")[0];
+  navResp.addEventListener("click", () => {
+    if (navResp.classList.contains("collapsed")) {
+      navResp.classList.remove("collapsed");
+    } else navResp.classList.add("collapsed");
+
+    if (navItems.classList.contains("collapse")) {
+      navItems.classList.remove("collapse");
+      navItems.classList.add("show");
+    } else {
+      navItems.classList.add("collapse");
+      navItems.classList.remove("show");
+    }
+  });
 </script>
  
   </body>
