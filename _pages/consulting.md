@@ -21,11 +21,11 @@ horizontal: false
         </section>
 
         <section class="bio">
-           <p>With over 5+ of experience in artificial intelligence research, I specialize in developing advanced yet interpretable machine learning systems. In the past I have consulted with think tanks, charities, education and financial firms.</p>
+           <p>With over 5+ years of experience in artificial intelligence research, I specialize in developing advanced yet interpretable machine learning systems. In the past I have consulted with think tanks, charities, education and financial firms.</p>
         </section>
 
         <section class="services">
-            <h3>Services</h3>
+            <!-- <h3>Services</h3>
             <ul>
                 <li><i class="fa-regular fa-circle-check">
                 </i>I co-founded and help run AISHED(https://aished.org), I run the ai safety reading group at Oxford, and mentor students from disadvantaged backgrounds (if you are one, please get in touch).</li>
@@ -34,7 +34,7 @@ horizontal: false
                 <!-- <li><i class="fa-regular fa-circle-check"></i></li>
                 <li><i class="fa-regular fa-circle-check"></i></li>
                 <li><i class="fa-regular fa-circle-check"></i></li> -->
-            </ul>
+            </ul> -->
              <h3>Consulting Expertise</h3>
             <ul>
                  <li><i class="fa-regular fa-circle-check"></i> Custom ML solution architecture - Collaborating with organizations to design impactful ML pipelines, ensuring robustness, accuracy, and transparency.</li>
