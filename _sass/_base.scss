@@ -311,7 +311,9 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     // color: var(--global-text-color);
-
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 400;
     &:hover {
       color: var(--global-hover-color);
     }
