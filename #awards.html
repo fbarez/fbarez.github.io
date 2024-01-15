@@ -57,7 +57,7 @@
     <div class="container">
       <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Fazl </span>Barez</a>
       <!-- Navbar Toggle -->
-      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
@@ -69,7 +69,7 @@
 
           <!-- About -->
           <li class="nav-item ">
-            <a class="nav-link" href="/">About</a>
+            <a class="nav-link" href="/#about">About</a>
           </li>
 
           <!-- Other pages -->
@@ -281,7 +281,44 @@
     }
   });
 </script>
-  <script type="text/javascript">
+  <!-- this is the main code for scrollspy. not the bootstrap version -->
+<script type="text/javascript">
+  $(document).ready(() => {
+    const sections = document.querySelectorAll("body > .container > div");
+    const navItems = document.querySelectorAll("#navbarNav > ul > li");
+
+    window.addEventListener("scroll", () => {
+      let fromTop = window.scrollY + 150;
+
+      let currentSection = null;
+      sections.forEach((section) => {
+        if (
+          section.offsetTop <= fromTop &&
+          section.offsetTop + section.offsetHeight > fromTop
+        ) {
+          currentSection = section;
+        }
+      });
+
+      // Remove tabHigh class from all navItems
+      navItems.forEach((item) => {
+        item.classList.remove("tabHigh");
+      });
+
+      // Add tabHigh class to the corresponding navItem
+      if (currentSection) {
+        const id = currentSection.getAttribute("id");
+        const targetLink = document.querySelector(
+          `#navbarNav > ul > li a[href='/#${id}']`
+        );
+        if (targetLink) {
+          targetLink.parentElement.classList.add("tabHigh");
+        }
+      }
+    });
+  });
+</script>
+<!-- <script type="text/javascript">
   const navLinks = document.getElementsByClassName("nav-item");
   for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].onclick = function () {
@@ -296,7 +333,7 @@
       navLinks[i].classList.add("active");
     };
   }
-</script>
+</script> -->
 
   </body>
 </html>
