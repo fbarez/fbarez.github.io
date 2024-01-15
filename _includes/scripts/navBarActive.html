@@ -1,4 +1,41 @@
+<!-- this is the main code for scrollspy. not the bootstrap version -->
 <script type="text/javascript">
+  $(document).ready(() => {
+    const sections = document.querySelectorAll("body > .container > div");
+    const navItems = document.querySelectorAll("#navbarNav > ul > li");
+
+    window.addEventListener("scroll", () => {
+      let fromTop = window.scrollY + 150;
+
+      let currentSection = null;
+      sections.forEach((section) => {
+        if (
+          section.offsetTop <= fromTop &&
+          section.offsetTop + section.offsetHeight > fromTop
+        ) {
+          currentSection = section;
+        }
+      });
+
+      // Remove tabHigh class from all navItems
+      navItems.forEach((item) => {
+        item.classList.remove("tabHigh");
+      });
+
+      // Add tabHigh class to the corresponding navItem
+      if (currentSection) {
+        const id = currentSection.getAttribute("id");
+        const targetLink = document.querySelector(
+          `#navbarNav > ul > li a[href='/#${id}']`
+        );
+        if (targetLink) {
+          targetLink.parentElement.classList.add("tabHigh");
+        }
+      }
+    });
+  });
+</script>
+<!-- <script type="text/javascript">
   const navLinks = document.getElementsByClassName("nav-item");
   for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].onclick = function () {
@@ -13,4 +50,4 @@
       navLinks[i].classList.add("active");
     };
   }
-</script>
+</script> -->

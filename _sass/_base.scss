@@ -310,7 +310,7 @@ blockquote {
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    // color: var(--global-text-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -325,6 +325,10 @@ blockquote {
     &:hover {
       color: var(--global-hover-color);
     }
+  }
+
+  .navbar-nav .nav-item.active>.nav-link.tabhigh {
+   border-bottom: 2px solid var(--global-theme-color);
   }
 
   .navbar-brand.social {
@@ -492,9 +496,9 @@ ul {
   padding: 0;
 }
 
-li {
-  padding-left: var(--icon-space);
-}
+// li {
+//   padding-left: var(--icon-space);
+// }
 
 
 .consulting {
@@ -1437,14 +1441,26 @@ body > .container {
 nav .container{
   flex-direction: row;
 }
-
 @media only screen and (min-width: 1000px) {
+  body{
+    position: relative;
+  }
   body > .container{
-    width: 45vw;
+    width: 52vw;
     margin: 0 auto;
-    margin-left: 25vw;
+    margin-left: 23vw;
   }
 
+  
+.tabHigh{
+  background-color: inherit;
+  border-bottom: 2px solid var(--global-theme-color);
+   a{
+    color: var(--global-theme-color) !important;
+    font-weight: bolder;
+    transition: none !important;
+   }
+}
 }
 @media only screen and (min-width: 767px) and (max-width: 1000px) {
   
@@ -1460,6 +1476,15 @@ nav .container{
     display: block;
   }
 
+  .tabHigh{
+    background-color: inherit;
+    border-bottom: 2px solid var(--global-theme-color);
+     a{
+      color: var(--global-theme-color) !important;
+      font-weight: bolder;
+      transition: none !important;
+     }
+  }
 } 
 
 body{
