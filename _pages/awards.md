@@ -16,7 +16,7 @@ nav_order: 6
     </li>
     <li class="award-item">
         <span class="award-year">2019 - 2023</span> 
-        <span class="award-info">ESPRS PhD Student scholarship (Full Tuition and Stipend)</span>
+        <span class="award-info">ESPRS PhD Student Scholarship (Full Tuition and Stipend)</span>
         <!-- <a href="#">Link</a> -->
     </li>
     <li class="award-item">
@@ -25,7 +25,7 @@ nav_order: 6
     </li>
     <li class="award-item">
         <span class="award-year">2013 - 2017</span> 
-        <span class="award-info">BA (Hons) Sports performance Scholarship (Partial Tuition and Stipend)</span>
+        <span class="award-info">BA (Hons) Sports Performance Scholarship (Partial Tuition and Stipend)</span>
         <!-- <a href="#">Link</a> -->
     </li>
 </ul>
