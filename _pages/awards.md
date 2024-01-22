@@ -12,7 +12,7 @@ nav_order: 6
 <ul class="awards-list">
     <li class="award-item">
         <span class="award-year">2022 - 2023</span> 
-        <span class="award-info">Future of Humanities institute PhD affiliate</span>
+        <span class="award-info">Future of Humanity Institute PhD Affiliate</span>
     </li>
     <li class="award-item">
         <span class="award-year">2019 - 2023</span> 
