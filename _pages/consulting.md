@@ -19,7 +19,7 @@ horizontal: false
             <img src="../assets/img/fb2017.jpg" alt="Fazl Barez">
         </section>
         <section class="bio">
-           <p>With over 5+ years of experience in artificial intelligence research, I specialize in developing advanced yet interpretable machine learning systems. In the past I have consulted with think tanks, charities, education and financial firms.</p>
+           <p>With over 5+ years of experience in artificial intelligence research, I specialize in developing advanced yet interpretable machine learning systems. In the past I have consulted with think tanks, charities, education and financial companies.</p>
         </section>
         <section class="services">
             <!-- <h3>Services</h3>
@@ -36,7 +36,7 @@ horizontal: false
             <ul>
                  <li><i class="fa-regular fa-circle-check"></i> Custom ML solution architecture - Collaborating with organizations to design impactful ML pipelines, ensuring robustness, accuracy, and transparency.</li>
                 <li><i class="fa-regular fa-circle-check"></i> Algorithmic auditing - Performing rigorous assessments of AI systems to identify issues related to bias, interpretability, and ethical risks.</li>
-                <li><i class="fa-regular fa-circle-check"></i> AI governance and oversight - Advising companies on responsible AI practices and helping craft internal policies.</li>
+                <li><i class="fa-regular fa-circle-check"></i> AI governance and oversight - Advising companies on responsible AI practices and helping craft internal policies and best practices.</li>
                 <li><i class="fa-regular fa-circle-check"></i> Thought leadership - Staying updated on the latest developments in AI safety and algorithmic transparency, actively publishing, reviewing papers, and running workshops.</li>
             </ul>
         </section>

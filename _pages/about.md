@@ -21,4 +21,4 @@ I'm a Research Fellow at [Torr Vision Group (TVG)](https://torrvision.com/index.
 
 Previously, I worked as Technology and Security Policy Fellow at RAND, on Interpretability at Amazon and The DataLab, safe recommender systems at Huawei, and on building a finance tool for budget management for economic scenario forecasting at Natwest Group.
 
-I recieved my PhD in AI from Edinburgh where I am currently a visiting scholar, collaborating closely with Shay Cohen. 
+
