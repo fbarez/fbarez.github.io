@@ -9,14 +9,14 @@ nav_order: 3
 
 ## **Talks**
 
-#### Interpretability for Safety and Alignment (Intelligent Cooperation Workshop, Foresight Institute, SF, USA).
+#### Invited Speaker - Technical AI Safety Conference 2024 (International Conference Hall, Tokyo)
 
-2023 - [🔗 Info](#) - [📄 Slides](#)
+2024 - [🔗 Info](https://tais2024.cc/) - [🎥 Presentation](#)
 
-#### An Introduction to AI Safety and Alignment - Indaba Deep learning Conference, Tunis, Tunisia.
+#### Invited Speaker - Personalization of Generative AI Systems (EACL 2024, Malta)
 
-2022 - [🎥 Presentation](#)
+2024 - [🔗 Info](https://genpersonalization.github.io/)
 
-#### An Introduction to AI Safety and Alignment - AI safety Israel Conference - Technion, Haifa, Israel.
+#### Keynote Speaker - Interpretability for Safety and Alignment (Intelligent Cooperation Workshop, SF, USA)
 
-2022 - [🎥 Presentation](#)
+2023 - [🔗 Info](https://foresight.org/summary/fazl-barez-interpretability-for-safety-and-alignment-intelligent-cooperation-workshop/) - [🎥 Presentation](https://www.youtube.com/watch?v=vBpI5i1H8yo)
