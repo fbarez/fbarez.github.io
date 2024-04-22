@@ -96,6 +96,9 @@
       {%- if entry.conference %}
       <a class="conference btn btn-sm z-depth-0" role="button">{{ entry.conference | strip }}</a>
       {%- endif %}
+      {%- if entry.topic %}
+      <a class="topic btn btn-sm z-depth-0" role="button">{{ entry.topic | strip }}</a>
+      {%- endif %}
     </div>
     <!-- Links/Buttons -->
     <div class="links">
