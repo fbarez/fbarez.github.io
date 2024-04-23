@@ -1018,6 +1018,19 @@ footer.sticky-bottom {
         a.bibtex{
           background: #DBC7BE;
         }
+        
+        a.conference {
+          font-style: italic;
+          background: #ccdbbe;
+        }
+
+        a.url {
+          background: #dddbcc;
+        }
+        
+        a.topic {
+          background: #CDBEDB;
+        }
       }
 
       .badges {
@@ -1439,6 +1452,29 @@ body > .container {
   #research, .publications, #awards, #talks{
   padding: 80px 0 40px 0;
   }
+  #research {
+    h2 {
+      font-weight: bold;
+      font-size: 1.75rem; 
+      color: var(--global-theme-color); 
+      margin-bottom: 1rem; 
+      text-align: center; 
+    }
+
+    li {
+      margin-bottom: 10px; 
+      font-weight: 500; 
+      padding-left: 20px; 
+      position: relative;
+      
+      &:before {
+        content: "•"; 
+        color: var(--global-theme-color); 
+        position: absolute;
+        left: 0;
+      }
+    }
+}
 }
 nav .container{
   flex-direction: row;

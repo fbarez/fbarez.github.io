@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-## **Selected Awards and Honors** :
+## **Selected Awards and Honors**
 
 <ul class="awards-list">
     <li class="award-item">

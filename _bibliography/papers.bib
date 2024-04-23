@@ -3,232 +3,211 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{lo2024large,
-  bibtex_show={true},
-  title={Large Language Models Relearn Removed Concepts},
-  author={Michelle Lo* and Shay B. Cohen and Fazl Barez*},
-  abstract={Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This demonstrates that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons.},
-  year={2024},
-  conference={Findings of the Association for Computational Linguistics},
-  preview={paper_01814_2.jpeg},
-  arxiv = {2401.01814},
-  abbr= {articulated_mm},
-}
 @article{barez2023measuring,
-  bibtex_show={true},
-  title={Measuring Value Alignment}, 
-  author={Fazl Barez and Philip Torr},
-  abstract={As artificial intelligence (AI) systems become increasingly integrated into various domains, ensuring that they align with human values becomes critical. This pa- per introduces a novel formalism to quantify the alignment between AI systems and human values, using Markov Decision Processes (MDPs) as the foundational model. We delve into the concept of values as desirable goals tied to actions and norms as behavioral guidelines, aiming to shed light on how they can be used to guide AI decisions. This framework offers a mechanism to evaluate the degree of alignment between norms and values by assessing preference changes across state transitions in a normative world. By utilizing this formalism, AI developers and ethicists can better design and evaluate AI systems to ensure they operate in har- mony with human values. The proposed methodology holds potential for a wide range of applications, from recommendation systems emphasizing well-being to autonomous vehicles prioritizing safety.},
-  year={2023},
-  conference={Findings of the Association for Computational Linguistics},
-  preview={paper_15241.jpg},
+  bibtex_show = {true},
+  title = {Measuring Value Alignment},
+  author = {Fazl Barez and Philip Torr},
+  abstract = {As artificial intelligence (AI) systems become increasingly
+              integrated into various domains, ensuring that they align with
+              human values becomes critical. This pa- per introduces a novel
+              formalism to quantify the alignment between AI systems and human
+              values, using Markov Decision Processes (MDPs) as the foundational
+              model. We delve into the concept of values as desirable goals tied
+              to actions and norms as behavioral guidelines, aiming to shed light
+              on how they can be used to guide AI decisions. This framework
+              offers a mechanism to evaluate the degree of alignment between
+              norms and values by assessing preference changes across state
+              transitions in a normative world. By utilizing this formalism, AI
+              developers and ethicists can better design and evaluate AI systems
+              to ensure they operate in har- mony with human values. The proposed
+              methodology holds potential for a wide range of applications, from
+              recommendation systems emphasizing well-being to autonomous
+              vehicles prioritizing safety.},
+  year = {2023},
+  conference = {NeurIPS 2023 MP2 Workshop},
+  preview = {paper_15241.jpg},
   arxiv = {2312.15241},
-  abbr= {articulated_mm},
-}
-@article{lan2023locating,
-  bibtex_show={true},
-  title={Locating Cross-Task Sequence Continuation Circuits in Transformers}, 
-  author={Michael Lan and Fazl Barez},
-  abstract={While transformer models exhibit strong capabilities on linguistic tasks, their complex architectures make them difficult to interpret. Recent work has aimed to reverse engineer transformer models into human-readable representations called circuits that implement algorithmic functions. We extend this research by analyzing and comparing circuits for similar sequence continuation tasks, which include increasing sequences of digits, number words, and months. Through the application of circuit analysis techniques, we identify key sub-circuits responsible for detecting sequence members and for predicting the next member in a sequence.},
-  year={2023},
-  preview={paper_04131_main.jpg},
-  arxiv = {2311.04131},
-  abbr= {articulated_mm},
-  journal = {Apart Research},
-  volume = {abs/2311.04131},
+  abbr = {articulated_mm},
 }
 
 @misc{quirke2023understanding,
-      bibtex_show={true},
-      title={Understanding Addition in Transformers}, 
-      author={Philip Quirke and Fazl Barez},
-      abstract={This paper presents an in-depth analysis of a one-layer Transformer model trained for n-digit integer addition. We reveal that the model divides the task into parallel, digit-specific streams and employs distinct algorithms for different digit positions. Our study also finds that the model starts calculations late but executes them rapidly. A rare use case with high loss is identified and explained. },
-      year={2023},
-      arxiv={2310.13121},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      abbr={articulated_mm},
-      preview={paper_13121_main.jpg},
-      
-      volume  = {abs/2310.13121},
-}
-
-
-@misc{marks2023interpreting,
-  bibtex_show={true},
-      title={Interpreting Reward Models in RLHF-Tuned Language Models Using Sparse Autoencoders}, 
-      author={Luke Marks and Amir Abdullah and Luna Mendez and Rauno Arike and Philip Torr and Fazl Barez},
-      abstract={Large language models (LLMs) aligned to human preferences via reinforcement learning from human feedback (RLHF) underpin many commercial applications. However, how RLHF impacts LLM internals remains opaque. We propose a novel method to interpret learned reward functions in RLHF-tuned LLMs using sparse autoencoders. Our approach trains autoencoder sets on activations from a base LLM and its RLHF-tuned version.},
-      year={2023},
-      arxiv={2310.08164},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      abbr={articulated_mm},
-      preview={paper_08164.jpg},
-      volume       = {abs/2310.08164},
-}
-@misc{matteucci2023ai,
-  bibtex_show={true},
-      title={AI Systems of Concern}, 
-      author={Kayla Matteucci and Shahar Avin and Fazl Barez and Seán Ó hÉigeartaigh},
-      abstract={Concerns around future dangers from advanced AI often centre on systems hypothesised to have intrinsic characteristics such as agent-like behaviour, strategic awareness, and long-range planning. We label this cluster of characteristics as "Property X". Most present AI systems are low in "Property X"; however, in the absence of deliberate steering, current research directions may rapidly lead to the emergence of highly capable AI systems that are also high in "Property X". We argue that "Property X" characteristics are intrinsically dangerous, and when combined with greater capabilities will result in AI systems for which safety and control is difficult to guarantee.},
-      year={2023},
-      arxiv={22310.05876},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      abbr={articulated_mm},
-      preview={paper_05876.jpeg},
-      volume       = {abs/2310.05876},
-}
-@article{garde2023deepdecipher,
-  bibtex_show={true},
-      title={DeepDecipher: Accessing and Investigating Neuron Activation in Large Language Models}, 
-      author={Albert Garde and Esben Kran and Fazl Barez},
-      abstract={As large language models (LLMs) become more capable, there is an urgent need for interpretable and transparent tools. Current methods are difficult to implement, and accessible tools to analyze model internals are lacking. To bridge this gap, we present DeepDecipher - an API and interface for probing neurons in transformer models' MLP layers. DeepDecipher makes the outputs of advanced interpretability techniques for LLMs readily available. The easy-to-use interface also makes inspecting these complex models more intuitive. },
-      year={2023},
-      arxiv={2310.01870},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      abbr={articulated_mm},
-      preview={paper_01870.jpeg},
-      volume       = {abs/2310.01870},
+  bibtex_show = {true},
+  title = {Understanding Addition in Transformers},
+  author = {Philip Quirke and Fazl Barez},
+  abstract = {This paper presents an in-depth analysis of a one-layer
+              Transformer model trained for n-digit integer addition. We reveal
+              that the model divides the task into parallel, digit-specific
+              streams and employs distinct algorithms for different digit
+              positions. Our study also finds that the model starts calculations
+              late but executes them rapidly. A rare use case with high loss is
+              identified and explained. },
+  year = {2023},
+  conference = {ICLR 2024},
+  arxiv = {2310.13121},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  abbr = {articulated_mm},
+  preview = {paper_13121_main.jpg},
+  volume = {abs/2310.13121},
 }
 
 @article{fazl2023the,
-      title={
-The Alan Turing Institute's response to the House of Lords Large Language Models Call for Evidence}, 
-      author={Fazl Barez and Philip H. S. Torr and Aleksandar Petrov and Carolyn Ashurst and Jennifer Ding and Ardi Janjeva and Alexander Babuta and Morgan Briggs and Jonathan Bright and Stephanie Cairns and Miranda Cross and David Leslie and Helen Margetts and Deborah Morgan and Jacob Pratt and Vincent Straub and Christopher Thomas and Sophie Arana and Christopher Burr and Cassandra Gould Van Praag and Kalle Westerling and Kirstie Whitaker and Arielle Bennett and Malvika Sharan and Bastian Greshake Tzovaras and Ashley Van De Casteele and Matt Fuller},
-      year={2023},
-      primaryClass={cs.LG},
-      abbr={articulated_mm},
-      preview={paper_alan_turing.jpg},
+  title = { The Alan Turing Institute's response to the House of Lords Large
+           Language Models Call for Evidence},
+  author = {Fazl Barez and Philip H. S. Torr and Aleksandar Petrov and Carolyn
+            Ashurst and Jennifer Ding and Ardi Janjeva and Alexander Babuta and
+            Morgan Briggs and Jonathan Bright and Stephanie Cairns and Miranda
+            Cross and David Leslie and Helen Margetts and Deborah Morgan and
+            Jacob Pratt and Vincent Straub and Christopher Thomas and Sophie
+            Arana and Christopher Burr and Cassandra Gould Van Praag and Kalle
+            Westerling and Kirstie Whitaker and Arielle Bennett and Malvika
+            Sharan and Bastian Greshake Tzovaras and Ashley Van De Casteele and
+            Matt Fuller},
+  year = {2023},
+  conference = {Alan Turing Institute},
+  topic = {AI Policy},
+  primaryClass = {cs.LG},
+  abbr = {articulated_mm},
+  preview = {paper_alan_turing.jpg},
 }
 
 @inproceedings{valerio2023the,
-  bibtex_show={true},
-  title={The Larger they are, the Harder they Fail: Language Models do not Recognize Identifier Swaps in Python},
-  author={Antonio Valerio Miceli Barone* and Fazl Barez* and Ioannis Konstas and Shay B Cohen},
-  abstract={Large Language Models (LLMs) have successfully been applied to code generation tasks, raising the question of how well these models understand programming. Typical programming languages have invariances and equivariances in their semantics that human programmers intuitively understand and exploit, such as the (near) invariance to the renaming of identifiers. We show that LLMs not only fail to properly generate correct Python code when default function names are swapped, but some of them even become more confident in their incorrect predictions as the model size increases, an instance of the recently discovered phenomenon of Inverse Scaling, which runs contrary to the commonly observed trend of increasing prediction quality with increasing model size. Our findings indicate that, despite their astonishing typical-case performance, LLMs still lack a deep, abstract understanding of the content they manipulate, making them unsuitable for tasks that statistically deviate from their training data, and that mere scaling is not enough to achieve such capability.},
-  year={2023},
-  preview={paper_15507_main.png},
-   publisher    = {Association for Computational Linguistics},
+  bibtex_show = {true},
+  title = {The Larger they are, the Harder they Fail: Language Models do not
+           Recognize Identifier Swaps in Python},
+  author = {Antonio Valerio Miceli Barone* and Fazl Barez* and Ioannis Konstas
+            and Shay B Cohen},
+  abstract = {Large Language Models (LLMs) have successfully been applied to
+              code generation tasks, raising the question of how well these
+              models understand programming. Typical programming languages have
+              invariances and equivariances in their semantics that human
+              programmers intuitively understand and exploit, such as the (near)
+              invariance to the renaming of identifiers. We show that LLMs not
+              only fail to properly generate correct Python code when default
+              function names are swapped, but some of them even become more
+              confident in their incorrect predictions as the model size
+              increases, an instance of the recently discovered phenomenon of
+              Inverse Scaling, which runs contrary to the commonly observed trend
+              of increasing prediction quality with increasing model size. Our
+              findings indicate that, despite their astonishing typical-case
+              performance, LLMs still lack a deep, abstract understanding of the
+              content they manipulate, making them unsuitable for tasks that
+              statistically deviate from their training data, and that mere
+              scaling is not enough to achieve such capability.},
+  year = {2023},
+  conference = {ACL 2023},
+  preview = {paper_15507_main.png},
+  publisher = {Association for Computational Linguistics},
   arxiv = {2305.15507},
-  abbr= {articulated_mm},
-  journal      = {ACL},
-  volume       = {abs/2305.15507},
+  abbr = {articulated_mm},
+  journal = {ACL},
+  volume = {abs/2305.15507},
 }
 @article{fbarez2023NeuronToGraph,
-  bibtex_show={true},
-  title={Neuron to Graph: Interpreting Language Model Neurons at Scale},
-  author={Alex Foote* and Neel Nanda and Esben Kran and Ioannis Konstas and Shay Cohen and Fazl Barez* },
-  abstract={Advances in Large Language Models (LLMs) have led to remarkable capabilities, yet their inner mechanisms remain largely unknown. To understand these models, we need to unravel the functions of individual neurons and their contribution to the network. This paper introduces a novel automated approach designed to scale interpretability techniques across a vast array of neurons within LLMs, to make them more interpretable and ultimately safe. Conventional methods require examination of examples with strong neuron activation and manual identification of patterns to decipher the concepts a neuron responds to. We propose Neuron to Graph (N2G), an innovative tool that automatically extracts a neuron's behaviour from the dataset it was trained on and translates it into an interpretable graph. N2G uses truncation and saliency methods to emphasise only the most pertinent tokens to a neuron while enriching dataset examples with diverse samples to better encompass the full spectrum of neuron behaviour.},
-  year={2023},
-  publisher={Courier Corporation},
-  preview={paper_19911_main.jpeg},
+  bibtex_show = {true},
+  title = {Neuron to Graph: Interpreting Language Model Neurons at Scale},
+  author = {Alex Foote* and Neel Nanda and Esben Kran and Ioannis Konstas and
+            Shay Cohen and Fazl Barez* },
+  abstract = {Advances in Large Language Models (LLMs) have led to remarkable
+              capabilities, yet their inner mechanisms remain largely unknown. To
+              understand these models, we need to unravel the functions of
+              individual neurons and their contribution to the network. This
+              paper introduces a novel automated approach designed to scale
+              interpretability techniques across a vast array of neurons within
+              LLMs, to make them more interpretable and ultimately safe.
+              Conventional methods require examination of examples with strong
+              neuron activation and manual identification of patterns to decipher
+              the concepts a neuron responds to. We propose Neuron to Graph (N2G)
+              , an innovative tool that automatically extracts a neuron's
+              behaviour from the dataset it was trained on and translates it into
+              an interpretable graph. N2G uses truncation and saliency methods to
+              emphasise only the most pertinent tokens to a neuron while
+              enriching dataset examples with diverse samples to better encompass
+              the full spectrum of neuron behaviour.},
+  year = {2023},
+  conference = {ICLR 2023 Workshop},
+  publisher = {Courier Corporation},
+  preview = {paper_19911_main.jpeg},
   arxiv = {2305.19911},
-  abbr= {articulated_mm},
-  volume       = {abs/2305.19911},
+  abbr = {articulated_mm},
+  volume = {abs/2305.19911},
 }
 
 @article{fbarez2023detecting,
-  bibtex_show={true},
-  title={Detecting Edit Failures In Large Language Models: An Improved Specificity Benchmark},
-  author={Jason Hoelscher-Obermaier* and Julia Persson* and Esben Kran and Ioannis Konstas and Fazl Barez*},
-  abstract={Recent model editing techniques promise to mitigate the problem of memorizing false or outdated associations during LLM training. However, we show that these techniques can introduce large unwanted side effects which are not detected by existing specificity benchmarks. We extend the existing CounterFact benchmark to include a dynamic component and dub our benchmark CounterFact+. Additionally, we extend the metrics used for measuring specificity by a principled KL divergence-based metric. We use this improved benchmark to evaluate recent model editing techniques and find that they suffer from low specificity. Our findings highlight the need for improved specificity benchmarks that identify and prevent unwanted side effects. },
-  year={2023},
-  publisher={Courier Corporation},
-  conference={Findings of the Association for Computational Linguistics},
-  preview={paper_17553_2.jpeg},
+  bibtex_show = {true},
+  title = {Detecting Edit Failures In Large Language Models: An Improved
+           Specificity Benchmark},
+  author = {Jason Hoelscher-Obermaier* and Julia Persson* and Esben Kran and
+            Ioannis Konstas and Fazl Barez*},
+  abstract = {Recent model editing techniques promise to mitigate the problem of
+              memorizing false or outdated associations during LLM training.
+              However, we show that these techniques can introduce large unwanted
+              side effects which are not detected by existing specificity
+              benchmarks. We extend the existing CounterFact benchmark to include
+              a dynamic component and dub our benchmark CounterFact+.
+              Additionally, we extend the metrics used for measuring specificity
+              by a principled KL divergence-based metric. We use this improved
+              benchmark to evaluate recent model editing techniques and find that
+              they suffer from low specificity. Our findings highlight the need
+              for improved specificity benchmarks that identify and prevent
+              unwanted side effects. },
+  year = {2023},
+  publisher = {Courier Corporation},
+  conference = {ACL 2023},
+  preview = {paper_17553_2.jpeg},
   arxiv = {2305.17553},
-  abbr= {articulated_mm},
-  volume       = {abs/2305.17553},
+  abbr = {articulated_mm},
+  volume = {abs/2305.17553},
 }
 
 
 @misc{bohdal2023fairness,
-  bibtex_show={true},
-      title={Fairness in AI and Its Long-Term Implications on Society}, 
-      author={Ondrej Bohdal* and Timothy Hospedales and Philip H. S. Torr and Fazl Barez*},
-      abstract={Successful deployment of artificial intelligence (AI) in various settings has led to numerous positive outcomes for individuals and society. However, AI systems have also been shown to harm parts of the population due to biased predictions. AI fairness focuses on mitigating such biases to ensure AI decision making is not discriminatory towards certain groups. We take a closer look at AI fairness and analyze how lack of AI fairness can lead to deepening of biases over time and act as a social stressor.},
-      year={2023},
-      arxiv={2304.09826},
-      archivePrefix={arXiv},
-      primaryClass={cs.CY},
-      abbr={articulated_mm},
-      preview={paper_09826.jpeg},
-      volume       = {abs/2304.09826},
-}
-@misc{barez2023exploring,
-  bibtex_show={true},
-      title={Exploring the Advantages of Transformers for High-Frequency Trading}, 
-      author={Fazl Barez and Paul Bilokon and Arthur Gervais and Nikita Lisitsyn},
-      abstract={This paper explores the novel deep learning Transformers architectures for high-frequency Bitcoin-USDT log-return forecasting and compares them to the traditional Long Short-Term Memory models. A hybrid Transformer model, called \textbf{HFformer}, is then introduced for time series forecasting which incorporates a Transformer encoder, linear decoder, spiking activations, and quantile loss function, and does not use position encoding.},
-      year={2023},
-      arxiv={2302.13850},
-      archivePrefix={arXiv},
-      primaryClass={q-fin.ST},
-      abbr={articulated_mm},
-      preview={paper_13850_2.jpeg},
-      volume       = {abs/2302.13850},
-}
-@misc{barez2023benchmarking,
-  bibtex_show={true},
-      title={Benchmarking Specialized Databases for High-frequency Data}, 
-      author={Fazl Barez and Paul Bilokon and Ruijie Xiong},
-      abstract={This paper presents a benchmarking suite designed for the evaluation and comparison of time series databases for high-frequency data, with a focus on financial applications. The proposed suite comprises of four specialized databases: ClickHouse, InfluxDB, kdb+ and TimescaleDB. The results from the suite demonstrate that kdb+ has the highest performance amongst the tested databases, while also highlighting the strengths and weaknesses of each of the databases.},
-      year={2023},
-      arxiv={2301.12561},
-      archivePrefix={arXiv},
-      primaryClass={cs.DB},
-      abbr={articulated_mm},
-      preview={paper_12561.jpeg},
-      volume       = {abs/2301.12561},
-}
-
-@misc{barez2023iii,
-  bibtex_show={true},
-      title={System III: Learning with Domain Knowledge for Safety Constraints}, 
-      author={Fazl Barez and Hosien Hasanbieg and Alesandro Abbate},
-      abstract={Reinforcement learning agents naturally learn from extensive exploration. Exploration is costly and can be unsafe in $\textit{safety-critical}$ domains. This paper proposes a novel framework for incorporating domain knowledge to help guide safe exploration and boost sample efficiency. Previous approaches impose constraints, such as regularisation parameters in neural networks, that rely on large sample sets and often are not suitable for safety-critical domains where agents should almost always avoid unsafe actions},
-      year={2023},
-      arxiv={2304.11593},
-      archivePrefix={arXiv},
-      primaryClass={cs.RL},
-      abbr={articulated_mm},
-      preview={paper_11593.jpeg},
-      volume       = {abs/2304.11593},
-}
-
-@article{fbarez2022pmic,
-  bibtex_show={true},
-  title={PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration},
-  author={Pengyi Li and Hongyao Tang and Tianpei Yang and Xiaotian Hao and Tong Sang and Yan Zheng and Jianye Hao and Matthew E. Taylor and Wenyuan Tao and Zhen Wang and Fazl Barez},
-  abstract={While transformer models exhibit strong capabilities on linguistic tasks, their complex architectures make them difficult to interpret. Recent work has aimed to reverse engineer transformer models into human-readable representations called circuits that implement algorithmic functions. We extend this research by analyzing and comparing circuits for similar sequence continuation tasks, which include increasing sequences of digits, number words, and months. },
-  year={2022},
-  publisher={Courier Corporation},
-  preview={paper_08553.jpeg},
-  arxiv = {2203.08553},
-  abbr= {articulated_mm},
-}
-
-@misc{wang2021ed2,
-  bibtex_show={true},
-      title={ED2: An Environment Dynamics Decomposition Framework for World Model Construction}, 
-      author={Cong Wang and Tianpei Yang and Jianye Hao and Yan Zheng and Hongyao Tang and Fazl Barez and Jinyi Liu and Jiajie Peng and Haiyin Piao and Zhixiao Sun},
-      abstract={Model-based reinforcement learning methods achieve significant sample efficiency in many tasks, but their performance is often limited by the existence of the model error. To reduce the model error, previous works use a single well-designed network to fit the entire environment dynamics, which treats the environment dynamics as a black box. However, these methods lack to consider the environmental decomposed property that the dynamics may contain multiple sub-dynamics, which can be modeled separately, allowing us to construct the world model more accurately.},
-      year={2021},
-      arxiv={2112.02817},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      abbr={articulated_mm},
-      preview={paper_02817.jpeg},
+  bibtex_show = {true},
+  title = {Fairness in AI and Its Long-Term Implications on Society},
+  author = {Ondrej Bohdal* and Timothy Hospedales and Philip H. S. Torr and Fazl
+            Barez*},
+  abstract = {Successful deployment of artificial intelligence (AI) in various
+              settings has led to numerous positive outcomes for individuals and
+              society. However, AI systems have also been shown to harm parts of
+              the population due to biased predictions. AI fairness focuses on
+              mitigating such biases to ensure AI decision making is not
+              discriminatory towards certain groups. We take a closer look at AI
+              fairness and analyze how lack of AI fairness can lead to deepening
+              of biases over time and act as a social stressor.},
+  year = {2023},
+  conference = {Stanford Existential Risks Initiative, Journal 2023},
+  arxiv = {2304.09826},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  abbr = {articulated_mm},
+  preview = {paper_09826.jpeg},
+  volume = {abs/2304.09826},
 }
 @misc{wang2021ed2,
-  bibtex_show={true},
-      title={Discovering topics and trends in the UK Government web archive}, 
-      author={David Beavan and Fazl Barez and M Bel and John Fitzgerald and Eirini Goudarouli and Konrad Kollnig and Barbara McGillivray},
-      abstract={The challenge we address in this report is to make steps towards improving search and discovery of resources within this vast archive for future archive users, and how the UKGWA collection could begin to be unlocked for research and experimentation by approaching it as data (i.e. as a dataset at scale). The UKGWA has begun to examine independently the usefulness of modelling the hyperlinked structure of its collection for advanced corpus exploration; the aim of this collaboration is to test algorithms capable of searching for documents via the topics that they cover, envisioning a future convergence of these two research frameworks. This is a diachronic corpus that is ideal for studying the emergence of topics and how they feature through government websites over time, and it will indicate engagement priorities and how these change over time.},
-      year={2021},
-      abbr={articulated_mm},
-      preview={paper_2021_2.jpeg},
+  bibtex_show = {true},
+  title = {Discovering topics and trends in the UK Government web archive},
+  author = {David Beavan and Fazl Barez and M Bel and John Fitzgerald and Eirini
+            Goudarouli and Konrad Kollnig and Barbara McGillivray},
+  abstract = {The challenge we address in this report is to make steps towards
+              improving search and discovery of resources within this vast
+              archive for future archive users, and how the UKGWA collection
+              could begin to be unlocked for research and experimentation by
+              approaching it as data (i.e. as a dataset at scale). The UKGWA has
+              begun to examine independently the usefulness of modelling the
+              hyperlinked structure of its collection for advanced corpus
+              exploration; the aim of this collaboration is to test algorithms
+              capable of searching for documents via the topics that they cover,
+              envisioning a future convergence of these two research frameworks.
+              This is a diachronic corpus that is ideal for studying the
+              emergence of topics and how they feature through government
+              websites over time, and it will indicate engagement priorities and
+              how these change over time.},
+  year = {2021},
+  conference = {Alan Turing Institute},
+  topic = {Data security and privacy},
+  abbr = {articulated_mm},
+  preview = {paper_2021_2.jpeg},
+  url = {
+         https://blog.nationalarchives.gov.uk/hacking-23-years-of-government-history-an-example-from-the-uk-government-web-archive/
+         },
 }
