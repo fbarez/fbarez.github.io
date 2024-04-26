@@ -7,9 +7,9 @@ nav: true
 nav_order: 3
 ---
 
-## **Talks**
+## **Keynotes and Invited Talks**
 
-#### Invited Talk - Technical AI Safety Conference 2024 (International Conference Hall, Tokyo)
+#### Invited Talk - Technical AI Safety Conference 2024 (TAIS Conference, Japan)
 
 2024 - [🔗 Info](https://tais2024.cc/) - [🎥 Presentation](#)
 
@@ -21,6 +21,6 @@ nav_order: 3
 
 2024 - [🔗 Info](https://genpersonalization.github.io/)
 
-#### Invited Talk - Interpretability for Safety and Alignment (Intelligent Cooperation Workshop, SF, USA)
+#### Invited Talk - Interpretability for Safety and Alignment (Foresight Institute, USA)
 
 2023 - [🔗 Info](https://foresight.org/summary/fazl-barez-interpretability-for-safety-and-alignment-intelligent-cooperation-workshop/) - [🎥 Presentation](https://www.youtube.com/watch?v=vBpI5i1H8yo)
