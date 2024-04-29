@@ -107,6 +107,9 @@
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="arxiv btn btn-sm z-depth-0" role="button">arXiv</a>
       {%- endif %} {%- if entry.bibtex_show %}
       <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      {%- endif %} {%- if entry.code %}
+      <a href="{{ entry.code }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm code z-depth-0"
+        role="button">Code</a>
       {%- endif %} {%- if entry.url %}
       <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm url z-depth-0"
         role="button">Url</a>
@@ -125,8 +128,6 @@
         role="button">Supp</a>
       {%- endif %} {%- endif %} {%- if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-      {%- endif %} {%- if entry.code %}
-      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {%- endif %} {%- if entry.poster %} {% if entry.poster contains '://' -%}
       <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
       {%- else -%}
