@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Serving as a Programme Committee for the upcoming ECAI 2024: [27th European Conference on Artificial Intelligence](https://www.ecai2024.eu/)
+Excited to be serving as a Programme Committee at ECAI 2024 🇪🇸: [27th European Conference on Artificial Intelligence](https://www.ecai2024.eu/)
