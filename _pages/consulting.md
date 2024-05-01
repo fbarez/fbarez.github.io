@@ -34,10 +34,10 @@ horizontal: false
             </ul> -->
              <h3>Consulting Expertise</h3>
             <ul>
-                 <li><i class="fa-regular fa-circle-check"></i> Custom ML solution architecture - Collaborating with organizations to design impactful ML pipelines, ensuring robustness, accuracy, and transparency.</li>
-                <li><i class="fa-regular fa-circle-check"></i> Algorithmic auditing - Performing rigorous assessments of AI systems to identify issues related to bias, interpretability, and ethical risks.</li>
+                 <li><i class="fa-regular fa-circle-check"></i> Custom ML solution architecture - Collaborating with organizations to design Safe ML pipelines, ensuring Interpretability, robustness, accuracy, and transparency.</li>
+                <li><i class="fa-regular fa-circle-check"></i> Model auditing - Performing rigorous assessments of AI systems to identify issues related to bias, interpretability, and ethical risks.</li>
                 <li><i class="fa-regular fa-circle-check"></i> AI governance and oversight - Advising companies on responsible AI practices and helping craft internal policies and best practices.</li>
-                <li><i class="fa-regular fa-circle-check"></i> Thought leadership - Staying updated on the latest developments in AI safety and algorithmic transparency, actively publishing, reviewing papers, and running workshops.</li>
+                <!-- <li><i class="fa-regular fa-circle-check"></i> Thought leadership - Staying updated on the latest developments in AI safety and algorithmic transparency, actively publishing, reviewing papers, and running workshops.</li> -->
             </ul>
         </section>
         <!-- <h3>Testimonials</h3>
@@ -53,13 +53,13 @@ horizontal: false
         </section> -->
         <section class="contact">
             <p>
-                As an experienced researcher, I have served as a reviewer for conferences including NeurIPS, ICLR and ICML. I also mentor promising young academics looking to enter this exciting field.
+                As an experienced researcher, I have served as a programme chair, reviewer for conferences including NeurIPS, ICLR and ICML and ECAI. I also mentor PhD, MSc, BSc and young people from all backgrounds.
             </p>
-            <p>
-                I welcome inquires from forward-thinking companies seeking to integrate safe and trustworthy AI.
-            </p>
+            <!-- <p>
+                If you are intesrted in dicussing please email.
+            </p> -->
            <div class="mailDiv">
-    		      Get in touch if you'd like to work together. <a href="mailto:{{ site.email | encode_email }}" title="email"> <i class="fa-solid fa-envelope"></i> </a>
+    		      Get in touch if you'd like to chat. <a href="mailto:{{ site.email | encode_email }}" title="email"> <i class="fa-solid fa-envelope"></i> </a>
     		</div>
         </section>
     </main>
