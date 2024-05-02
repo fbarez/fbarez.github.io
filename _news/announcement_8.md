@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Invited to a talk at AI Safety Colloquium at KIAST, South Korea 🇰🇷: [Introduction to AI safety: Can we remove undesired behaviour from AI?](https://kim-minseon.github.io/colloquium.html)
+Invited speaker at AI Safety Colloquium at KIAST, South Korea 🇰🇷: [Introduction to AI safety: Can we remove undesired behaviour from AI?](https://kim-minseon.github.io/colloquium.html)
