@@ -9,6 +9,10 @@ nav_order: 3
 
 ## **Keynotes and Invited Talks**
 
+#### Invited Panelist - Mechanistic Interpretability (ICLR Conference, Vienna)
+
+2024 - [🔗 Info](https://iclr.cc/virtual/2024/social/22279)
+
 #### Invited Talk - Technical AI Safety Conference 2024 (TAIS Conference, Japan)
 
 2024 - [🔗 Info](https://tais2024.cc/) - [🎥 Presentation](#)
