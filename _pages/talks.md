@@ -9,7 +9,7 @@ nav_order: 3
 
 ## **Keynotes and Invited Talks**
 
-#### Invited Panelist - Mechanistic Interpretability (ICLR 2024, Vienna)
+#### Invited Panelist - Mechanistic Interpretability (ICLR 2024, Austria)
 
 2024 - [🔗 Info](https://iclr.cc/virtual/2024/social/22279)
 
