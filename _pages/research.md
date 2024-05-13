@@ -13,7 +13,7 @@ nav_order: 1
 
 My research focuses on ensuring AI systems are safe, reliable, and beneficial as they grow more advanced. I work on techniques including but not limited to:
 
-- Interpretability and explainability to reveal how AI systems function, make decisions, and process information. This sheds light on their capabilities and limitations compared to human cognition.
+- Interpretability and explainability to reveal how AI systems function, make decisions, and process information. 
 
 - Safety and alignment mechanisms so systems continue behaving reliably even as they become more autonomous.
 
