@@ -11,7 +11,7 @@ nav_order: 3
 
 #### Invited Talk - Foresight - AGI: Safety & Security Workshop (San Francisco 2024, USA)
 
-2024 - [🔗 Info](https://foresight.org/2024-intelligent-cooperation-workshop/) [📄 Slides](https://docs.google.com/presentation/d/1pkVp8H_rfXYWkLKTqppjXFMsEL9_sDy7vHEvEWCOiqo/edit#slide=id.p)[🎥 Presentation](https://www.youtube.com/watch?v=bP9V6cmfErQ)
+2024 - [🔗 Info](https://foresight.org/2024-intelligent-cooperation-workshop/) [📄 Slides](https://docs.google.com/presentation/d/1pkVp8H_rfXYWkLKTqppjXFMsEL9_sDy7vHEvEWCOiqo/edit#slide=id.p) [🎥 Presentation](https://www.youtube.com/watch?v=bP9V6cmfErQ)
 
 #### Invited Panelist - Mechanistic Interpretability (ICLR 2024, Austria)
 
