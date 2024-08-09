@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper!🤖 Investigating Reward Tampering [SYCOPHANCY TO SUBTERFUGE: INVESTIGATING REWARD TAMPERING IN LANGUAGE MODELS](https://arxiv.org/pdf/2406.10162) 
+New paper!🤖 Investigating Reward Tampering [Sycophancy To Subterfuge: Investigating Reward Tampering In Language Models](https://arxiv.org/pdf/2406.10162) 
