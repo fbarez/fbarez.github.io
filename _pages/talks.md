@@ -9,6 +9,9 @@ nav_order: 3
 
 ## **Keynotes and Invited Talks**
 
+#### Invited Talk - Digital Trust Centre (Singapore AI Safety Institute) - Mechanistic Interpretability for AI Safety (NTU Singapore)
+
+
 #### Invited Talk - Foresight - AGI: Safety & Security Workshop (San Francisco 2024, USA)
 
 2024 - [🔗 Info](https://foresight.org/2024-intelligent-cooperation-workshop/) [📄 Slides](https://docs.google.com/presentation/d/1pkVp8H_rfXYWkLKTqppjXFMsEL9_sDy7vHEvEWCOiqo/edit#slide=id.p) [🎥 Presentation](https://www.youtube.com/watch?v=bP9V6cmfErQ)

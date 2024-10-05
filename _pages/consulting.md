@@ -35,7 +35,7 @@ horizontal: false
              <h3>Consulting Expertise</h3>
             <ul>
                  <li><i class="fa-regular fa-circle-check"></i> Custom ML solution architecture - Collaborating with organizations to design Safe ML pipelines, ensuring Interpretability, robustness, accuracy, and transparency.</li>
-                <li><i class="fa-regular fa-circle-check"></i> Model auditing - Performing rigorous assessments of AI systems to identify issues related to bias, interpretability, and ethical risks.</li>
+                <li><i class="fa-regular fa-circle-check"></i> Model auditing - Performing rigorous assessments of AI systems to identify issues related to bias, interpretability, and ethical use.</li>
                 <li><i class="fa-regular fa-circle-check"></i> AI governance and oversight - Advising companies on responsible AI practices and helping craft internal policies and best practices.</li>
                 <!-- <li><i class="fa-regular fa-circle-check"></i> Thought leadership - Staying updated on the latest developments in AI safety and algorithmic transparency, actively publishing, reviewing papers, and running workshops.</li> -->
             </ul>
