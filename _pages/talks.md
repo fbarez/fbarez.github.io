@@ -9,8 +9,14 @@ nav_order: 3
 
 ## **Keynotes and Invited Talks**
 
-#### Invited Talk - Digital Trust Centre (Singapore AI Safety Institute) - Mechanistic Interpretability for AI Safety (NTU Singapore)
+#### Invited Panelist - Dialogue on Digital Trust and Safe AI 2024: Building ​bridges for a safe future (Singapore)
+2024 - [🔗 Info](https://www.ntu.edu.sg/dtc/ntu-singapore-europe-dialogue-on-digital-trust-and-safe-ai)
 
+#### Invited Talk - Digital Trust Centre (Singapore AI Safety Institute) - Mechanistic Interpretability for AI Safety (NTU Singapore)
+2024 [🔗 Info](https://www.ntu.edu.sg/dtc/news-events/events/details/2024/10/28/default-calendar/research-talk-mechanistic-interpretability-for-ai-safety-insights-and-contributions)
+
+#### Invited Talk - Digital Trust Centre (Singapore AI Safety Institute) - Unlearning and Relearning in LLMs
+2024 [🔗 Info](https://www.ntu.edu.sg/dtc/news-events/events/details/2024/08/21/default-calendar/research-talk-unlearning-and-relearning-in-large-language-models) 
 
 #### Invited Talk - Foresight - AGI: Safety & Security Workshop (San Francisco 2024, USA)
 
