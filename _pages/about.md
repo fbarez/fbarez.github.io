@@ -6,7 +6,7 @@ subtitle: AI safety and Interpretability researcher.
 
 profile:
   align: left
-  image: fb2017.jpg
+  image: fazlB.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
