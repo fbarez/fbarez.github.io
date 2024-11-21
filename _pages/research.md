@@ -13,15 +13,18 @@ nav_order: 1
 
 My research focuses on ensuring AI systems are safe, reliable, and beneficial as they grow more advanced. I work on techniques including but not limited to:
 
-- Interpretability and explainability to reveal how AI systems function, make decisions, and process information. 
+- Mechanistic interpretability of large language models, focusing on understanding neural circuits, learned behaviors, and information processing to inform both technical safety and policy decisions.
 
-- Safety and alignment mechanisms so systems continue behaving reliably even as they become more autonomous.
+- Safety and alignment mechanisms including detecting and preventing deceptive behavior, measuring value alignment, and developing robust intervention methods.
 
-- Rigorous benchmarking and evaluation methodologies to deeply probe strengths, weaknesses, and failure modes.
+- Technical evaluations and standards development through rigorous benchmarking, specific safety metrics, and systematic testing of model capabilities and limitations.
 
-- Fairness, transparency, and modeling societal impacts to encourage responsible development and adoption.
+- Translating technical insights into policy frameworks and safety standards, bridging the gap between interpretability research and practical standards and policy frameworks.
 
-I take an interdisciplinary approach, drawing inspiration from fields like neuroscience and philosophy to enrich techniques for safe and beneficial AI.
-I openly share works on these topics to move AI safety progress forward through rigorous research and facilitate positive real-world impact.
+- Fairness and ethical considerations in AI development, including studying long-term societal impacts and developing frameworks for responsible AI deployment.
 
-I am always eager to discuss ideas or opportunities for collaboration. Please feel free to send me an email if you would like to connect!
+
+My technical research in machine learning is enriched by engaging with insights from policy, cognitive science, and governance, as I work towards making AI systems more transparent, controllable, and reliably aligned with human values.
+
+
+I am eager to discuss ideas or opportunities for collaboration. I am particularly committed to collaborating and mentoring researchers from disadvantaged backgrounds, if this is you, I strongly encourage you to reach out at: `first_name[at]robots[dot]ox[dot]ac[dot]uk`. 

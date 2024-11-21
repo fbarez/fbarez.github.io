@@ -3,7 +3,68 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{marks2024interpreting,
+ bibtex_show = {true},
+ title = {Interpreting Learned Feedback Patterns in Large Language Models},
+ author = {Marks*, Luke and Abdullah*, Amir and Neo, Clement and Arike, Rauno and Krueger, David Torr, Philip and Barez*, Fazl},
+ abstract = {Reinforcement learning from human feedback (RLHF) is widely used to train large language models (LLMs). However, it is unclear whether LLMs accurately learn the underlying preferences in human feedback data. We coin the term Learned Feedback Pattern (LFP) for patterns in an LLM's activations learned during RLHF that improve its performance on the fine-tuning task. We hypothesize that LLMs with LFPs accurately aligned to the fine-tuning feedback exhibit consistent activation patterns for outputs that would have received similar feedback during RLHF. To test this, we train probes to estimate the feedback signal implicit in the activations of a fine-tuned LLM. We then compare these estimates to the true feedback, measuring how accurate the LFPs are to the fine-tuning feedback. Our probes are trained on a condensed, sparse and interpretable representation of LLM activations, making it easier to correlate features of the input with our probe's predictions. We validate our probes by comparing the neural features they correlate with positive feedback inputs against the features GPT-4 describes and classifies as related to LFPs. Understanding LFPs can help minimize discrepancies between LLM behavior and training objectives, which is essential for the safety of LLMs.},
+ year = {2024},
+ conference = {NeurIPS 2024},
+ preview = {nuerips24.jpg.png},
+ arxiv = {2310.08164},
+ abbr = {neurips},
+ selected = {true},
+ code = {https://github.com/apartresearch/Interpreting-Learned-Feedback-Patterns/tree/main}
+}
 
+@article{eiras2024position,
+ bibtex_show = {true},
+ title = {Position: Near to Mid-term Risks and Opportunities of Open-Source Generative AI},
+ author = {Eiras, Francisco and Petrov, Aleksandar and [....] and Barez, Fazl and [...] and Darrell, Trevor and Lee, Yong Suk and Foerster, Jakob Nicolaus},
+ abstract = {In the next few years, applications of Generative AI are expected to revolutionize a number of different areas, ranging from science & medicine to education. The potential for these seismic changes has triggered a lively debate about potential risks and resulted in calls for tighter regulation, in particular from some of the major tech companies who are leading in AI development. While regulation is important, it is key that it does not put at risk the budding field of open-source Generative AI. We argue for the responsible open sourcing of generative AI models in the near and medium term. To set the stage, we first introduce an AI openness taxonomy system and apply it to 40 current large language models. We then outline differential benefits and risks of open versus closed source AI and present potential risk mitigation, ranging from best practices to calls for technical and scientific contributions. We hope that this report will add a much needed missing voice to the current public discourse on near to mid-term AI safety and other societal impact.},
+ year = {2024},
+ conference = {ICML 2024},
+ publisher = {International Conference on Machine Learning},
+ preview = {near-2-long-term.jpg},
+ arxiv = {2405.08597},
+ abbr = {icml},
+ selected = {true},
+ citations = {16}
+}
+
+@article{lan2024towards,
+ bibtex_show = {true},
+ title = {Towards Interpretable Sequence Continuation: Analyzing Shared Circuits in Large Language Models},
+ author = {Lan*, Michael and Torr, Philip and Barez*, Fazl},
+ abstract = {While transformer models exhibit strong capabilities on linguistic tasks, their complex architectures make them difficult to interpret. Recent work has aimed to reverse engineer transformer models into human-readable representations called circuits that implement algorithmic functions. We extend this research by analyzing and comparing circuits for similar sequence continuation tasks, which include increasing sequences of Arabic numerals, number words, and months. By applying circuit interpretability analysis, we identify a key sub-circuit in both GPT-2 Small and Llama-2-7B responsible for detecting sequence members and for predicting the next member in a sequence. Our analysis reveals that semantically related sequences rely on shared circuit subgraphs with analogous roles. Additionally, we show that this sub-circuit has effects on various math-related prompts, such as on intervaled circuits, Spanish number word and months continuation, and natural language word problems. Overall, documenting shared computational structures enables better model behavior predictions, identification of errors, and safer editing procedures. This mechanistic understanding of transformers is a critical step towards building more robust, aligned, and interpretable language models.},
+ year = {2024},
+ conference = {EMNLP 2024},
+ address = {Miami, Florida, USA},
+ publisher = {Association for Computational Linguistics},
+ pages = {12576--12601},
+ preview = {sequence-emnlp.jpg},
+ arxiv = {2311.04131},
+ code = {https://github.com/apartresearch/seqcont_circuits},
+ url = {https://aclanthology.org/2024.emnlp-main.699},
+ abbr = {emnlp},
+ selected = {true}
+}
+@article{neo2024interpreting,
+ bibtex_show = {true},
+ title = {Interpreting Context Look-ups in Transformers: Investigating Attention-MLP Interactions},
+ author = {Neo*, Clement and Cohen, Shay B. and Barez*, Fazl},
+ abstract = {Understanding the inner workings of large language models (LLMs) is crucial for advancing their theoretical foundations and real-world applications. While the attention mechanism and multi-layer perceptrons (MLPs) have been studied independently, their interactions remain largely unexplored. This study investigates how attention heads and next-token neurons interact in LLMs to predict new words. We propose a methodology to identify next-token neurons, find prompts that highly activate them, and determine the upstream attention heads responsible. We then generate and evaluate explanations for the activity of these attention heads in an automated manner. Our findings reveal that some attention heads recognize specific contexts relevant to predicting a token and activate a downstream token-predicting neuron accordingly. This mechanism provides a deeper understanding of how attention heads work with MLP neurons to perform next-token prediction. Our approach offers a foundation for further research into the intricate workings of LLMs and their impact on text generation and understanding.},
+ year = {2024},
+ conference = {EMNLP 2024},
+ address = {Miami, Florida, USA},
+ publisher = {Association for Computational Linguistics},
+ pages = {16681--16697},
+ preview = {att-mlp.jpeg},
+ arxiv = {2402.15055},
+ code = {https://github.com/fbarez/Interpreting-Context-Look-ups},
+ abbr = {emnlp},
+ selected = {true}
+}
 @misc{quirke2023understanding,
   bibtex_show = {true},
   title = {Understanding Addition in Transformers},
@@ -24,6 +85,21 @@
   abbr = {articulated_mm},
   preview = {paper_13121_main.jpg},
   volume = {abs/2310.13121},
+}
+
+@article{lo2024large,
+ bibtex_show = {true},
+ title = {Large Language Models Relearn Removed Concepts},
+ author = {Lo*, Michelle and Cohen, Shay B. and Barez*, Fazl},
+ abstract = {Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This demonstrates that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons. While neuron pruning provides interpretability into model concepts, our results highlight the challenges of permanent concept removal for improved model safety. Monitoring concept reemergence and developing techniques to mitigate relearning of unsafe concepts will be important directions for more robust model editing. Overall, our work strongly demonstrates the resilience and fluidity of concept representations in LLMs post concept removal.},
+ year = {2024},
+ conference = {ACL (Findings) 2024},
+ pages = {8306-8323},
+ preview = {llm-relearn.jpg},
+ arxiv = {2401.01814},
+ abbr = {acl},
+ selected = {true},
+ code = {https://github.com/fbarez/neuroplasticity}
 }
 
 @article{barez2023measuring,
