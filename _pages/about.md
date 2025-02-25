@@ -24,7 +24,7 @@ I'm affiliated with the [Centre for the Study of Existential Risk (CSER)](https:
 Earlier in my career, I was at Amazon, Huawei, RBS Group, RAND, The DataLab and Apart Research.
 
 <p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: italic;">
-I am always looking for motivated and hardworking students. If you are interested in AI Safety, Interpretability, and Technical AI Governance, please reach out.
+I am looking for motivated and hardworking students and eager to discuss new ideas or collaborative opportunities. If you are interested in AI Safety, Interpretability, and Technical AI Governance, please reach out. I am particularly committed to mentoring and partnering with researchers from disadvantaged backgrounds. If this resonates with you, please contact me at: fazl[at]robots[dot]ox[dot]ac[dot]uk.
 </p>
 
 <h2 style="text-align: center;">News</h2>
