@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am serving as an area chair for ACL 2025.
+I am serving as an area chair for ACL 25.
