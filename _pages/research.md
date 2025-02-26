@@ -26,5 +26,3 @@ I translate technical insights into structured frameworks that inform robust AI 
 ### Societal Impact
 
 I examine the broader implications of advanced AI systems on society. By identifying how technical design choices can propagate bias, my work outlines intervention points to ensure that AI benefits are equitably distributed.
-
----
