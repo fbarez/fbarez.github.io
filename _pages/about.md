@@ -113,7 +113,7 @@ I'm affiliated with the [Centre for the Study of Existential Risk (CSER)](https:
 
 
 
-Earlier in my career, I was at researcher at Amazon and Huawei. Co-director and head of research at Apart Research.
+Previoulsy, I was at researcher at Amazon and Huawei. Co-director and head of research at Apart Research.
 
 
 
