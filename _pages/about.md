@@ -93,27 +93,29 @@ years: [2023, 2021]
 
 
 
-I'm a Senior Research Fellow at the [University of Oxford](https://www.oxfordmartin.ox.ac.uk/people/fazl-barez). My work bridges academia, AGI labs, AI safety institutes, 
-and non-profits to advance safe AI practices. 
+I'm a Senior Research Fellow at the [University of Oxford](https://www.oxfordmartin.ox.ac.uk/people/fazl-barez). My work spans across academia, AGI labs, AI safety institutes, 
+and non-profits to advance safe AI practices. I'm humbled that my research has helped shape academic and industry safety standards.
+
 My contributions include leading research with the 
 UK AI Safety Institute on [machine unlearning for AI safety](https://arxiv.org/pdf/2501.04952), 
 developing the [N2G method](https://arxiv.org/pdf/2305.19911) adopted by 
 OpenAI to evaluate [Sparse Autoencoders](https://arxiv.org/pdf/2406.04093), and 
 leading the [Alan Turing Institute's response](https://www.turing.ac.uk/news/publications/alan-turing-institutes-response-house-lords-large-language-models-call-evidence) 
-to the UK House of Lords on LLMs that informed parliamentary inquiries . I've also collaborated with Anthropic on 
-papers investigating [deceptions in LLMs](https://arxiv.org/pdf/2401.05566) and [reward hacking](https://arxiv.org/pdf/2406.10162), among other topics. 
-
-I'm humbled that my research has helped shape academic and industry safety standards.
+to the UK House of Lords on LLMs that informed parliamentary inquiries. I've also collaborated with Anthropic on 
+papers investigating [deception in LLMs](https://arxiv.org/pdf/2401.05566) and [reward hacking](https://arxiv.org/pdf/2406.10162), among other topics. 
 
 
 
 
 
-I'm affiliated with Cambridge's [CSER](https://www.cser.ac.uk/team/fazl-barez/), NTU's Digital Trust Centre, and Edinburgh's School of Informatics. 
-As a member of [ELLIS](https://ellis.eu/members), I extend my AI safety research across Europe. In 2024–2025, I served as a Research Consultant with Anthropic's Alignment team.
 
 
-Previously, I was at researcher at Amazon and Huawei. Co-director and head of research at Apart Research.
+I'm affiliated with Cambridge's [CSER](https://www.cser.ac.uk/team/fazl-barez/), 
+NTU's Digital Trust Centre, Edinburgh's Informatics and a member of [ELLIS](https://ellis.eu/members). 
+In 2024–2025, I served as a Research Consultant with Anthropic's Alignment team.
+
+
+Previously, I was at researcher at Amazon, a researcher at Huawei, and Co-director and head of research at Apart Research.
 
 
 
