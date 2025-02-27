@@ -93,27 +93,27 @@ years: [2023, 2021]
 
 
 
-I'm a Senior Research Fellow at the [University of Oxford](https://www.oxfordmartin.ox.ac.uk/people/fazl-barez), where I lead research in AI safety and interpretability. My work bridges academia, AGI labs, AI safety institutes, government agencies, and the public sector to advance safe AI practices and transform insights into real-world solutions. I'm humbled that my research has helped shape academic and industry safety standards.
+I'm a Senior Research Fellow at the [University of Oxford](https://www.oxfordmartin.ox.ac.uk/people/fazl-barez). My work bridges academia, AGI labs, AI safety institutes, 
+and non-profits to advance safe AI practices. 
+My contributions include leading research with the 
+UK AI Safety Institute on [machine unlearning for AI safety](https://arxiv.org/pdf/2501.04952), 
+developing the [N2G method](https://arxiv.org/pdf/2305.19911) adopted by 
+OpenAI to evaluate [Sparse Autoencoders](https://arxiv.org/pdf/2406.04093), and 
+leading the [Alan Turing Institute's response](https://www.turing.ac.uk/news/publications/alan-turing-institutes-response-house-lords-large-language-models-call-evidence) 
+to the UK House of Lords on LLMs that informed parliamentary inquiries . I've also collaborated with Anthropic on 
+papers investigating [deceptions in LLMs](https://arxiv.org/pdf/2401.05566) and [reward hacking](https://arxiv.org/pdf/2406.10162), among other topics. 
+
+I'm humbled that my research has helped shape academic and industry safety standards.
 
 
 
 
 
+I'm affiliated with Cambridge's [CSER](https://www.cser.ac.uk/team/fazl-barez/), NTU's Digital Trust Centre, and Edinburgh's School of Informatics. 
+As a member of [ELLIS](https://ellis.eu/members), I extend my AI safety research across Europe. In 2024–2025, I served as a Research Consultant with Anthropic's Alignment team.
 
 
-
-
-I'm affiliated with the [Centre for the Study of Existential Risk (CSER)](https://www.cser.ac.uk/team/fazl-barez/) at the University of Cambridge, the Digital Trust Centre at Nanyang Technological University, and the School of Informatics at the University of Edinburgh. As a member of the [European Laboratory for Learning and Intelligent Systems (ELLIS)](https://ellis.eu/members), I expand my impact on AI safety research across Europe. In 2024–2025, I served as a Research Consultant with [Anthropic](https://arxiv.org/pdf/2406.10162)'s Alignment team.
-
-
-
-
-
-
-
-
-
-Previoulsy, I was at researcher at Amazon and Huawei. Co-director and head of research at Apart Research.
+Previously, I was at researcher at Amazon and Huawei. Co-director and head of research at Apart Research.
 
 
 
