@@ -115,7 +115,7 @@ NTU's Digital Trust Centre, Edinburgh's Informatics and a member of [ELLIS](http
 In 2024–2025, I served as a Research Consultant with Anthropic's Alignment team.
 
 
-Previously, I was at researcher at Amazon, a researcher at Huawei, and Co-director and head of research at Apart Research.
+Previously, I was a researcher at Amazon, a researcher at Huawei, and Co-director and head of research at Apart Research.
 
 
 
