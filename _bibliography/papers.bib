@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{barez2025open,
+ bibtex_show = {true},
+ title = {Open Problems in Machine Unlearning for AI Safety},
+ author = {Barez, Fazl and Fu, Tingchen and Prabhu, Ameya and Casper, Stephen and Sanyal, Amartya and Bibi, Adel and O'Gara, Aidan and Kirk, Robert and Bucknall, Ben and Fist, Tim and Ong, Luke and Torr, Philip and Lam, Kwok-Yan and Trager, Robert and Krueger, David and Mindermann, Sören and Hernandez-Orallo, José and Geva, Mor and Gal, Yarin},
+ abstract = {As AI systems become more capable, widely deployed, and increasingly autonomous in critical areas such as cybersecurity, biological research, and healthcare, ensuring their safety and alignment with human values is paramount. Machine unlearning -- the ability to selectively forget or suppress specific types of knowledge -- has shown promise for privacy and data removal tasks, which has been the primary focus of existing research. More recently, its potential application to AI safety has gained attention. In this paper, we identify key limitations that prevent unlearning from serving as a comprehensive solution for AI safety, particularly in managing dual-use knowledge in sensitive domains like cybersecurity and chemical, biological, radiological, and nuclear (CBRN) safety. In these contexts, information can be both beneficial and harmful, and models may combine seemingly harmless information for harmful purposes -- unlearning this information could strongly affect beneficial uses. We provide an overview of inherent constraints and open problems, including the broader side effects of unlearning dangerous knowledge, as well as previously unexplored tensions between unlearning and existing safety mechanisms. Finally, we investigate challenges related to evaluation, robustness, and the preservation of safety features during unlearning. By mapping these limitations and open challenges, we aim to guide future research toward realistic applications of unlearning within a broader AI safety framework, acknowledging its limitations and highlighting areas where alternative approaches may be required.},
+ year = {2025},
+ conference = {Under Review},
+ preview = {paper_04131_main.jpg},
+ arxiv = {2501.04952},
+ abbr = {arxiv},
+ selected = {true},
+ topic = {AI Safety}
+}
+
 @article{neo2025towards,
  bibtex_show = {true},
  title = {Towards interpreting visual information processing in vision-language models},
@@ -12,7 +26,8 @@
  conference = {ICLR 2025},
  preview = {paper_13121_main.jpg},
  abbr = {iclr},
- selected = {true}
+ selected = {true},
+ topic = {Interpretability}
 }
 
 @article{marks2024interpreting,
@@ -26,7 +41,8 @@
  arxiv = {2310.08164},
  abbr = {neurips},
  selected = {true},
- code = {https://github.com/apartresearch/Interpreting-Learned-Feedback-Patterns/tree/main}
+ code = {https://github.com/apartresearch/Interpreting-Learned-Feedback-Patterns/tree/main},
+ topic = {Alignment}
 }
 
 @article{eiras2024position,
@@ -41,7 +57,8 @@
  arxiv = {2405.08597},
  abbr = {icml},
  selected = {true},
- citations = {16}
+ citations = {16},
+ topic = {AI Policy}
 }
 
 @article{lan2024towards,
@@ -59,7 +76,8 @@
  code = {https://github.com/apartresearch/seqcont_circuits},
  url = {https://aclanthology.org/2024.emnlp-main.699},
  abbr = {emnlp},
- selected = {true}
+ selected = {true},
+ topic = {Interpretability}
 }
 @article{neo2024interpreting,
  bibtex_show = {true},
@@ -75,7 +93,8 @@
  arxiv = {2402.15055},
  code = {https://github.com/fbarez/Interpreting-Context-Look-ups},
  abbr = {emnlp},
- selected = {true}
+ selected = {true},
+ topic = {Interpretability}
 }
 @misc{quirke2023understanding,
   bibtex_show = {true},
@@ -98,6 +117,7 @@
   selected = {true},
   preview = {paper_13121_main.jpg},
   volume = {abs/2310.13121},
+  topic = {Interpretability}
 }
 
 @article{lo2024large,
@@ -106,13 +126,14 @@
  author = {Lo*, Michelle and Cohen, Shay B. and Barez*, Fazl},
  abstract = {Advances in model editing through neuron pruning hold promise for removing undesirable concepts from large language models. However, it remains unclear whether models have the capacity to reacquire pruned concepts after editing. To investigate this, we evaluate concept relearning in models by tracking concept saliency and similarity in pruned neurons during retraining. Our findings reveal that models can quickly regain performance post-pruning by relocating advanced concepts to earlier layers and reallocating pruned concepts to primed neurons with similar semantics. This demonstrates that models exhibit polysemantic capacities and can blend old and new concepts in individual neurons. While neuron pruning provides interpretability into model concepts, our results highlight the challenges of permanent concept removal for improved model safety. Monitoring concept reemergence and developing techniques to mitigate relearning of unsafe concepts will be important directions for more robust model editing. Overall, our work strongly demonstrates the resilience and fluidity of concept representations in LLMs post concept removal.},
  year = {2024},
- conference = {ACL (Findings) 2024},
+ conference = {ACL 2024},
  pages = {8306-8323},
  preview = {llm-relearn.jpg},
  arxiv = {2401.01814},
  abbr = {acl},
  selected = {true},
- code = {https://github.com/fbarez/neuroplasticity}
+ code = {https://github.com/fbarez/neuroplasticity},
+ topic = {AI Safety}
 }
 
 @article{barez2023measuring,
@@ -141,9 +162,11 @@
   arxiv = {2312.15241},
   abbr = {neurips},
   selected = {true},
+  topic = {Alignment}
 }
 
 @article{fazl2023the,
+  bibtex_show = {true},
   title = { The Alan Turing Institute's response to the House of Lords Large
            Language Models Call for Evidence},
   author = {Fazl Barez and Philip H. S. Torr and Aleksandar Petrov and Carolyn
@@ -161,6 +184,7 @@
   primaryClass = {cs.LG},
   abbr = {articulated_mm},
   preview = {paper_alan_turing.jpg},
+  selected = {true}
 }
 
 @inproceedings{valerio2023the,
@@ -196,6 +220,7 @@
   selected = {true},
   journal = {ACL},
   volume = {abs/2305.15507},
+  topic = {AI Safety}
 }
 @article{fbarez2023NeuronToGraph,
   bibtex_show = {true},
@@ -227,6 +252,7 @@
   abbr = {iclr},
   selected = {true},
   volume = {abs/2305.19911},
+  topic = {Interpretability}
 }
 
 @article{fbarez2023detecting,
@@ -256,6 +282,7 @@
   abbr = {acl},
   selected = {true},
   volume = {abs/2305.17553},
+  topic = {AI Safety}
 }
 
 
@@ -273,7 +300,7 @@
               fairness and analyze how lack of AI fairness can lead to deepening
               of biases over time and act as a social stressor.},
   year = {2023},
-  conference = {Stanford Existential Risks Initiative, Journal 2023},
+  conference = {Journal 23},
   arxiv = {2304.09826},
   archivePrefix = {arXiv},
   primaryClass = {cs.CY},
@@ -281,6 +308,7 @@
   selected = {true},
   preview = {paper_09826.jpeg},
   volume = {abs/2304.09826},
+  topic = {Societal Impact}
 }
 @misc{wang2021ed2,
   bibtex_show = {true},
@@ -304,10 +332,11 @@
   year = {2021},
   conference = {Alan Turing Institute},
   code = {https://github.com/alan-turing-institute/DSG-TNA-UKGWA},
-  topic = {Data security and privacy},
+  topic = {AI Policy},
   abbr = {articulated_mm},
   preview = {paper_2021_2.jpeg},
   url = {
          https://blog.nationalarchives.gov.uk/hacking-23-years-of-government-history-an-example-from-the-uk-government-web-archive/
          },
+  selected = {true}
 }
