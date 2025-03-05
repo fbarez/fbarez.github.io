@@ -70,7 +70,7 @@
           {%- endfor -%}
         {%- endif -%}
         
-        {%- if forloop.first != true -%},{%- endif -%}
+        {%- if forloop.first != true -%}, {% endif -%}
         {%- if forloop.last and forloop.length > 1 %} and {% endif -%}
         
         {%- if author_is_self -%}

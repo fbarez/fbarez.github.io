@@ -19,9 +19,92 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular"
 ;
 
+// Tablet responsiveness
+@media (max-width: 992px) {
+  .container {
+    max-width: 90% !important;
+  }
+  
+  body > .container {
+    padding: 0 15px;
+  }
+}
+
+// Mobile responsiveness
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 100% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-x: hidden;
+  }
+  
+  // Fix profile display on mobile
+  .profile {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 auto 2rem auto !important;
+    text-align: center;
+    
+    .more-info {
+      text-align: center;
+    }
+    
+    img {
+      max-width: 180px !important;
+      margin: 0 auto !important;
+      display: block;
+    }
+    
+    .contact-icons {
+      justify-content: center !important;
+    }
+  }
+  
+  // Ensure content is not too wide on mobile
+  .post, #about, #research, #publications, #talks, #awards {
+    width: 100%;
+  }
+  
+  // Fix float issues
+  .clearfix {
+    clear: both;
+    width: 100%;
+  }
+  
+  // Adjust font sizes on mobile
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  // Fix clustrmaps widget that might cause overflow
+  #clstr_globe {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+}
+
 // Custom spacing adjustments
 .publications {
   margin-top: 1rem !important;
+}
+
+// Ensure proper author spacing
+.author {
+  white-space: normal;
+  
+  a, em {
+    margin-right: 3px;
+  }
 }
 
 .publications h2 {
