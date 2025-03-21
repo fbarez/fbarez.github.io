@@ -100,7 +100,7 @@ and non-profits to advance safe AI practices. I'm humbled that my research has h
 
 My contributions include leading research with the 
 UK AISI on <a href="https://arxiv.org/pdf/2501.04952">machine unlearning for AI safety</a>, 
-developing the <a href="https://arxiv.org/pdf/2305.19911">N2G method</a> adopted by 
+developing the <a href="https://arxiv.org/pdf/2305.19911">N2G algorithm</a> adopted by 
 OpenAI to evaluate <a href="https://arxiv.org/pdf/2406.04093">Sparse Autoencoders</a>, and 
 leading the <a href="https://www.turing.ac.uk/news/publications/alan-turing-institutes-response-house-lords-large-language-models-call-evidence">Alan Turing Institute's response</a> 
 to the UK House of Lords on LLMs that informed parliamentary inquiries. I've also collaborated with Anthropic on 
