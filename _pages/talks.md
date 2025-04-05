@@ -4,7 +4,7 @@ permalink: /#talks
 title: Talks
 description: Information about the talks I've given.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## **Keynotes and Invited Talks**
@@ -78,16 +78,6 @@ nav_order: 3
     </div>
   </div>
 
-  <div class="talk-item">
-    <div class="talk-year">2024</div>
-    <div class="talk-content">
-      <div class="talk-title">Invited Talk - Technical AI Safety Conference 2024</div>
-      <div class="talk-venue">TAIS Conference, Japan</div>
-      <div class="talk-links">
-        <a href="https://tais2024.cc/" class="talk-link"><i class="fas fa-link"></i> Info</a>
-      </div>
-    </div>
-  </div>
 
   <div class="talk-item">
     <div class="talk-year">2024</div>
