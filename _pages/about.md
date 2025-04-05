@@ -118,7 +118,7 @@ Previously, I was a researcher at Amazon, a researcher at Huawei, and Co-directo
 
 
 <p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: italic;">
-I'm looking for motivated people interested in AI Safety, Interpretability, and Technical AI Governance. I value working collaboratively and am especially committed to working with researchers from disadvantaged backgrounds. If this resonates with you, contact me: fazl[at]robots[dot]ox[dot]ac[dot]uk.
+I'm looking for motivated people interested in AI Safety, Interpretability, and Technical AI Governance. I value collaborative work and am especially committed to partnering with researchers from underrepresented, marginalized, and otherwise disadvantaged backgrounds. If this resonates with you, please contact me at fazl[at]robots[dot]ox[dot]ac[dot]uk
 </p>
 
 
