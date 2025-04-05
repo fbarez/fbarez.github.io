@@ -84,7 +84,7 @@ nav_order: 3
   
   <div class="mentee-item">
     <div class="mentee-name">Michael Lan</div>
-    <div class="mentee-position">Now at University of Oxford</div>
+    <div class="mentee-position"></div>
   </div>
   
   <div class="mentee-item">
