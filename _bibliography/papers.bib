@@ -311,6 +311,34 @@
   volume = {abs/2304.09826},
   topic = {Societal Impact}
 }
+@article{fbarez2022pmic,
+  bibtex_show = {true},
+  title = {PMIC: Improving Multi-Agent Reinforcement Learning with Progressive Mutual Information Collaboration},
+  author = {Li, Pengyi and Tang, Hongyao and Yang, Tianpei and Hao, Xiaotian and Sang, Tong and Zheng, Yan and Hao, Jianye and Taylor, Matthew E. and Tao, Wenyuan and Wang, Zhen and Barez, Fazl},
+  abstract = {In cooperative multi-agent reinforcement learning (MARL), a commonly used approach is to share individual experiences among agents for better coordination. Agents can usually benefit from others' valuable experiences for more efficient learning. However, not all shared experiences are useful for other agents. How to enable agents to communicate valuable experiences with each other effectively remains a key challenge. In this paper, we propose a novel MARL approach, Progressive Mutual Information Collaboration (PMIC), to conduct efficient experience sharing by maximizing the mutual information between individual state-action pairs and the joint team reward among agents. In PMIC, we design an information-theoretic empowerment objective to enable each agent to evaluate state-action pairs for others. We collect and propagate the evaluations to obtain the team's overall comments for each state-action pair, guiding all agents for better policy learning. We further reveal that optimizing our objective achieves a trade-off between maximizing reward and preserving the action distribution, resulting in steady exploration during the learning process. Empirical results demonstrate the superior performance of our PMIC approach compared with the state-of-the-art methods in a variety of cooperative MARL tasks. We also show that PMIC significantly improves the performance of population-based multi-agent algorithms in the StarCraft II micromanagement tasks, where teams of agents need to coordinate with each other to defeat enemy teams.},
+  year = {2022},
+  conference = {ICML 2022},
+  preview = {paper_19911_main.jpeg},
+  arxiv = {2111.00273},
+  abbr = {icml},
+  selected = {true},
+  topic = {Multi-agent RL}
+}
+
+@misc{barez2022iii,
+  bibtex_show = {true},
+  title = {System III: Learning with Domain Knowledge for Safety Constraints}, 
+  author = {Barez, Fazl and Hasanbieg, Hosien and Abbate, Alesandro},
+  abstract = {Reinforcement learning agents naturally learn from extensive exploration. Exploration is costly and can be unsafe in safety-critical domains. This paper proposes a novel framework for incorporating domain knowledge to help guide safe exploration and boost sample efficiency. Previous approaches impose constraints, such as regularisation parameters in neural networks, that rely on large sample sets and often are not suitable for safety-critical domains where agents should almost always avoid unsafe actions. We propose a new algorithm, System III, that incorporates domain knowledge in the form of safety constraints to ensure that the agent avoids unsafe states during training. Our approach combines a reinforcement learning agent with a safety system that monitors the agent's actions and intervenes when necessary to prevent unsafe actions. We evaluate our approach on several benchmark tasks and show that it significantly improves sample efficiency and safety compared to state-of-the-art methods.},
+  year = {2022},
+  conference = {ML Safety Workshop @ NeurIPS 2022},
+  arxiv = {2301.12561},
+  abbr = {neurips},
+  selected = {true},
+  preview = {paper_19911_main.jpeg},
+  topic = {AI Safety}
+}
+
 @misc{wang2021ed2,
   bibtex_show = {true},
   title = {Discovering topics and trends in the UK Government web archive},

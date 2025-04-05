@@ -12,13 +12,6 @@
       {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%} 
       {% include figure.html path=entry_path class="preview z-depth-1 rounded" zoomable=false alt=entry.preview -%} 
       {%- endif -%}
-      
-      <!-- Conference badge under the image -->
-      {%- if entry.conference -%}
-      <div style="text-align: center; margin-top: 5px;">
-        <span style="font-size: 0.8rem; display: inline-block; background-color: #eef; padding: 3px 6px; border-radius: 4px; color: #446; white-space: normal;">{{ entry.conference | strip }}</span>
-      </div>
-      {%- endif -%}
     {%- elsif entry.abbr -%} 
       {%- if site.data.venues[entry.abbr] -%} 
         {%- assign venue_style = nil -%} 
@@ -47,6 +40,13 @@
         {{entry.title}}
       {% endif %}
     </div>
+    
+    <!-- Conference badge - moved here for better visibility on mobile -->
+    {%- if entry.conference -%}
+    <div class="conf-badge" style="margin-bottom: 8px;">
+      <span style="font-size: 0.85rem; display: inline-block; background-color: #eef; padding: 3px 8px; border-radius: 4px; color: #446; white-space: normal;">{{ entry.conference | strip }}</span>
+    </div>
+    {%- endif -%}
     
     <!-- Author -->
     <div class="author">
@@ -108,7 +108,7 @@
     
     {% assign entrytype_text = entrytype | strip_html | strip %} 
     {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
-    <div class="periodical">{{ entry.note | strip }}</div>
+    <div class="periodical">{{ periodical | strip }}</div>
     
     <!-- Research topics -->
     <div class="links">
