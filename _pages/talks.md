@@ -94,6 +94,14 @@ nav_order: 4
   <div class="talk-item">
     <div class="talk-year">2023</div>
     <div class="talk-content">
+      <div class="talk-title">Invited Talk - AI Governance and Unlearning</div>
+      <div class="talk-venue">Nvidia, Santa Clara, CA</div>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2023</div>
+    <div class="talk-content">
       <div class="talk-title">Invited Talk - Interpretability for Safety and Alignment</div>
       <div class="talk-venue">Foresight Institute, USA</div>
       <div class="talk-links">
