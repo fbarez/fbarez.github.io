@@ -10,6 +10,14 @@ nav_order: 4
 ## **Keynotes and Invited Talks**
 
 <div class="talks-container">
+  <div class="talk-item">
+    <div class="talk-year">2025</div>
+    <div class="talk-content">
+      <div class="talk-title">Invited Talk - AI Governance and Unlearning</div>
+      <div class="talk-venue">Nvidia, Santa Clara, CA</div>
+    </div>
+  </div>
+
   <div class="talk-item keynote">
     <div class="talk-year">2024</div>
     <div class="talk-content">
@@ -88,14 +96,6 @@ nav_order: 4
         <a href="https://kim-minseon.github.io/colloquium.html" class="talk-link"><i class="fas fa-link"></i> Info</a>
         <a href="https://docs.google.com/presentation/d/1b6lgjz8sziNxN8xmE0G2QIK2wngBya5rWkJmOjtVcCE/edit?usp=sharing" class="talk-link"><i class="fas fa-file-powerpoint"></i> Slides</a>
       </div>
-    </div>
-  </div>
-
-  <div class="talk-item">
-    <div class="talk-year">2023</div>
-    <div class="talk-content">
-      <div class="talk-title">Invited Talk - AI Governance and Unlearning</div>
-      <div class="talk-venue">Nvidia, Santa Clara, CA</div>
     </div>
   </div>
 
