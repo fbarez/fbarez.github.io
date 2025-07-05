@@ -18,7 +18,10 @@ permalink: /
 
 
 
-subtitle: Senior Research Fellow, University of Oxford
+subtitle: >
+  Mostly human.<br>
+  Sometimes researcher.<br>
+  Always curious.
 
 
 
@@ -94,26 +97,26 @@ years: [2023, 2021]
 
 
 <div style="text-align: justify;">
-I'm a Senior Research Fellow at the University of Oxford, affiliated with <a href="https://torrvision.com/people/">TVG</a> at <a href="https://eng.ox.ac.uk/people/fazl-barez/">Engineering Sciences</a> and <a href="https://www.oxfordmartin.ox.ac.uk/people/fazl-barez">AIGI</a> at Martin School. My work spans across academia, leading industry labs, AI Security Institutes, 
+I'm a Research Fellow at the University of Oxford. My work spans academia, industry labs, AI safety institutes, 
 and non-profits to advance safe AI practices. I'm humbled that my research has helped shape academic and industry standards.
 <br><br>
 
 My contributions include leading research with the 
-UK AISI on <a href="https://arxiv.org/pdf/2501.04952">machine unlearning for AI safety</a>, 
+UK AI Security Institute on <a href="https://arxiv.org/pdf/2501.04952">machine unlearning for AI safety</a>, 
 developing the <a href="https://arxiv.org/pdf/2305.19911">N2G algorithm</a> adopted by 
-OpenAI to evaluate <a href="https://arxiv.org/pdf/2406.04093">Sparse Autoencoders</a>, and 
+OpenAI to evaluate <a href="https://arxiv.org/pdf/2406.04093">sparse autoencoders for interpretability</a>, and 
 leading the <a href="https://www.turing.ac.uk/news/publications/alan-turing-institutes-response-house-lords-large-language-models-call-evidence">Alan Turing Institute's response</a> 
-to the UK House of Lords on LLMs that informed parliamentary inquiries. I've also collaborated with Anthropic on 
-papers investigating <a href="https://arxiv.org/pdf/2401.05566">deception in LLMs</a> and <a href="https://arxiv.org/pdf/2406.10162">reward hacking</a>, among other topics.
+to the UK House of Lords inquiry on language models. I've also collaborated with Anthropic on 
+studies investigating <a href="https://arxiv.org/pdf/2401.05566">deception</a> and <a href="https://arxiv.org/pdf/2406.10162">reward hacking</a> in language models, among other topics.
 <br><br>
 
 
-I'm affiliated with Cambridge's <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, 
-NTU's Digital Trust Centre, Edinburgh's Informatics and a member of <a href="https://ellis.eu/members">ELLIS</a>. 
-In 2024–2025, I served as a Research Consultant with Anthropic's Alignment team.
+I'm grateful for the support of funders including OpenAI, Anthropic, the Future of Life Institute, NVIDIA, and others. I'm affiliated with Cambridge's <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, 
+NTU's Digital Trust Centre, Edinburgh's Informatics, and <a href="https://ellis.eu/members">ELLIS</a>. 
+In 2024–2025, I worked with Anthropic's Alignment team.
 
 
-Previously, I was a researcher at Amazon, a researcher at Huawei, and Co-director and head of research at Apart Research.
+Previously, I was a researcher at Amazon and Huawei, and Co-director and Head of Research at Apart Research.
 </div>
 
 
