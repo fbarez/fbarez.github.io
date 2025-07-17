@@ -950,8 +950,8 @@ footer.sticky-bottom {
       .preview {
         width: 100px;
         height: 100px;
-        border-radius: 5px;
         object-fit: cover;
+        border-radius: 5px;
       }
 
       .abbr {
@@ -1341,18 +1341,26 @@ nav[data-toggle="toc"] {
   }
 
   .post-header > .post-title {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   .post-header > .desc {
     font-size: 1.16em;
   }
+  
   .profile {
-    height: 100vh;
+    height: auto;
     text-align: center;
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 2rem !important;
   }
+  
   .profile img {
-    width: 65vw;
+    width: 180px !important;
+    height: auto !important;
+    max-width: 180px !important;
+    margin: 0 auto !important;
   }
 
   .figure {
@@ -1387,11 +1395,10 @@ nav[data-toggle="toc"] {
         gap:20px;
       }
       .preview {
-        // width: 100%;
-        // min-width: 80px;
-        // max-width: 200px;
-        width:auto;
-        height: 20vh;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
       }
 
       .links a.btn{
@@ -1499,6 +1506,7 @@ nav .container{
   body > .container{
     max-width: 800px;
     margin: 0 auto;
+    width: 100%;
   }
 
   
