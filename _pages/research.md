@@ -11,7 +11,7 @@ nav_order: 1
 
 My research is focused on ensuring that as AI systems grow in capability, they remain safe, interpretable, and beneficial. My work, published in leading venues such as NeurIPS, ICML, ICLR, ACL, and EMNLP, spans four interconnected areas:
 
-### Mechanistic Interpretability
+### Interpretability
 
 I develop concrete methods to reveal how AI models process information internally. For example, by using sparse autoencoders and neural circuit analysis, I uncover the specific circuits in transformer models that drive decision-making. These techniques allow vulnerabilities—such as potential jailbreaks—to be identified and mitigated early.
 

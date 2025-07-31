@@ -84,7 +84,7 @@ nav_order: 3
   
   <div class="mentee-item">
     <div class="mentee-name">Michael Lan</div>
-    <div class="mentee-position"></div>
+    <div class="mentee-position">Now at Martian</div>
   </div>
   
   <div class="mentee-item">
@@ -109,7 +109,7 @@ nav_order: 3
   
   <div class="mentee-item">
     <div class="mentee-name">Luke Marks</div>
-    <div class="mentee-position"></div>
+    <div class="mentee-position">Now at MATS</div>
   </div>
 </div>
 
