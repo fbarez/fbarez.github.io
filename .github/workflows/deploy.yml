@@ -41,7 +41,7 @@ jobs:
           JEKYLL_ENV: production
         run: |
           pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
+          npm install -g @mermaid-js/mermaid-cli
           npm install -g purgecss
           bundle exec jekyll build --trace --verbose
           purgecss -c purgecss.config.js
