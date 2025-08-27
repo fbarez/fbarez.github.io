@@ -30,6 +30,19 @@ $max-content-width: {{ site.max_width }};
   }
 }
 
+// Fix profile and bio content layout
+.profile {
+  height: auto !important;
+  min-height: 500px !important; // Increase profile section to accommodate bio
+  overflow: visible !important;
+}
+
+// Give the bio content div more height to prevent overflow
+.post#about div[style*="text-align: justify"] {
+  min-height: 450px !important;
+  overflow: visible !important;
+}
+
 // Mobile responsiveness
 @media (max-width: 576px) {
   body {
