@@ -14,8 +14,8 @@ nav_order: 3
     <div class="teaching-year">2025</div>
     <div class="teaching-content">
       <div class="teaching-title"><a href="/AISAA/">AI Safety and Alignment</a></div>
-      <div class="teaching-venue">African Institute for Mathematical Sciences & African Institute for AI Governance</div>
-      <div class="teaching-description">Intensive course on AI safety and alignment - October 13-17, 2025 - Oxford</div>
+      <div class="teaching-venue">Autonomous Intelligent Machines and Systems (AIMS), Information Engineering, University of Oxford</div>
+      <div class="teaching-description">Intensive course on AI safety and alignment</div>
       <div class="teaching-links">
         <a href="/AISAA/" class="teaching-link"><i class="fas fa-link"></i> Course Website</a>
       </div>
