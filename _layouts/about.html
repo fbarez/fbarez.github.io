@@ -56,11 +56,7 @@ layout: default
   <p class="pub-note">* = Equal Contribution | For a complete list, visit my <a href="https://scholar.google.com/citations?user=EAjpNIMAAAAJ">Google Scholar</a></p>
   
   <div class="publications-by-year">
-    {% assign years = site.pages | where: "permalink", "/#publications" | first | map: "years" | first %}
-    {% for y in years %}
-      <h3 class="year">{{ y }}</h3>
-      {% bibliography -f papers -q @*[year={{y}}]* %}
-    {% endfor %}
+    {% bibliography -f papers -q @*[selected=true]* %}
   </div>
 </div>
 <div class="teaching--container" id="teaching">
