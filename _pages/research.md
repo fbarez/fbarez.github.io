@@ -9,7 +9,9 @@ nav_order: 1
 
 ## **Research Overview**
 
-My research is focused on ensuring that as AI systems grow in capability, they remain safe, interpretable, and beneficial. My work, published in leading venues such as NeurIPS, ICML, ICLR, ACL, and EMNLP, spans four interconnected areas:
+My research is focused on ensuring that as AI systems grow in capability, they remain safe, interpretable, and beneficial. My work, published in leading venues such as NeurIPS, ICML, ICLR, ACL, and EMNLP, spans four interconnected areas:
+
+For a comprehensive overview of my research directions and open problems, see my <a href="/assets/pdf/Automated_interp_Research_Agenda.pdf">Research Agenda</a>.
 
 ### Interpretability
 
