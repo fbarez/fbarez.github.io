@@ -91,7 +91,7 @@ My work has focused on understanding what happens inside neural networks and usi
 • When a model shows its reasoning, how do we know it actually computed things that way—and how do we give regulators evidence?
 <br><br style="line-height: 0.5;">
 Affiliations: Cambridge <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, NTU Digital Trust Centre, Edinburgh Informatics, <a href="https://ellis.eu/members">ELLIS</a>.<br>
-Beyond my core research, I'm drawn to neuroscience, Psychology, philosophy of science, poetry, and literature.
+Beyond my core research, I'm drawn to neuroscience, psychology, philosophy of science, poetry, and literature.
 </div>
 
 
