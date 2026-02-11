@@ -16,9 +16,6 @@ permalink: /
 
 
 subtitle: >
-  Mostly human.<br>
-  Sometimes researcher.<br>
-  Always curious.
 
 
 
@@ -84,17 +81,22 @@ years: [2023, 2021]
 
 
 
-<div style="text-align: justify;">
-I'm a Senior Research Fellow at the University of Oxford leading research on Technical AI Safety and Governance. My research bridges technical innovation and real-world impact - from developing algorithms that major AI labs adopt, to shaping policy responses at the highest levels of government. I currently serve as an advisor to Martian. I'm interested in commercializing interpretability research through startups to solve real-world problems.
-<br><br>
-My contributions include leading research with the UK AI Security Institute on <a href="https://arxiv.org/pdf/2501.04952">machine unlearning for AI safety</a> and developing the <a href="https://arxiv.org/pdf/2305.19911">N2G algorithm</a> adopted by OpenAI to evaluate <a href="https://arxiv.org/pdf/2406.04093">sparse autoencoders for interpretability</a>. I also spearheaded the <a href="https://www.turing.ac.uk/news/publications/alan-turing-institutes-response-house-lords-large-language-models-call-evidence">Alan Turing Institute's response</a> to the UK House of Lords inquiry on large language models and worked with Anthropic's Alignment team (2024-2025) on studies investigating <a href="https://arxiv.org/pdf/2401.05566">deception</a> and <a href="https://arxiv.org/pdf/2406.10162">reward hacking</a>, among other topics.
-<br><br>
-My research is funded by OpenAI, Anthropic, Schmidt Sciences, Future of Life Institute, NVIDIA, among others. I'm affiliated with Cambridge's <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, NTU's Digital Trust Centre, Edinburgh's Informatics, and am a member of <a href="https://ellis.eu/members">ELLIS</a>. Previously, I was a researcher at Amazon and Huawei, and Co-director and Head of Research at Apart Research.
+<div style="text-align: justify; margin-left: 320px; line-height: 1.6;">
+I am a Principal Investigator at the <a href="https://aigi.ox.ac.uk/">University of Oxford</a>, where I lead research on technical AI safety, interpretability, and governance. I teach Oxford's <a href="https://fbarez.github.io/AISAA/">AI Safety and Alignment</a> course and lead the research team at <a href="https://www.withmartian.com/">Martian</a>, where we work on understanding how intelligence works. My research is supported by OpenAI, Anthropic, Schmidt Sciences, NVIDIA, and others.
+<br><br style="line-height: 0.5;">
+My work has focused on understanding what happens inside neural networks and using that understanding to make AI systems safer. As models grow more capable, I think the most urgent challenge in interpretability is moving from observation to action—building systems where we can trace a model's internal reasoning, verify it, and correct it when something is wrong. Specific directions I'm working on:
+<br><br style="line-height: 0.5;">
+• When a model produces a surprising or harmful output, how can we trace the internal cause—automatically and at scale?<br>
+• How can we remove a dangerous capability from a model and be confident it won't come back?<br>
+• When a model shows its reasoning, how do we know it actually computed things that way—and how do we give regulators evidence?
+<br><br style="line-height: 0.5;">
+Affiliations: Cambridge <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, NTU Digital Trust Centre, Edinburgh Informatics, <a href="https://ellis.eu/members">ELLIS</a>.<br>
+Beyond my core research, I'm drawn to neuroscience, Psychology, philosophy of science, poetry, and literature.
 </div>
 
 
 <p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: italic;">
-I'm looking for motivated people interested in AI Safety, Interpretability, and Technical AI Governance. Before reaching out, please review my <a href="/assets/pdf/Automated_interp_Research_Agenda.pdf">Research Agenda</a> and tell me which aspects resonate with your interests or how your work fits into these directions. I value collaborative work and am especially committed to partnering with researchers from underrepresented, marginalized, and otherwise disadvantaged backgrounds. If this resonates with you, please contact me at fazl[at]robots[dot]ox[dot]ac[dot]uk
+I'm looking for motivated collaborators in AI safety, interpretability, and technical AI governance. If my <a href="https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf" target="_blank">Research Agenda</a> speaks to your interests, I'd love to hear which directions excite you and how your work connects. I'm especially committed to partnering with researchers from underrepresented and disadvantaged backgrounds. Reach out at fazl[at]robots[dot]ox[dot]ac[dot]uk.
 </p>
 
 

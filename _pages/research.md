@@ -1,30 +1,22 @@
----
-layout: page
-permalink: /#research
-title: Research
-description: Information about my research area.
-nav: true
-nav_order: 1
----
-
-## **Research Overview**
-
-My research is focused on ensuring that as AI systems grow in capability, they remain safe, interpretable, and beneficial. My work, published in leading venues such as NeurIPS, ICML, ICLR, ACL, and EMNLP, spans four interconnected areas:
+---
+layout: page
+permalink: /#research
+title: Research
+description: Information about my research area.
+nav: true
+nav_order: 1
+---
 
-For a comprehensive overview of my research directions and open problems, see my <a href="/assets/pdf/Automated_interp_Research_Agenda.pdf">Research Agenda</a>.
-
-### Interpretability
-
-I develop concrete methods to reveal how AI models process information internally. For example, by using sparse autoencoders and neural circuit analysis, I uncover the specific circuits in transformer models that drive decision-making. These techniques allow vulnerabilities—such as potential jailbreaks—to be identified and mitigated early.
-
-### Safety and Alignment
-
-I create practical tools to detect and address deceptive or misaligned behaviors in AI systems. My research shows that models can develop hidden behaviors that persist even after safety interventions. I've also established concrete metrics for assessing value alignment and detecting high-confidence hallucinations in language models.
-
-### Technical Governance
-
-I translate technical insights into structured frameworks that inform robust AI safety standards and governance. By analyzing how specific model components contribute to harmful outputs, my work provides evidence-based methods—such as techniques for unlearning and reward model interpretability—that support rigorous evaluation protocols.
-
-### Societal Impact
-
-I examine the broader implications of advanced AI systems on society. By identifying how technical design choices propagate bias and undermine fairness, my work outlines intervention points to ensure AI benefits are equitably distributed. My research explores how algorithmic decisions can deepen societal inequities, developing frameworks to measure value alignment between AI systems and human ethical principles.
+## **Research Overview**
+
+My research spans four areas, connected by a common thread: understanding what's happening inside models, fixing what's wrong, and building the tools and standards that make AI systems trustworthy and empowering. My research is published at top venues including NeurIPS, ICML, ICLR, ACL, EMNLP, and FAccT.
+
+**Interpretability**—We build systems that make consequential decisions, but we often can't explain *how* or *why* they made them. I work on changing that—figuring out which parts of a model drive a decision, what it's actually doing when it fails, and what to do when something is wrong.
+
+**Safety & Alignment**—Seeing inside a model could help catch what testing alone can miss. A model can pass existing evaluations and still behave differently in practice—retaining behaviours we thought we'd removed, or producing confident answers that aren't grounded in what the model actually processed. I study how that gap emerges and how to close it.
+
+**Technical Governance**—Understanding models matters more when it's actionable. I work on translating what we find inside models into structured methods that regulators and auditors can use to evaluate safety claims, verify that interventions worked, and hold those responsible accountable.
+
+**Societal Impact**—As AI systems become more capable, there's a risk that humans gradually lose agency—over decisions, institutions, and the systems that shape society. I study how these dynamics emerge and what technical and institutional interventions can keep humans in charge.
+
+For more details, see my <a href="/assets/pdf/Automated_interp_Research_Agenda.pdf">Research Agenda</a> and recent papers.
