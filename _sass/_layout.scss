@@ -179,7 +179,21 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 /* Ensure social icons are clickable */
+.more-info {
+  pointer-events: auto !important;
+}
+
+.contact-icons {
+  pointer-events: auto !important;
+}
+
 .contact-icons a {
+  pointer-events: auto !important;
+  position: relative;
+  z-index: 100;
+}
+
+.contact-icons a i {
   pointer-events: auto !important;
 }
 
