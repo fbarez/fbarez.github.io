@@ -95,8 +95,8 @@ Beyond my core research, I'm drawn to neuroscience, psychology, philosophy of sc
 </div>
 
 
-<p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: italic;">
-I'm looking for motivated collaborators. If my <a href="https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf" target="_blank">Research Agenda</a> speaks to your interests, I'd love to hear which directions excite you and how your work connects. I'm especially committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
+<p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: normal;">
+I'm looking for motivated collaborators. If my <a href="https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf" target="_blank" style="font-style: italic;">Research Agenda</a> speaks to your interests, I'd love to hear which directions excite you and how your work connects. I'm especially committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
 </p>
 
 
