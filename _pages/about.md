@@ -90,13 +90,13 @@ My work has focused on understanding what happens inside neural networks and usi
 • How can we remove a dangerous capability from a model and be confident it won't come back?<br>
 • When a model shows its reasoning, how do we know it actually computed things that way—and how do we give regulators evidence?
 <br><br style="line-height: 0.5;">
-Affiliations: Cambridge <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, NTU Digital Trust Centre, Edinburgh Informatics, <a href="https://ellis.eu/members">ELLIS</a>.<br>
+Affiliations: Cambridge <a href="https://www.cser.ac.uk/team/fazl-barez/">CSER</a>, NTU Digital Trust Centre, Edinburgh Informatics, and <a href="https://ellis.eu/members">ELLIS</a>.<br>
 Beyond my core research, I'm drawn to neuroscience, psychology, philosophy of science, poetry, and literature.
 </div>
 
 
 <p style="background-color: #ffeded; border-left: 4px solid #f8a5c2; padding: 12px 15px; margin: 8px 0; color: #333; display: inline-block; font-style: italic;">
-I'm looking for motivated collaborators in AI safety, interpretability, and technical AI governance. If my <a href="https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf" target="_blank">Research Agenda</a> speaks to your interests, I'd love to hear which directions excite you and how your work connects. I'm especially committed to partnering with researchers from underrepresented and disadvantaged backgrounds. Reach out at fazl[at]robots[dot]ox[dot]ac[dot]uk.
+I'm looking for motivated collaborators. If my <a href="https://fbarez.github.io/assets/pdf/Automated_interp_Research_Agenda.pdf" target="_blank">Research Agenda</a> speaks to your interests, I'd love to hear which directions excite you and how your work connects. I'm especially committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
 </p>
 
 

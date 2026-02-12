@@ -22,11 +22,18 @@ layout: default
       </header>
       <div class="more-info">
         {{ page.profile.more_info }}
-        <div class="contact-icons">{% include social.html %}</div>
+        <div class="contact-icons" style="margin-bottom: 8px;">{% include social.html %}</div>
         <a href="https://www.admonymous.co/flares">Anonymous feedback</a>
-        <span style="display: inline-block;">
+        <div class="poem-excerpt" style="font-family: 'Georgia', serif; font-size: 11px; font-style: italic; margin: 15px auto 15px auto; max-width: 240px; text-align: left; line-height: 1.5;">
+          The journey of a form along the line of time<br>
+          a form impregnating the barren line of time<br>
+          a form conscious of an image<br>
+          that returns from a feast in a mirror.
+          <div style="font-style: normal; font-family: inherit; text-align: right; margin-top: 6px; font-size: 11px;">— Forough Farrokhzad</div>
+        </div>
+        <div class="clustrmaps-container">
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WA-BtbFsdh6auBnmko2afCD1vbQ9_DS1Ykzq59GJC6o"></script>
-        </span>
+        </div>
       </div>
       {%- endif %}
     </div>

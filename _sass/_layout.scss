@@ -179,26 +179,50 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 /* Styling for ClusterMaps */
+.clustrmaps-container {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  max-width: 250px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+  pointer-events: none !important;
+}
+
+.clustrmaps-container * {
+  pointer-events: none !important;
+}
+
 #clustrmaps-widget-v2, #clustrmaps-widget, #clustrmaps-widget img {
   position: relative !important;
   display: inline-block !important;
-  margin-left: 10px !important;
-  width: 150px !important;
-  height: 150px !important;
+  margin: 0 auto !important;
+  width: 250px !important;
+  height: 250px !important;
   border-radius: 50% !important;
   overflow: hidden !important;
   box-shadow: 0 1px 2px rgba(0,0,0,.1) !important;
-  vertical-align: middle !important;
+  z-index: 1 !important;
+  transform: scale(1.67) !important;
+  transform-origin: center center !important;
+  pointer-events: none !important;
 }
 
 #clustrmaps-widget iframe {
   width: 150px !important;
   height: 150px !important;
-  transform: scale(1) !important;
-  transform-origin: 0 0 !important;
+  transform: scale(1.67) !important;
+  transform-origin: center center !important;
+  pointer-events: none !important;
 }
 
-#clstr_globe {
-  display: inline-block;
-  margin-left: 10px;
+#clustrmaps-widget a {
+  position: relative !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+.clearfix {
+  position: relative;
+  z-index: 10;
 }
