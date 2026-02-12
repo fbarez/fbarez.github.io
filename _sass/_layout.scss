@@ -178,6 +178,11 @@ body.sticky-bottom-footer {
 * ClusterMaps
 *****************************************************************************/
 
+/* Ensure social icons are clickable */
+.contact-icons a {
+  pointer-events: auto !important;
+}
+
 /* Styling for ClusterMaps */
 .clustrmaps-container {
   position: relative;
