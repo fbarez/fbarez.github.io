@@ -92,7 +92,7 @@ nav_order: 3
 - Elias Kempf — University of Freiburg (co-supervised with Thomas Brox)
 - Lucy Farnik — University of Bristol (co-supervised with Yuki Asano and Oana Camburu)
 
-**Research Interns and Mentees**
+**Research Fellows**
 - Tony Wu (Ting-Yun Wu)
 - Peter Jordan
 
@@ -113,7 +113,7 @@ nav_order: 3
     <li>Minseon Kim — KAIST (co-advised with David Krueger) (Now at Microsoft)</li>
   </ul>
 
-  <p class="mentee-category-label">Research Interns and Mentees</p>
+  <p class="mentee-category-label">Research Fellows</p>
   <ul class="past-mentees-list-section">
     <li>Jakub Vrabel</li>
     <li>Aly M. Kassem (Now PhD at Mila)</li>
