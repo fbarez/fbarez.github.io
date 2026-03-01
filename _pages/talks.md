@@ -13,6 +13,17 @@ nav_order: 4
   <div class="talk-item">
     <div class="talk-year">2025</div>
     <div class="talk-content">
+      <div class="talk-title">Invited Talk - Post-AGI Governance and the Risk of Authoritarian Optimization</div>
+      <div class="talk-venue">Post-AGI Workshop</div>
+      <div class="talk-links">
+        <a href="https://post-agi.org/talks/barez-political-control" class="talk-link"><i class="fas fa-video"></i> Video</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="talk-item">
+    <div class="talk-year">2025</div>
+    <div class="talk-content">
       <div class="talk-title">Invited Talk - AI Governance and Unlearning</div>
       <div class="talk-venue">Nvidia, Santa Clara, CA</div>
     </div>
@@ -47,17 +58,6 @@ nav_order: 4
       <div class="talk-venue">Digital Trust Centre (SAISI), NTU Singapore</div>
       <div class="talk-links">
         <a href="https://www.ntu.edu.sg/dtc/news-events/events/details/2024/10/28/default-calendar/research-talk-mechanistic-interpretability-for-ai-safety-insights-and-contributions" class="talk-link"><i class="fas fa-link"></i> Info</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="talk-item">
-    <div class="talk-year">2024</div>
-    <div class="talk-content">
-      <div class="talk-title">Invited Talk - Unlearning and Relearning in LLMs</div>
-      <div class="talk-venue">Digital Trust Centre (SAISI), NTU Singapore</div>
-      <div class="talk-links">
-        <a href="https://www.ntu.edu.sg/dtc/news-events/events/details/2024/08/21/default-calendar/research-talk-unlearning-and-relearning-in-large-language-models" class="talk-link"><i class="fas fa-link"></i> Info</a>
       </div>
     </div>
   </div>

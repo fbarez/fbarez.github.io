@@ -81,48 +81,56 @@ nav_order: 3
   </div>
 </div>
 
-### Past Mentees
+### Current Mentees
 
-<div class="mentees-container">
-  <div class="mentee-item">
-    <div class="mentee-name">Minseon Kim</div>
-    <div class="mentee-position">Now at Microsoft Research</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Michelle Lo</div>
-    <div class="mentee-position">Now at DeepMind</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Michael Lan</div>
-    <div class="mentee-position">Now at Martian</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Lovis Heindrich</div>
-    <div class="mentee-position">Now at Epoch</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Philip Quirke</div>
-    <div class="mentee-position">Now at Martian</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Clement Neo</div>
-    <div class="mentee-position">Now at DTC Singapore</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Alex Foot</div>
-    <div class="mentee-position">Now at Ripjar</div>
-  </div>
-  
-  <div class="mentee-item">
-    <div class="mentee-name">Luke Marks</div>
-    <div class="mentee-position">Now at MATS</div>
-  </div>
+**Postdoctoral Researchers**
+- Isaac Friend — University of Oxford (co-supervised with Robert Trager)
+- Rivka Mitchell — University of Oxford (co-supervised with Robert Trager)
+
+**PhD Students**
+- Lucas Irwin — University of Oxford (co-supervised with Michael Osborne & Philip Torr)
+- Elias Kempf — University of Freiburg (co-supervised with Thomas Brox)
+- Lucy Farnik — University of Bristol (co-supervised with Yuki Asano and Oana Camburu)
+
+**Research Interns and Mentees**
+- Tony Wu (Ting-Yun Wu)
+- Peter Jordan
+
+<a href="#" id="toggle-past-mentees" class="toggle-past-mentees-link" aria-expanded="false" aria-controls="past-mentees">
+  Past mentees
+</a>
+
+<div id="past-mentees" class="past-mentees-container" aria-hidden="true">
+  <p class="mentee-category-label">Postdoctoral Researchers</p>
+  <ul class="past-mentees-list-section">
+    <li>James Oldfield — University of Oxford (co-supervised with Adel Bibi)</li>
+  </ul>
+
+  <p class="mentee-category-label">Visiting PhD Students</p>
+  <ul class="past-mentees-list-section">
+    <li>Adi Simhi — Technion</li>
+    <li>James Oldfield — Queen Mary University of London (Now Postdoc at Oxford)</li>
+    <li>Minseon Kim — KAIST (co-advised with David Krueger) (Now at Microsoft)</li>
+  </ul>
+
+  <p class="mentee-category-label">Research Interns and Mentees</p>
+  <ul class="past-mentees-list-section">
+    <li>Jakub Vrabel</li>
+    <li>Aly M. Kassem (Now PhD at Mila)</li>
+    <li>Zhi-Yi Chin (Now PhD at CISPA)</li>
+    <li>Jeba Sania (co-supervised with Marta Ziozi) (Now MSc at Harvard)</li>
+    <li>Tingchen Fu (Now PhD student at Oxford)</li>
+    <li>Tanya Bas</li>
+    <li>Jayeyoung Lee</li>
+    <li>Michael Bravansky</li>
+    <li>Clement Neo — NTU Singapore (Now researcher at NTU)</li>
+    <li>Luke Marks (Now at Anthropic)</li>
+    <li>Michael Lan (Now at Martian)</li>
+    <li>Philip Quirke (Now at Martian)</li>
+    <li>Michelle Lo (Now at DeepMind)</li>
+    <li>Lovis Heindrich (Now at Epoch)</li>
+    <li>Jason Hoelscher-Obermaier (Now Research Director at Apart)</li>
+  </ul>
 </div>
 
 <style>
@@ -178,34 +186,86 @@ nav_order: 3
 }
 
 /* Mentees section styling */
-.mentees-container {
+
+/* Toggle link styling */
+.toggle-past-mentees-link {
+  display: inline-block;
   margin-top: 20px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 15px;
-}
-
-.mentee-item {
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  padding: 12px 15px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.mentee-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-
-.mentee-name {
-  font-weight: bold;
-  font-size: 1.05em;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   color: var(--global-theme-color, #0076df);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-.mentee-position {
-  color: #666;
-  font-size: 0.95em;
+.toggle-past-mentees-link:hover {
+  text-decoration: underline;
+}
+
+.toggle-past-mentees-link:focus {
+  outline: 2px solid var(--global-theme-color, #0076df);
+  outline-offset: 2px;
+}
+
+/* Past mentees container */
+.past-mentees-container {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+.past-mentees-container.open {
+  max-height: 2000px;
+  opacity: 1;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.mentee-category-label {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.mentee-category-label:first-child {
+  margin-top: 5px;
+}
+
+.past-mentees-list-section {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.past-mentees-list-section li {
+  margin-bottom: 6px;
+  line-height: 1.5;
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleLink = document.getElementById('toggle-past-mentees');
+  const pastMenteesContainer = document.getElementById('past-mentees');
+
+  if (toggleLink && pastMenteesContainer) {
+    toggleLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+      // Toggle aria attributes
+      this.setAttribute('aria-expanded', !isExpanded);
+      pastMenteesContainer.setAttribute('aria-hidden', isExpanded);
+
+      // Toggle open class
+      pastMenteesContainer.classList.toggle('open');
+
+      // Update link text
+      this.textContent = isExpanded ? 'Past mentees' : 'Hide past mentees';
+    });
+  }
+});
+</script>
