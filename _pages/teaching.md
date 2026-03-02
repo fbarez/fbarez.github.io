@@ -88,10 +88,10 @@ nav_order: 3
 - Rivka Mitchell — University of Oxford (co-supervised with Robert Trager)
 
 **PhD Students**
+- Yu Zhao — University of Edinburgh (co-advised with Pasquale Minervini)
 - Lucas Irwin — University of Oxford (co-supervised with Michael Osborne & Philip Torr)
 - Elias Kempf — University of Freiburg (co-supervised with Thomas Brox)
 - Lucy Farnik — University of Bristol (co-supervised with Yuki Asano and Oana Camburu)
-- Yu Zhao — University of Edinburgh (co-advised with Pasquale Minervini)
 
 **Visiting PhD Students**
 - Gabriele Dominici — USI Università della Svizzera italiana
