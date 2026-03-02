@@ -91,9 +91,13 @@ nav_order: 3
 - Lucas Irwin — University of Oxford (co-supervised with Michael Osborne & Philip Torr)
 - Elias Kempf — University of Freiburg (co-supervised with Thomas Brox)
 - Lucy Farnik — University of Bristol (co-supervised with Yuki Asano and Oana Camburu)
+- Yu Zhao — University of Edinburgh (co-advised with Pasquale Minervini)
+
+**Visiting PhD Students**
+- Gabriele Dominici — USI Università della Svizzera italiana
 
 **Research Fellows**
-- Tony Wu (Ting-Yun Wu)
+- Tung-Yu (Tony) Wu
 - Peter Jordan
 
 <a href="#" id="toggle-past-mentees" class="toggle-past-mentees-link" aria-expanded="false" aria-controls="past-mentees">
