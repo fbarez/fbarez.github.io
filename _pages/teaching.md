@@ -99,6 +99,7 @@ nav_order: 3
 **Research Fellows**
 - Tung-Yu (Tony) Wu
 - Peter Jordan
+- Keir Reid
 
 <a href="#" id="toggle-past-mentees" class="toggle-past-mentees-link" aria-expanded="false" aria-controls="past-mentees">
   Past mentees
