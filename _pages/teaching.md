@@ -85,7 +85,7 @@ nav_order: 3
 
 **Postdoctoral Researchers**
 - Isaac Friend — University of Oxford (co-supervised with Robert Trager)
-- Rivka Mitchell — University of Oxford (co-supervised with Robert Trager)
+- Zheng Zhao — University of Oxford
 
 **PhD Students**
 - Yu Zhao — University of Edinburgh (co-advised with Pasquale Minervini)
