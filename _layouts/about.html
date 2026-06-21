@@ -96,7 +96,7 @@ layout: default
         {{ content }}
 
         {% if page.news and site.announcements.enabled %}
-        <h2 style="margin-top: 1.5rem; margin-bottom: 0.25rem; text-align: center;">New News</h2>
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0; text-align: center;">New News</h2>
         {%- include news.html limit=true %}
         <p style="text-align: center; margin-top: 10px;">
           <a href="{{ '/news/' | relative_url }}">Old News &rarr;</a>
