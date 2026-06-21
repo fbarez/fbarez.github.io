@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 2 papers accepted at ICLR 2026! 🇧🇷
+2 papers accepted at ICLR 2026.

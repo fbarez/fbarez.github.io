@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Excited to be a panelist at the [Actionable Interpretability workshop](https://actionable-interpretability.github.io/) at ICML 2025! 🧠✨ July 19th in Vancouver 🇨🇦
+Panelist at the [Actionable Interpretability workshop](https://actionable-interpretability.github.io/) at ICML 2025, Vancouver.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 3 papers accepted at NeurIPS 2025! 🇩🇰🇲🇽🇺🇸
+3 papers accepted at NeurIPS 2025.

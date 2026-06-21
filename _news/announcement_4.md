@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New Paper 🎉: [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/pdf/2401.05566.pdf "Link to the paper")
+New paper: : [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/pdf/2401.05566.pdf "Link to the paper")

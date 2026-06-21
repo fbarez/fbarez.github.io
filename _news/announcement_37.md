@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 7 papers accepted at ICML 2026 🇰🇷, including 2 Spotlights: <em>There Are Futures That Benchmark-Driven AI Cannot See</em> and <em>Don't Just "Fix it in Post": A Science of AI Must Study Learning Dynamics</em>.
+7 papers accepted at ICML 2026, including 2 Spotlights: *There Are Futures That Benchmark-Driven AI Cannot See* and *Don't Just "Fix it in Post": A Science of AI Must Study Learning Dynamics*.

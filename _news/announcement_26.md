@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌟 Excited to speak at [Post-AGI Civilizational Equilibria: Are there any good ones?](https://post-agi.org) in Vancouver! 🇨🇦 July 14th, 2025 (co-located with ICML) 🤖✨
+Speaking at [Post-AGI Civilizational Equilibria](https://post-agi.org) in Vancouver, co-located with ICML 2025.

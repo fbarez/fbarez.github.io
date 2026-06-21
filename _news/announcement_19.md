@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted at EMNLP 2024! See you in Miami ❤️
+Two papers accepted at EMNLP 2024.

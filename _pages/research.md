@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /#research
+permalink: /research/
 title: Research
-description: Information about my research area.
+description:
 nav: true
 nav_order: 1
 ---

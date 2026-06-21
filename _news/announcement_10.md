@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Gave a keynote at EACL 2024 Personalization Workshop in Malta 🇲🇹: [PERSONALIZE @ EACL 2024](https://genpersonalization.github.io/)
+Gave a keynote at EACL 2024 Personalization Workshop in Malta : [PERSONALIZE @ EACL 2024](https://genpersonalization.github.io/)

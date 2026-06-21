@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📰 Featured in [The Independent](https://www.independent.co.uk) and the Irish Independent on AI safety and existential risk.
+Featured in [The Independent](https://www.independent.co.uk) and the Irish Independent on AI safety and existential risk.

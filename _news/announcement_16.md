@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented 2 main confrence and 1 workshop paper at ICML 2024! 🎉
+Presented 2 main confrence and 1 workshop paper at ICML 2024.

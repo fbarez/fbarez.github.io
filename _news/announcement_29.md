@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 4 papers accepted at EMNLP 2025 - see you all in China! 🇨🇳
+4 papers accepted at EMNLP 2025.
