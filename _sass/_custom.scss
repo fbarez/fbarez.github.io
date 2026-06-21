@@ -1,0 +1,165 @@
+// ===========================================================================
+//  _custom.scss  —  consolidated style overrides for al-folio
+//  Save as  _sass/_custom.scss  and ensure it is imported LAST in
+//  assets/css/main.scss  (after _themes.scss). If it's imported before
+//  themes, it will lose to the defaults.
+//
+//  IMPORTANT — the accent colour is set in ONE place, not here:
+//    _sass/_variables.scss  →  $theme-color: #1c3d5a;
+//  Change it there. That single line recolours nav, links, icons, scrollbar,
+//  and arrows. The block below is a belt-and-braces fallback only.
+// ===========================================================================
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap");
+
+$serif-display: "Newsreader", Georgia, "Times New Roman", serif;
+$serif-body:   "Source Serif 4", Georgia, serif;
+$accent:       #1c3d5a;   // keep in sync with $theme-color in _variables.scss
+$ink:          #1a1a1a;   // near-black body, softer than pure #000
+
+// --- Accent fallback — :root so navy shows before JS sets data-theme --------
+:root {
+  --global-theme-color: #{$accent};
+  --global-hover-color: #{darken($accent, 8%)};
+  --global-text-color:  #{$ink};
+}
+html[data-theme="light"] {
+  --global-theme-color: #{$accent};
+  --global-hover-color: #{darken($accent, 8%)};
+  --global-text-color:  #{$ink};
+}
+html[data-theme="dark"] {
+  --global-theme-color: #{lighten($accent, 28%)};
+  --global-hover-color: #{lighten($accent, 38%)};
+}
+
+// --- Typography & measure ---------------------------------------------------
+body {
+  color: $ink;
+  font-size: 1.06rem;
+  line-height: 1.65;
+}
+
+// One clear type scale.
+h1, .page-title, .post-title { font-family: $serif-display; font-weight: 500; font-size: 2rem;  letter-spacing: -0.01em; line-height: 1.15; }
+h2                           { font-family: $serif-display; font-weight: 500; font-size: 1.35rem; margin-top: 2rem; }
+h3                           { font-family: $serif-display; font-weight: 500; font-size: 1.1rem; }
+
+blockquote {
+  font-family: $serif-display; font-style: italic;
+  background: transparent; border-left: 2px solid $accent; border-radius: 0;
+  color: #2b2b2b; padding: 0.2rem 0 0.2rem 1rem;
+}
+
+// --- Epigraph (Farrokhzad poem, landing page left column) ------------------
+.epigraph {
+  font-family: $serif-display; font-style: italic;
+  font-size: 0.75rem; color: #2b2b2b; line-height: 1.7;
+  text-align: left; margin: 14px 0 2px 0;
+}
+.epigraph-attr {
+  font-size: 0.75rem; color: #666; text-align: right; margin: 0 0 14px 0;
+}
+
+// --- Links: calmer, editorial ----------------------------------------------
+.post-content a, .page-content a, p a {
+  color: $accent;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(28, 61, 90, 0.35);
+}
+.post-content a:hover, .page-content a:hover, p a:hover { text-decoration-color: $accent; }
+
+// --- Navigation: smaller, active = underline not colour fill ----------------
+// NOTE: al-folio puts "active" on the <li class="nav-item">, not the <a>.
+.navbar .nav-link { font-size: 0.95rem; letter-spacing: 0.01em; }
+.navbar .nav-item.active > .nav-link {
+  color: $ink !important;
+  border-bottom: 2px solid $accent;
+  border-radius: 0;
+}
+
+// --- Top gap: tighten the container mt-5 -----------------------------------
+.container.mt-5 { margin-top: 1.75rem !important; }
+
+// --- Footer: strip the heavy bar -------------------------------------------
+footer, .footer {
+  background: transparent !important;
+  color: var(--color-text-secondary, #777) !important;
+  font-size: 0.8rem;
+  border-top: 0.5px solid rgba(0,0,0,0.08);
+}
+footer a, .footer a { color: inherit; }
+
+// --- Publications: two-column sidebar layout --------------------------------
+// Venue badge column hidden; entries use full width within their column.
+.bibliography .preview, .bibliography .col-sm-2, .bibliography .abbr { display: none; }
+.bibliography .col-sm-10 { flex: 0 0 100%; max-width: 100%; }
+
+// Outer row: category label left, papers right.
+.pub-section {
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+// Category label: fixed width, right-aligned so it sits flush against the papers.
+.pub-category {
+  flex: 0 0 150px;
+  font-family: $serif-display;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: $ink;
+  text-align: right;
+  padding-top: 3px;
+}
+
+// Papers column: takes remaining width.
+.pub-entries {
+  flex: 1;
+  min-width: 0;
+}
+
+// Entry: tight vertical rhythm so each reads as one compact block.
+.bibliography .title  { font-weight: 600; font-size: 1rem; color: $accent; line-height: 1.3; margin-bottom: 2px; }
+.bibliography .author { color: #555; font-size: 0.92rem; line-height: 1.4; margin-bottom: 1px; }
+.bibliography .author strong, .bibliography .author u, .bibliography .author a {
+  font-weight: 600; color: $ink; text-decoration: none;
+}
+
+// Venue + links share ONE line (saves a line per entry).
+.bibliography .periodical { color: #555; font-size: 0.9rem; font-style: italic; display: inline; }
+.bibliography .links { display: inline; margin-left: 10px; }
+
+// Link chips (Abs / arXiv / Bib / PDF): quiet outline, small.
+.bibliography .links a.btn, .bibliography a.badge {
+  background: transparent !important; border: 0.5px solid rgba(0,0,0,0.18);
+  color: #444 !important; text-transform: none; letter-spacing: 0;
+  font-size: 0.7rem !important; font-weight: 400; padding: 1px 9px !important;
+  box-shadow: none; border-radius: 3px;
+}
+.bibliography .links a.btn:hover { border-color: $accent; color: $accent !important; }
+
+// Kill all dividers between entries; compact spacing.
+ol.bibliography > li, .bibliography li, .bibliography .row { border: 0 !important; }
+.bibliography li::before, .bibliography li::after { display: none !important; }
+.bibliography hr { display: none !important; }
+ol.bibliography > li { margin-bottom: 1.1rem; padding-bottom: 0; }
+
+// --- News: smaller text, unbolded date -------------------------------------
+.news, .announcements { border-left: 0.5px solid rgba(0,0,0,0.10); }
+.news::-webkit-scrollbar-thumb,
+.announcements::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.18); border-radius: 4px; }
+.news th, .news td, .announcements th, .announcements td { font-size: 0.85rem; }
+.news th, .announcements .date { font-weight: 400; color: #666; }
+
+// --- Box removal -----------------------------------------------------------
+.collaborators, .callout, .alert, .highlight-box {
+  background: transparent !important; border: 0; border-left: 2px solid $accent;
+  border-radius: 0; padding: 0.2rem 0 0.2rem 1rem; box-shadow: none;
+}
+.social, .contact-icons, .profile .social {
+  background: transparent !important; border: 0; box-shadow: none; padding: 0;
+}

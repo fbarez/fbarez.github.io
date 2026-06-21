@@ -5,99 +5,119 @@ layout: default
 <!-- about.html -->
 <div class="post" id="about">
   <article>
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %} {%- assign profile_image_path =
-      page.profile.image | prepend: 'assets/img/' -%} {% if
-      page.profile.image_circular %} {%- assign profile_image_class = "img-fluid
-      z-depth-1 rounded-circle" -%} {% else %} {%- assign profile_image_class =
-      "img-fluid z-depth-1" -%} {% endif %} {% include figure.html
-      path=profile_image_path class=profile_image_class alt=page.profile.image
-      cache_bust=true -%} {% endif -%} {%- if page.profile.more_info %}
-      <header class="post-header">
-        <h1 class="post-title">
-          Fazl Barez
-        </h1>
-        <p class="desc">{{ page.subtitle }}</p>
-      </header>
-      <div class="more-info">
-        {{ page.profile.more_info }}
-        <div class="contact-icons" style="margin-bottom: 8px;">{% include social.html %}</div>
-        <a href="https://www.admonymous.co/flares">Anonymous feedback</a>
-        <div class="poem-excerpt" style="font-family: 'Georgia', serif; font-size: 11px; font-style: italic; margin: 15px auto 15px auto; max-width: 240px; text-align: left; line-height: 1.5;">
+
+    <!-- Two-column flex layout: left sidebar + right content -->
+    <div style="display: flex; gap: 2.5rem; align-items: flex-start; flex-wrap: wrap;">
+
+      <!-- LEFT COLUMN -->
+      <div style="flex: 0 0 220px; text-align: center;">
+
+        <div class="profile-morph" style="position:relative; width:100%; aspect-ratio:1; border-radius:8px; overflow:hidden;">
+          <img id="pm-base" src="{{ '/assets/img/fazlB.jpg' | relative_url }}" alt="Fazl Barez"
+               class="img-fluid z-depth-1"
+               style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:opacity .9s ease;">
+          <img id="pm-overlay" src="" alt=""
+               style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0; transition:opacity .9s ease;">
+        </div>
+        <script>
+          (function () {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+            // Portraits that appear as overlays
+            var portraits = [
+              '{{ "/assets/img/prof_art.jpg" | relative_url }}',
+              '{{ "/assets/img/prof_avicenna.jpg" | relative_url }}',
+              '{{ "/assets/img/prof_khwarizmi.webp" | relative_url }}',
+              '{{ "/assets/img/prof_mirzakhani.jpg" | relative_url }}',
+              '{{ "/assets/img/prof_rumi.jpg" | relative_url }}',
+              '{{ "/assets/img/prof_ferdowsi.jpg" | relative_url }}'
+            ];
+
+            // Fazl variants — cycle through as base between each portrait
+            var fazlVariants = [
+              '{{ "/assets/img/fazlB.jpg" | relative_url }}',
+              '{{ "/assets/img/fazl_lineart_wb.png" | relative_url }}',
+              '{{ "/assets/img/fazl_lineart_tn.png" | relative_url }}',
+              '{{ "/assets/img/fazl_lineart_on.png" | relative_url }}',
+              '{{ "/assets/img/fazl_lineart_wn.png" | relative_url }}'
+            ];
+
+            // Fisher-Yates shuffle portraits
+            for (var i = portraits.length - 1; i > 0; i--) {
+              var j = Math.floor(Math.random() * (i + 1));
+              var tmp = portraits[i]; portraits[i] = portraits[j]; portraits[j] = tmp;
+            }
+
+            var base    = document.getElementById('pm-base');
+            var overlay = document.getElementById('pm-overlay');
+            var pIdx = 0, fIdx = 0, showing = false;
+
+            setInterval(function () {
+              if (!showing) {
+                // Fade in next portrait overlay
+                overlay.src = portraits[pIdx];
+                overlay.style.opacity = 1;
+                showing = true;
+                // While portrait is fully covering the base, silently swap to next Fazl variant
+                setTimeout(function () {
+                  fIdx = (fIdx + 1) % fazlVariants.length;
+                  base.src = fazlVariants[fIdx];
+                }, 1000);
+              } else {
+                // Fade out portrait to reveal new Fazl variant underneath
+                overlay.style.opacity = 0;
+                showing = false;
+                pIdx = (pIdx + 1) % portraits.length;
+              }
+            }, 5000);
+          })();
+        </script>
+
+        <!-- Quote under photo -->
+        <p class="epigraph">
           The journey of a form along the line of time<br>
           a form impregnating the barren line of time<br>
           a form conscious of an image<br>
           that returns from a feast in a mirror.
-          <div style="font-style: normal; font-family: inherit; text-align: right; margin-top: 6px; font-size: 11px;">— Forough Farrokhzad</div>
+        </p>
+        <p class="epigraph-attr">— Forough Farrokhzad</p>
+
+        <!-- Social icons (bare) -->
+        <div style="display: flex; gap: 12px; font-size: 1.2rem; flex-wrap: wrap; justify-content: center; margin: 4px 0 6px 0;">
+          {% include social.html %}
         </div>
-        <div class="clustrmaps-container">
+        <a href="https://www.admonymous.co/flares" style="font-size: 0.78em; color: #888; display: block; text-align: center; margin-bottom: 12px;">Share anonymous feedback</a>
+
+        <!-- Visitor globe -->
+        <div style="margin-top: 14px;">
           <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WA-BtbFsdh6auBnmko2afCD1vbQ9_DS1Ykzq59GJC6o"></script>
         </div>
-      </div>
-      {%- endif %}
-    </div>
-    {%- endif %}
 
-    <div class="clearfix">
-      {{ content }}
-      <div class="next-info">
-        <!-- News -->
-        {% if page.news and site.announcements.enabled -%}
-        <!-- <h2>
-          <a href="{{ '/news/' | relative_url }}" style="color: inherit"
-            >news</a
-          >
-        </h2> -->
-        {%- include news.html limit=true %} {%- endif %}
       </div>
+
+      <!-- RIGHT COLUMN -->
+      <div style="flex: 1; min-width: 280px;">
+        {{ content }}
+
+        {% if page.news and site.announcements.enabled %}
+        <h2 style="margin-top: 1.5rem;">News</h2>
+        {%- include news.html limit=true %}
+        <p style="text-align: center; margin-top: 10px;">
+          <a href="{{ '/news/' | relative_url }}">All news &rarr;</a>
+        </p>
+        {% endif %}
+      </div>
+
     </div>
+
   </article>
 </div>
-<div id="research">
-  {% assign research_content = site.pages | where: "name", "research.md" | first
-  %} {{ research_content.content | markdownify }}
-</div>
-<div class="publications" id="publications">
-  <h2><strong>Selected Publications</strong></h2>
-  <p class="pub-note">* = Equal Contribution | For a complete list, visit my <a href="https://scholar.google.com/citations?user=EAjpNIMAAAAJ">Google Scholar</a></p>
-  
-  <div class="publications-by-year">
-    {% bibliography -f papers -q @*[selected=true]* %}
-  </div>
-</div>
-<div class="teaching--container" id="teaching">
-  <h2><strong>Teaching & Mentoring</strong></h2>
-  {% assign teaching_content = site.pages | where: "name", "teaching.md" | first %} 
-  {{ teaching_content.content | markdownify }}
-  <hr />
-</div>
-<div class="talks--container" id="talks">
-  {% assign talks_content = site.pages | where: "name", "talks.md" | first %} {{
-  talks_content.content | markdownify }}
 
-  <hr />
-</div>
-<div class="awards--container" id="awards">
-  {% assign awards_content = site.pages | where: "name", "awards.md" | first %}
-  {{ awards_content.content | markdownify }}
-</div>
-<!-- Social -->
-{%- if page.social %}
-<div class="social">
-  <!-- <div class="contact-note">Thank you for reading till here</div> -->
-</div>
-{%- endif %}
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
-<!-- <script src="/al-folio/assets/js/bootstrap.bundle.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
   integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
 <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
   integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-
 <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>

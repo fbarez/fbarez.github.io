@@ -2,27 +2,16 @@
 layout: page
 title: Engagements
 permalink: /engagements/
-description: Speaking, Consulting, and Media
 nav: true
 nav_order: 5
 ---
 
-# Engagement
+I welcome inquiries for speaking, consulting, and media in AI safety, interpretability, and technical AI governance.
 
-I welcome inquiries for speaking, consulting, and media collaborations in AI safety, interpretability, and technical AI governance.
+**Speaking**—talks on interpretability, unlearning, and AI governance for conferences and research institutions.
 
-## Speaking
+**Consulting**—AI alignment assessment, interpretability techniques, and evidence-based safety protocols.
 
-Talks on mechanistic interpretability, unlearning methods, and AI governance at conferences and research institutions (past: Singapore AI Safety Institute, KAIST, ICLR, EACL).
+**Media & academic**—explaining technical work to broader audiences; conference organising and mentoring.
 
-## Consulting
-
-Help with AI alignment assessment, LLM interpretability techniques, and evidence-based safety protocols.
-
-## Media & Academic
-
-Available to explain technical concepts to broader audiences and contribute through conference organizing and mentoring.
-
-### Contact
-
-**fazlbarez93 [at] gmail [dot] com**
+**Contact**—[firstname][lastname]93[at]gmail[dot]com
