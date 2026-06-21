@@ -149,7 +149,7 @@ ol.bibliography > li, .bibliography li, .bibliography .row { border: 0 !importan
 ol.bibliography > li { margin-bottom: 1.1rem; padding-bottom: 0; }
 
 // --- News: smaller text, unbolded date -------------------------------------
-.news, .announcements { border-left: 0.5px solid rgba(0,0,0,0.10); margin-top: 0; }
+.news, .announcements { border-left: 0.5px solid rgba(0,0,0,0.10); margin-top: -1rem; padding-top: 0; }
 .news::-webkit-scrollbar-thumb,
 .announcements::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.18); border-radius: 4px; }
 .news th, .news td, .announcements th, .announcements td { font-size: 0.85rem; }
