@@ -111,8 +111,12 @@
       
       {%- if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="arxiv btn btn-sm z-depth-0" role="button">arXiv</a>
-      {%- endif %} 
-      
+      {%- endif %}
+
+      {%- if entry.html %}
+      <a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0" role="button">HTML</a>
+      {%- endif %}
+
       {%- if entry.code %}
       <a href="{{ entry.code }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm code z-depth-0" role="button">Code</a>
       {%- endif %}

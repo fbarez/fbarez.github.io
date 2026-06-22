@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-Getting the public and policy conversation about AI right matters as much as the research itself. I write, speak, and advise on AI safety, interpretability, and governance — for researchers, policymakers, startups, and the public.
+Getting the public and policy conversation about AI right matters as much as the research itself. I write, speak, and advise on AI safety, interpretability, and governance—for researchers, policymakers, startups, and the public.
 
 **Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
 
@@ -18,6 +18,6 @@ Getting the public and policy conversation about AI right matters as much as the
 
 **Speaking.** Keynotes, seminars, and panels at academic and industry venues. → [See talks](/talks/)
 
-**Advisory.** I work with AI startups on safety, interpretability, and security — usually the questions that are hard to get right when you're small: where to point the research agenda, what benchmarks and datasets to build, how to evaluate your models, and who to hire.
+**Advisory.** I work with AI startups on safety, interpretability, and security—usually the questions that are hard to get right when you're small: where to point the research agenda, what benchmarks and datasets to build, how to evaluate your models, and who to hire.
 
 **Contact**—[firstname][lastname]93[at]gmail[dot]com
