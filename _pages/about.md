@@ -16,5 +16,5 @@ I am a [Senior Researcher](https://eng.ox.ac.uk/people/fazl-barez/) at the Unive
 **Affiliations:** [Centre for the Study of Existential Risk](https://www.cser.ac.uk/), University of Cambridge; [Digital Trust Centre](https://www.ntu.edu.sg/dtc), Nanyang Technological University; [School of Informatics](https://www.ed.ac.uk/informatics), University of Edinburgh; and [ELLIS](https://ellis.eu/) (European Laboratory for Learning and Intelligent Systems).
 
 <p class="callout">
-I am looking for students — <a href="https://tsglab.github.io/contact/">read the guide before reaching out</a>. I am committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
+I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). I am committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
 </p>
