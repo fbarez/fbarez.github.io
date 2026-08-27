@@ -12,8 +12,6 @@ nav_order: 3
 
 **2025—AI Safety and Alignment.** Main instructor. AIMS / Information Engineering, University of Oxford. Graduate course, designed from scratch and running its third year in 2026/27. Guest lecturers have included Yoshua Bengio, Neel Nanda, David Krueger, Robert Trager and Joslyn Barnhart. [Course site](/AISAA/)
 
-**2026—Guest Lecturer, Information Engineering.** University of Oxford.
-
 **2025—Tutor, C19 Deep Learning.** Department of Engineering Science, University of Oxford.
 
 **2025—Guest Lecturer, Oxford Internet Institute.** University of Oxford.
