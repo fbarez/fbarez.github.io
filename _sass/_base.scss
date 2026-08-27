@@ -501,10 +501,32 @@ footer.fixed-bottom {
 }
 
 // consulting page styles
-ul {
+// Scoped to .consulting: as a bare `ul` selector this stripped the marker and
+// indent from every list on the site, including page content.
+.consulting ul {
   --icon-space: 1.3em;
   list-style: none;
   padding: 0;
+}
+
+// Content lists in page copy: dash marker, indented. `:not([class])` keeps this
+// off component lists (.awards-list, .navbar-nav, ...) which style themselves.
+.post article ul:not([class]) {
+  list-style: none;
+  padding-left: 1.5em;
+
+  > li {
+    position: relative;
+    margin-bottom: 0.35rem;
+    line-height: 1.55;
+
+    &::before {
+      content: "\2013";
+      position: absolute;
+      left: -1.2em;
+      color: var(--global-text-color-light);
+    }
+  }
 }
 
 // li {

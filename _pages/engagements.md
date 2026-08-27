@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-**Writing & media.** Selected coverage:
+**Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
 
 - [The Verge](https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning) (2026)—"We're running out of reasons to ignore AI safety", on the OpenAI–Hugging Face incident
 - **Sky News** (2026)—live television interview, *Morning Show*
@@ -18,7 +18,7 @@ nav_order: 5
 - [Raconteur](https://www.raconteur.net/) (2025)—quoted on US AI deregulation
 - **NBC News**—the Martian \$1M Interpretability Prize, which grew out of interpretability research productionised by Martian
 
-**Speaking.** → [See talks](/talks/)
+**Speaking.** Keynotes, seminars, and panels at academic and industry venues. → [See talks](/talks/)
 
 **Service.** Programme Chair, International Association for Safe & Ethical AI (IASEAI). Area Chair for ICLR 2026, EMNLP 2025 and ACL 2025. Workshop organisation: Mechanistic Interpretability (NeurIPS 2025, ICML 2024), Technical AI Governance (ICML 2025), PrivacyML tutorial (NeurIPS 2024), Scaling Behaviour of LLMs (EACL 2024). Reviewer for Nature, Science and Nature Machine Intelligence, and for the major ML venues. Grant review for the Future of Life Institute, Schmidt Sciences, and the Center for Security and Emerging Technology.
 
