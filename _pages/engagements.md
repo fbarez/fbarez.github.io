@@ -18,7 +18,7 @@ nav_order: 5
 - [Raconteur](https://www.raconteur.net/) (2025)—quoted on US AI deregulation
 - **NBC News**—the Martian \$1M Interpretability Prize, which grew out of interpretability research productionised by Martian
 
-**Speaking.** Keynotes, seminars, and panels at academic and industry venues. → [See talks](/talks/)
+**Speaking.** → [See talks](/talks/)
 
 **Service.** Programme Chair, International Association for Safe & Ethical AI (IASEAI). Area Chair for ICLR 2026, EMNLP 2025 and ACL 2025. Workshop organisation: Mechanistic Interpretability (NeurIPS 2025, ICML 2024), Technical AI Governance (ICML 2025), PrivacyML tutorial (NeurIPS 2024), Scaling Behaviour of LLMs (EACL 2024). Reviewer for Nature, Science and Nature Machine Intelligence, and for the major ML venues. Grant review for the Future of Life Institute, Schmidt Sciences, and the Center for Security and Emerging Technology.
 
