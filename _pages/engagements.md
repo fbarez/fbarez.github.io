@@ -22,6 +22,6 @@ nav_order: 5
 
 **Service.** Programme Chair, International Association for Safe & Ethical AI (IASEAI). Area Chair for ICLR 2026, EMNLP 2025 and ACL 2025. Workshop organisation: Mechanistic Interpretability (NeurIPS 2025, ICML 2024), Technical AI Governance (ICML 2025), PrivacyML tutorial (NeurIPS 2024), Scaling Behaviour of LLMs (EACL 2024). Reviewer for Nature, Science and Nature Machine Intelligence, and for the major ML venues. Grant review for the Future of Life Institute, Schmidt Sciences, and the Center for Security and Emerging Technology.
 
-**Advisory.** I work with AI startups on safety, interpretability, and security—usually the questions that are hard to get right when you're small: where to point the research agenda, what benchmarks and datasets to build, how to evaluate your models, and who to hire.
+**Advisory.** I work with AI startups on safety, interpretability, and security.
 
 **Contact**—[firstname][lastname]93[at]gmail[dot]com
