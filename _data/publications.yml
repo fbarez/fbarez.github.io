@@ -1,6 +1,6 @@
 # Generated: merge of TSG Lab publication entries (authoritative metadata)
 # and CV.tex entries with no TSG counterpart. Regenerate, do not hand-edit.
-- title: 'Token Taxes: Mitigating AGI''s Economic Risks'
+- title: Token Taxes Can Mitigate AI's Economic Risks
   authors:
   - L. Irwin
   - T.-Y. Wu
@@ -52,7 +52,7 @@
   date: '2026-02-01'
   venue_label: EMNLP 2026
   url: ''
-- title: The Hitchhiker's Guide to Actionable Interpretability
+- title: Interpretability Can Be Actionable
   authors:
   - H. Orgad
   - F. Barez
@@ -62,11 +62,11 @@
   - A. Reusch
   - N. Saphra
   - et al.
-  venue: Preprint
-  type: Preprint
+  venue: ICML 2026 (Position Paper)
+  type: Conference
   topic: Interpretability
   date: '2026-01-15'
-  venue_label: Preprint
+  venue_label: ICML 2026 (Position Paper)
   url: ''
 - title: When AI Systems Learn During Deployment, Our Safety Evaluations Break
   authors:
@@ -167,22 +167,6 @@
   topic: Interpretability
   date: '2026-01-01'
   venue_label: ACL 2026
-  url: ''
-- title: Interpretability Can Be Actionable
-  authors:
-  - H. Orgad
-  - F. Barez
-  - T. Haklay
-  - I. Lee
-  - M. Mosbach
-  - A. Reusch
-  - N. Saphra
-  - et al.
-  venue: ICML 2026 (Position Paper)
-  type: Conference
-  topic: Interpretability
-  date: '2026-01-01'
-  venue_label: ICML 2026 (Position Paper)
   url: ''
 - title: 'Don''t Just "Fix it in Post": A Science of AI Must Study Learning Dynamics'
   authors:
