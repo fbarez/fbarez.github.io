@@ -1,0 +1,1136 @@
+# Generated: merge of TSG Lab publication entries (authoritative metadata)
+# and CV.tex entries with no TSG counterpart. Regenerate, do not hand-edit.
+- title: 'Token Taxes: Mitigating AGI''s Economic Risks'
+  authors:
+  - L. Irwin
+  - T.-Y. Wu
+  - F. Barez
+  venue: ICML 2026 (Position Paper)
+  type: Conference
+  topic: Societal Impact
+  date: '2026-03-01'
+  venue_label: ICML 2026 (Position Paper)
+  url: ''
+- title: 'Old Habits Die Hard: How Conversational History Geometrically Traps LLMs'
+  authors:
+  - A. Simhi
+  - F. Barez
+  - M. Tutek
+  - Y. Belinkov
+  - S. B. Cohen
+  venue: ICML 2026
+  type: Conference
+  topic: Interpretability
+  date: '2026-03-01'
+  venue_label: ICML 2026
+  url: ''
+- title: 'AutoControl Arena: Synthesizing Executable Test Environments for Frontier AI Risk Evaluation'
+  authors:
+  - C. Li
+  - P. Lu
+  - X. Pan
+  - F. Barez
+  - M. Yang
+  venue: ICML 2026
+  type: Conference
+  topic: Technical Governance
+  date: '2026-03-01'
+  venue_label: ICML 2026
+  url: ''
+- title: 'Same Answer, Different Representations: Hidden Instability in VLMs'
+  authors:
+  - F. A. Wani
+  - A. Suglia
+  - R. Saxena
+  - A. P. Gema
+  - W. C. Kwan
+  - F. Barez
+  - et al.
+  venue: EMNLP 2026
+  type: Conference
+  topic: Interpretability
+  date: '2026-02-01'
+  venue_label: EMNLP 2026
+  url: ''
+- title: The Hitchhiker's Guide to Actionable Interpretability
+  authors:
+  - H. Orgad
+  - F. Barez
+  - T. Haklay
+  - I. Lee
+  - M. Mosbach
+  - A. Reusch
+  - N. Saphra
+  - et al.
+  venue: Preprint
+  type: Preprint
+  topic: Interpretability
+  date: '2026-01-15'
+  venue_label: Preprint
+  url: ''
+- title: When AI Systems Learn During Deployment, Our Safety Evaluations Break
+  authors:
+  - F. Barez
+  venue: Preprint
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2026-01-01'
+  venue_label: Preprint
+  url: ''
+- title: What AI Governance Needs from Mechanistic Auditing
+  authors: []
+  venue: TAIGR Workshop, ICML 2026
+  type: Workshop
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: TAIGR Workshop, ICML 2026
+  url: ''
+- title: Uplifting Human Decision Making in AI Evaluation by Automating Benchmark Design
+  authors: []
+  venue: CTB Workshop, ICML 2026
+  type: Workshop
+  topic: Safety & Alignment
+  date: '2026-01-01'
+  venue_label: CTB Workshop, ICML 2026
+  url: ''
+- title: There Are Futures That Benchmark-Driven AI Cannot See
+  authors:
+  - S. Lotfi
+  - A. Iranmanesh
+  - L. Naghashyar
+  - A. Shirali
+  - F.N. Haredasht
+  - S. Koyejo
+  - P. Torr
+  - Y.S. Lee
+  - F. Barez
+  - J. Lehman
+  - P. Norvig
+  - A. Narayanan
+  venue: ICML 2026 (Position Paper, Spotlight)
+  type: Conference
+  topic: Safety & Alignment
+  date: '2026-01-01'
+  venue_label: ICML 2026 (Position Paper, Spotlight)
+  url: ''
+- title: 'The Capability Frontier: Benchmarks Miss 82% of Model Performance'
+  authors:
+  - B. Fowler
+  - R. Smith
+  - D. T. Graviet
+  - W. Myers
+  - J. Greaves
+  - N. F. Oozeer
+  - A. García
+  - et al.
+  venue: ICLR 2026 Workshop on Data-Centric Foundation Models (Oral)
+  type: Workshop
+  topic: Technical Governance
+  date: '2026-01-01'
+  venue_label: ICLR 2026 Workshop on Data-Centric Foundation Models (Oral)
+  url: ''
+- title: Rigorous Interpretation Is a Form of Evaluation
+  authors: []
+  venue: Eval Eval Workshop, ACL 2026
+  type: Workshop
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: Eval Eval Workshop, ACL 2026
+  url: ''
+- title: Quantifying the Effect of Test Set Contamination on Generative Evaluations
+  authors:
+  - R. Schaeffer
+  - J. Kazdan
+  - B. Abbasi
+  - K. Z. Liu
+  - B. Miranda
+  - A. Ahmed
+  - F. Barez
+  - et al.
+  venue: FoGen Workshop, ICML 2026
+  type: Workshop
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: FoGen Workshop, ICML 2026
+  url: ''
+- title: 'Make Mechanistic Interpretability Auditable: A Call to Develop Guidelines via Continuous Collaborative Reviewing'
+  authors:
+  - M. Lan
+  - N.F. Oozeer
+  - C. Bandi
+  - P. Quirke
+  - A. Meek
+  - F. Barez
+  - A. Abdullah
+  venue: ACL 2026
+  type: Conference
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: ACL 2026
+  url: ''
+- title: Interpretability Can Be Actionable
+  authors:
+  - H. Orgad
+  - F. Barez
+  - T. Haklay
+  - I. Lee
+  - M. Mosbach
+  - A. Reusch
+  - N. Saphra
+  - et al.
+  venue: ICML 2026 (Position Paper)
+  type: Conference
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: ICML 2026 (Position Paper)
+  url: ''
+- title: 'Don''t Just "Fix it in Post": A Science of AI Must Study Learning Dynamics'
+  authors:
+  - S. Biderman
+  - M.A. Khan
+  - N. Mireshghallah
+  - C. Arnett
+  - F. Barez
+  - N. Saphra
+  venue: ICML 2026 (Position Paper, Spotlight)
+  type: Conference
+  topic: Safety & Alignment
+  date: '2026-01-01'
+  venue_label: ICML 2026 (Position Paper, Spotlight)
+  url: ''
+- title: 'Beyond Alignment: Why Robotic Foundation Models Need Context-Aware Safety'
+  authors:
+  - A. Robey
+  - Z. Ravichandran
+  - E.K. Jones
+  - J. Perlo
+  - F. Barez
+  - V. Kumar
+  - J.Z. Kolter
+  - H. Hassani
+  - G.J. Pappas
+  venue: Science Robotics, 2026
+  type: Journal
+  topic: Safety & Alignment
+  date: '2026-01-01'
+  venue_label: Science Robotics, 2026
+  url: ''
+- title: 'Automated Interpretability-Driven Model Auditing and Control: A Research Agenda'
+  authors:
+  - F. Barez
+  venue: AI Governance Initiative, University of Oxford, 2026
+  type: Policy
+  topic: Interpretability
+  date: '2026-01-01'
+  venue_label: AI Governance Initiative, University of Oxford, 2026
+  url: ''
+- title: Agentic Product Maturity Ladder V0.1
+  authors:
+  - S. McGregor
+  - D. Nathani
+  - L. Saouma
+  - F. Barez
+  - A. Foundjem
+  - et al.
+  venue: MLCommons
+  type: Policy
+  topic: Technical Governance
+  date: '2026-01-01'
+  venue_label: MLCommons
+  url: ''
+- title: 'Full-Stack Alignment: Co-Aligning AI and Institutions with Thicker Models of Value'
+  authors:
+  - R. Lowe
+  - J. Edelman
+  - T. Zhi-Xuan
+  - O. Klingefjord
+  - E. Hain
+  - V. Wang
+  - A. Sarkar
+  - F. Barez
+  - et al.
+  venue: NeurIPS 2025 Workshop
+  type: Workshop
+  topic: Societal Impact
+  date: '2025-12-01'
+  venue_label: NeurIPS 2025 Workshop
+  url: ''
+- title: Establishing Best Practices for Building Rigorous Agentic Benchmarks
+  authors:
+  - Y. Zhu
+  - T. Jin
+  - Y. Pruksachatkun
+  - A. Zhang
+  - S. Liu
+  - S. Cui
+  - S. Kapoor
+  - F. Barez
+  - et al.
+  venue: NeurIPS 2025
+  type: Conference
+  topic: Technical Governance
+  date: '2025-12-01'
+  venue_label: NeurIPS 2025
+  url: ''
+- title: Emerging Risks from Embodied AI Require Urgent Policy Action
+  authors:
+  - J. Perlo
+  - A. Robey
+  - F. Barez
+  - J. Mökander
+  venue: NeurIPS 2025
+  type: Conference
+  topic: Societal Impact
+  date: '2025-12-01'
+  venue_label: NeurIPS 2025
+  url: ''
+- title: 'Context Matters: Analyzing the Generalizability of Linear Probing and Steering Across Diverse Scenarios'
+  authors:
+  - I. Agarwal
+  - S. Navani
+  - F. Barez
+  venue: NeurIPS 2025 Workshop
+  type: Workshop
+  topic: Interpretability
+  date: '2025-12-01'
+  venue_label: NeurIPS 2025 Workshop
+  url: ''
+- title: 'Trust Me, I''m Wrong: High-Certainty Hallucinations in LLMs'
+  authors:
+  - A. Simhi
+  - I. Itzhak
+  - F. Barez
+  - G. Stanovsky
+  - Y. Belinkov
+  venue: EMNLP 2025
+  type: Conference
+  topic: Safety & Alignment
+  date: '2025-11-01'
+  venue_label: EMNLP 2025
+  url: ''
+- title: 'Same Question, Different Words: A Latent Adversarial Framework for Prompt Robustness'
+  authors:
+  - T. Fu
+  - F. Barez
+  venue: EMNLP 2025
+  type: Conference
+  topic: Safety & Alignment
+  date: '2025-11-01'
+  venue_label: EMNLP 2025
+  url: ''
+- title: Precise In-Parameter Concept Erasure in Large Language Models
+  authors:
+  - Y. Gur-Arieh
+  - C. Suslik
+  - Y. Hong
+  - F. Barez
+  - M. Geva
+  venue: EMNLP 2025
+  type: Conference
+  topic: Interpretability
+  date: '2025-11-01'
+  venue_label: EMNLP 2025
+  url: ''
+- title: 'Beyond Linear Steering: Unified Multi-Attribute Control for Language Models'
+  authors:
+  - N. Oozeer
+  - L. Marks
+  - F. Barez
+  - A. Abdullah
+  venue: EMNLP 2025
+  type: Conference
+  topic: Interpretability
+  date: '2025-11-01'
+  venue_label: EMNLP 2025
+  url: ''
+- title: 'Val-Bench: Measuring Value Alignment in Language Models'
+  authors:
+  - A. Gupta
+  - D. O'Shea
+  - F. Barez
+  venue: arXiv:2510.05465
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-10-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2510.05465
+- title: 'Rethinking Safety in LLM Fine-Tuning: An Optimization Perspective'
+  authors:
+  - M. Kim
+  - J. M. Kwak
+  - L. Alssum
+  - B. Ghanem
+  - P. Torr
+  - D. Krueger
+  - F. Barez†
+  - A. Bibi†
+  venue: COLM 2025
+  type: Conference
+  topic: Safety & Alignment
+  date: '2025-10-01'
+  venue_label: COLM 2025
+  url: ''
+- title: 'HACK: Hallucinations Along Certainty and Knowledge Axes'
+  authors:
+  - A. Simhi
+  - J. Herzig
+  - I. Itzhak
+  - D. Arad
+  - Z. Gekhman
+  - R. Reichart
+  - F. Barez
+  - et al.
+  venue: arXiv:2510.24222
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-10-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2510.24222
+- title: Chain-of-Thought Hijacking
+  authors:
+  - J. Zhao
+  - T. Fu
+  - R. Schaeffer
+  - M. Sharma
+  - F. Barez
+  venue: arXiv:2510.26418
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-10-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2510.26418
+- title: 'Towards Understanding Subliminal Learning: When and How Hidden Biases Transfer'
+  authors:
+  - S. Schrodi
+  - E. Kempf
+  - F. Barez
+  - T. Brox
+  venue: ICLR 2026
+  type: Conference
+  topic: Interpretability
+  date: '2025-09-01'
+  venue_label: ICLR 2026
+  url: ''
+- title: 'Query Circuits: Explaining How Language Models Answer User Prompts'
+  authors:
+  - T.-Y. Wu
+  - F. Barez
+  venue: ICML 2026
+  type: Conference
+  topic: Interpretability
+  date: '2025-09-01'
+  venue_label: ICML 2026
+  url: ''
+- title: 'Beyond Linear Probes: Dynamic Safety Monitoring for Language Models'
+  authors:
+  - J. Oldfield
+  - P. Torr
+  - I. Patras
+  - A. Bibi
+  - F. Barez
+  venue: ICLR 2026
+  type: Conference
+  topic: Safety & Alignment
+  date: '2025-09-01'
+  venue_label: ICLR 2026
+  url: ''
+- title: Scaling Sparse Feature Circuit Finding for In-Context Learning
+  authors:
+  - D. Kharlapenko
+  - S. Shabalin
+  - F. Barez
+  - A. Conmy
+  - N. Nanda
+  venue: ICML 2025
+  type: Conference
+  topic: Interpretability
+  date: '2025-07-01'
+  venue_label: ICML 2025
+  url: ''
+- title: 'PoisonBench: Assessing Large Language Model Vulnerability to Data Poisoning'
+  authors:
+  - T. Fu*
+  - M. Sharma
+  - P. Torr
+  - S. B. Cohen
+  - D. Krueger
+  - F. Barez*
+  venue: ICML 2025
+  type: Conference
+  topic: Safety & Alignment
+  date: '2025-07-01'
+  venue_label: ICML 2025
+  url: ''
+- title: Do Sparse Autoencoders Generalize? A Case Study of Answerability
+  authors:
+  - L. Heindrich
+  - P. Torr
+  - F. Barez
+  - V. Thost
+  venue: ICML 2025 Workshop
+  type: Workshop
+  topic: Interpretability
+  date: '2025-07-01'
+  venue_label: ICML 2025 Workshop
+  url: ''
+- title: The Singapore Consensus on Global AI Safety Research Priorities
+  authors:
+  - Y. Bengio
+  - T. Maharaj
+  - L. Ong
+  - S. Russell
+  - D. Song
+  - M. Tegmark
+  - L. Xue
+  - F. Barez
+  - et al.
+  venue: arXiv:2506.20702
+  type: Preprint
+  topic: Technical Governance
+  date: '2025-06-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2506.20702
+- title: In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?
+  authors:
+  - B. Bucknall
+  - S. Siddiqui
+  - L. Thurnherr
+  - C. McGurk
+  - B. Harack
+  - A. Reuel
+  - F. Barez
+  - et al.
+  venue: FAccT 2025
+  type: Conference
+  topic: Technical Governance
+  date: '2025-06-01'
+  venue_label: FAccT 2025
+  url: ''
+- title: 'Beyond Monoliths: Expert Orchestration for More Capable, Democratic, and Safe Language Models'
+  authors:
+  - P. Quirke
+  - N. Oozeer
+  - C. Bandi
+  - A. Abdullah
+  - J. Hoelscher-Obermaier
+  - F. Barez
+  - et al.
+  venue: arXiv:2506.00051
+  type: Preprint
+  topic: Technical Governance
+  date: '2025-06-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2506.00051
+- title: 'SafetyNet: Detecting Harmful Outputs in LLMs by Modeling and Monitoring Deceptive Behaviors'
+  authors:
+  - M. Chaudhary
+  - F. Barez
+  venue: arXiv:2505.14300
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-05-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2505.14300
+- title: Towards Interpreting Visual Information Processing in Vision-Language Models
+  authors:
+  - C. Neo
+  - L. Ong
+  - P. Torr
+  - M. Geva
+  - D. Krueger
+  - F. Barez
+  venue: ICLR 2025
+  type: Conference
+  topic: Interpretability
+  date: '2025-04-01'
+  venue_label: ICLR 2025
+  url: ''
+- title: Rethinking AI Cultural Alignment
+  authors:
+  - M. Bravansky
+  - F. Trhlík
+  - F. Barez
+  venue: ICLR 2025 Workshop
+  type: Workshop
+  topic: Societal Impact
+  date: '2025-04-01'
+  venue_label: ICLR 2025 Workshop
+  url: ''
+- title: 'AILuminate: Introducing v1.0 of the AI Risk and Reliability Benchmark from MLCommons'
+  authors:
+  - S. Ghosh
+  - H. Frase
+  - A. Williams
+  - S. Luger
+  - P. Röttger
+  - F. Barez
+  - S. McGregor
+  - et al.
+  venue: arXiv:2503.05731
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-03-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2503.05731
+- title: Chain-of-Thought Is Not Explainability
+  authors:
+  - F. Barez
+  - T.-Y. Wu
+  - I. Arcuschin
+  - M. Lan
+  - V. Wang
+  - N. Siegel
+  - N. Collignon
+  - C. Neo
+  - I. Lee
+  - A. Paren
+  - A. Bibi
+  - R. Trager
+  - D. Fornasiere
+  - J. Yan
+  - Y. Elazar
+  - Y. Bengio
+  venue: Under Review
+  type: Preprint
+  topic: Interpretability
+  date: '2025-02-01'
+  venue_label: Under Review
+  url: ''
+- title: Verification for International AI Governance
+  authors:
+  - B. Harack
+  - R. Trager
+  - A. Reuel
+  - D. Manheim
+  - M. Brundage
+  - O. Aarne
+  - et al.
+  venue: AI Governance Initiative, Oxford
+  type: Policy
+  topic: Technical Governance
+  date: '2025-01-01'
+  venue_label: AI Governance Initiative, Oxford
+  url: ''
+- title: Toward Resisting AI-Enabled Authoritarianism
+  authors:
+  - F. Barez
+  - I. Friend
+  - K. Reid
+  - I. Krawczuk
+  - V. Wang
+  - J. Mökander
+  - P. Torr
+  - J. Morse
+  - R. Trager
+  venue: Under Review
+  type: Preprint
+  topic: Societal Impact
+  date: '2025-01-01'
+  venue_label: Under Review
+  url: ''
+- title: 'Safety Frameworks and Standards: A Comparative Analysis to Advance Risk Management of Frontier AI'
+  authors:
+  - M. Ziosi
+  - J. Gealy
+  - M. Plueckebaum
+  - D. Kossack
+  - S. Campos
+  - L. Saouma
+  - F. Barez
+  - et al.
+  venue: Preprint
+  type: Preprint
+  topic: Technical Governance
+  date: '2025-01-01'
+  venue_label: Preprint
+  url: ''
+- title: 'Plan B: Training LLMs to Fail Less Severely'
+  authors:
+  - J. Stastny
+  - N. Warncke
+  - D. Xu
+  - A. Lynch
+  - F. Barez
+  - H. Sleight
+  - E. Perez
+  venue: Preprint
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-01-01'
+  venue_label: Preprint
+  url: ''
+- title: Open Problems in Machine Unlearning for AI Safety
+  authors:
+  - F. Barez
+  - T. Fu
+  - A. Prabhu
+  - S. Casper
+  - A. Sanyal
+  - A. Bibi
+  - A. O'Gara
+  - R. Kirk
+  - B. Bucknall
+  - T. Fist
+  - L. Ong
+  - P. Torr
+  - K.-Y. Lam
+  - R. Trager
+  - D. Krueger
+  - S. Mindermann
+  - J. Hernández-Orallo
+  - M. Geva
+  - Y. Gal
+  venue: Under Review
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2025-01-01'
+  venue_label: Under Review
+  url: ''
+- title: 'Jailbreak Defense in a Narrow Domain: Limitations of Existing Methods and a New Transcript-Classifier Approach'
+  authors:
+  - T. T. Wang
+  - J. Hughes
+  - H. Sleight
+  - R. Schaeffer
+  - R. Agrawal
+  - F. Barez
+  - et al.
+  venue: SoLaR Workshop, NeurIPS 2024
+  type: Workshop
+  topic: Safety & Alignment
+  date: '2024-12-01'
+  venue_label: SoLaR Workshop, NeurIPS 2024
+  url: ''
+- title: Interpreting Learned Feedback Patterns in Large Language Models
+  authors:
+  - L. Marks*
+  - A. Abdullah*
+  - C. Neo
+  - R. Arike
+  - D. Krueger
+  - P. Torr
+  - F. Barez*
+  venue: NeurIPS 2024
+  type: Conference
+  topic: Interpretability
+  date: '2024-12-01'
+  venue_label: NeurIPS 2024
+  url: ''
+- title: Best-of-N Jailbreaking
+  authors:
+  - J. Hughes
+  - S. Price
+  - A. Lynch
+  - R. Schaeffer
+  - F. Barez
+  - S. Koyejo
+  - H. Sleight
+  - E. Jones
+  - E. Perez
+  venue: NeurIPS 2025
+  type: Conference
+  topic: Safety & Alignment
+  date: '2024-12-01'
+  venue_label: NeurIPS 2025
+  url: ''
+- title: 'Towards Interpretable Sequence Continuation: Analyzing Shared Circuits in Large Language Models'
+  authors:
+  - M. Lan
+  - P. Torr
+  - F. Barez
+  venue: EMNLP 2024
+  type: Conference
+  topic: Interpretability
+  date: '2024-11-01'
+  venue_label: EMNLP 2024
+  url: ''
+- title: 'Interpreting Context Look-ups in Transformers: Investigating Attention-MLP Interactions'
+  authors:
+  - C. Neo*
+  - S. B. Cohen
+  - F. Barez*
+  venue: EMNLP 2024
+  type: Conference
+  topic: Interpretability
+  date: '2024-11-01'
+  venue_label: EMNLP 2024
+  url: ''
+- title: Enhancing Neural Network Interpretability with Feature-Aligned Sparse Autoencoders
+  authors:
+  - L. Marks
+  - A. Paren
+  - D. Krueger
+  - F. Barez
+  venue: arXiv:2411.01220
+  type: Preprint
+  topic: Interpretability
+  date: '2024-11-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2411.01220
+- title: Quantifying Feature Space Universality Across Large Language Models via Sparse Autoencoders
+  authors:
+  - M. Lan
+  - P. Torr
+  - A. Meek
+  - D. Krueger
+  - F. Barez
+  venue: arXiv:2410.06981
+  type: Preprint
+  topic: Interpretability
+  date: '2024-10-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2410.06981
+- title: Large Language Models Relearn Removed Concepts
+  authors:
+  - M. Lo*
+  - S. B. Cohen
+  - F. Barez*
+  venue: ACL 2024
+  type: Conference
+  topic: Safety & Alignment
+  date: '2024-08-01'
+  venue_label: ACL 2024
+  url: ''
+- title: Visualizing Neural Network Imagination
+  authors:
+  - N. Wichers
+  - V. Tao
+  - R. Volpato
+  - F. Barez
+  venue: ICML 2024 Workshop
+  type: Workshop
+  topic: Interpretability
+  date: '2024-07-01'
+  venue_label: ICML 2024 Workshop
+  url: ''
+- title: The Scaling Behavior of Large Language Models
+  authors:
+  - A. V. Miceli-Barone
+  - F. Barez
+  - S. B. Cohen
+  - E. Voita
+  - U. Germann
+  - M. Lukasik
+  venue: Workshop 2024
+  type: Workshop
+  topic: Interpretability
+  date: '2024-07-01'
+  venue_label: Workshop 2024
+  url: ''
+- title: 'Position: Near to Mid-Term Risks and Opportunities of Open-Source Generative AI'
+  authors:
+  - F. Eiras
+  - A. Petrov
+  - B. Vidgen
+  - C. S. de Witt
+  - F. Pizzati
+  - K. Elkins
+  - F. Barez
+  - et al.
+  venue: ICML 2024
+  type: Conference
+  topic: Technical Governance
+  date: '2024-07-01'
+  venue_label: ICML 2024
+  url: ''
+- title: Mechanistic Interpretability Workshop at ICML 2024
+  authors:
+  - F. Barez
+  - M. Geva
+  - L. Chan
+  - A. Geiger
+  - K. Yin
+  - N. Nanda
+  - et al.
+  venue: ICML 2024
+  type: Workshop
+  topic: Interpretability
+  date: '2024-07-01'
+  venue_label: ICML 2024
+  url: ''
+- title: 'Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models'
+  authors:
+  - C. Denison
+  - M. MacDiarmid
+  - F. Barez
+  - D. Duvenaud
+  - S. Kravec
+  - S. Marks
+  - et al.
+  venue: arXiv:2406.10162
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2024-06-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2406.10162
+- title: Understanding Addition in Transformers
+  authors:
+  - P. Quirke
+  - F. Barez
+  venue: ICLR 2024
+  type: Conference
+  topic: Interpretability
+  date: '2024-05-01'
+  venue_label: ICLR 2024
+  url: ''
+- title: Increasing Trust in Language Models Through the Reuse of Verified Circuits
+  authors:
+  - P. Quirke
+  - C. Neo
+  - F. Barez
+  venue: arXiv:2402.02619
+  type: Preprint
+  topic: Interpretability
+  date: '2024-02-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2402.02619
+- title: What Does GPT Store in Its MLP Weights? A Case Study of Long-Range Dependencies
+  authors:
+  - T. Clark
+  - S. B. Cohen
+  - F. Barez
+  venue: Preprint
+  type: Preprint
+  topic: Interpretability
+  date: '2024-01-01'
+  venue_label: Preprint
+  url: ''
+- title: 'Sleeper Agents: Training Deceptive LLMs That Persist Through Safety Training'
+  authors:
+  - E. Hubinger
+  - C. Denison
+  - J. Mu
+  - M. Lambert
+  - M. Tong
+  - M. MacDiarmid
+  - F. Barez
+  - et al.
+  venue: arXiv:2401.05566
+  type: Preprint
+  topic: Safety & Alignment
+  date: '2024-01-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2401.05566
+- title: 'Safeguarding AI in Finance: Lessons for Regulated Industries'
+  authors:
+  - F. Barez
+  - L. Marks
+  venue: SSRN 4937924
+  type: Policy
+  topic: Technical Governance
+  date: '2024-01-01'
+  venue_label: SSRN 4937924
+  url: ''
+- title: Measuring Value Alignment
+  authors:
+  - F. Barez
+  - P. Torr
+  venue: NeurIPS 2023 Workshop
+  type: Workshop
+  topic: Safety & Alignment
+  date: '2023-12-01'
+  venue_label: NeurIPS 2023 Workshop
+  url: ''
+- title: 'DeepDecipher: Accessing and Investigating Neuron Activation in Large Language Models'
+  authors:
+  - A. Garde
+  - E. Kran
+  - F. Barez
+  venue: NeurIPS 2023 Workshop
+  type: Workshop
+  topic: Interpretability
+  date: '2023-12-01'
+  venue_label: NeurIPS 2023 Workshop
+  url: ''
+- title: AI Systems of Concern
+  authors:
+  - K. Matteucci
+  - S. Avin
+  - F. Barez
+  - S. Ó hÉigeartaigh
+  venue: arXiv:2310.05876
+  type: Preprint
+  topic: Technical Governance
+  date: '2023-10-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2310.05876
+- title: 'The Larger They Are, the Harder They Fail: Language Models Do Not Recognize Identifier Swaps in Python'
+  authors:
+  - A. V. M. Barone*
+  - F. Barez*
+  - I. Konstas
+  - S. B. Cohen
+  venue: ACL 2023
+  type: Conference
+  topic: Interpretability
+  date: '2023-07-01'
+  venue_label: ACL 2023
+  url: ''
+- title: 'Detecting Edit Failures in Large Language Models: An Improved Specificity Benchmark'
+  authors:
+  - J. Hoelscher-Obermaier*
+  - J. Persson*
+  - E. Kran
+  - I. Konstas
+  - F. Barez*
+  venue: ACL 2023
+  type: Conference
+  topic: Interpretability
+  date: '2023-07-01'
+  venue_label: ACL 2023
+  url: ''
+- title: 'Neuron to Graph: Interpreting Language Model Neurons at Scale'
+  authors:
+  - A. Foote*
+  - N. Nanda
+  - E. Kran
+  - I. Konstas
+  - S. Cohen
+  - F. Barez*
+  venue: ICLR 2023 Workshop
+  type: Workshop
+  topic: Interpretability
+  date: '2023-05-01'
+  venue_label: ICLR 2023 Workshop
+  url: ''
+- title: Value-Evolutionary-Based Reinforcement Learning
+  authors:
+  - P. Li
+  - J. Hao
+  - H. Tang
+  - Y. Zheng
+  - F. Barez
+  venue: ICML 2023
+  type: Conference
+  topic: Safety & Alignment
+  date: '2023-01-01'
+  venue_label: ICML 2023
+  url: ''
+- title: The Alan Turing Institute's Response to the House of Lords Large Language Models Call for Evidence
+  authors:
+  - F. Barez
+  - P. H. S. Torr
+  - A. Petrov
+  - C. Ashurst
+  - J. Ding
+  - A. Janjeva
+  - A. Babuta
+  - et al.
+  venue: Policy Response
+  type: Policy
+  topic: Technical Governance
+  date: '2023-01-01'
+  venue_label: Policy Response
+  url: ''
+- title: Identifying a Preliminary Circuit for Predicting Gendered Pronouns in GPT-2 Small
+  authors:
+  - C. Mathwin
+  - G. Corlouer
+  - E. Kran
+  - F. Barez
+  - N. Nanda
+  venue: Preprint
+  type: Preprint
+  topic: Interpretability
+  date: '2023-01-01'
+  venue_label: Preprint
+  url: ''
+- title: Fairness in AI and Its Long-Term Implications on Society
+  authors:
+  - O. Bohdal*
+  - T. Hospedales
+  - P. H. S. Torr
+  - F. Barez*
+  venue: Stanford Existential Safety Journal
+  type: Journal
+  topic: Societal Impact
+  date: '2023-01-01'
+  venue_label: Stanford Existential Safety Journal
+  url: ''
+- title: Exploring the Advantages of Transformers for High-Frequency Trading
+  authors:
+  - F. Barez
+  - P. Bilokon
+  - A. Gervais
+  - N. Lisitsyn
+  venue: Preprint, 2023
+  type: Preprint
+  topic: Societal Impact
+  date: '2023-01-01'
+  venue_label: Preprint, 2023
+  url: ''
+- title: 'Data Study Group Final Report: Keep Wales Tidy and Keep Scotland Beautiful'
+  authors:
+  - F. Barez
+  - H. Ni
+  - S. Fielding
+  - A. Rehman
+  - O. Babajide
+  - M. H. Modi
+  - M. O. Akinsolu
+  venue: '2023'
+  type: Preprint
+  topic: Societal Impact
+  date: '2023-01-01'
+  venue_label: '2023'
+  url: ''
+- title: 'System III: Learning with Domain Knowledge for Safety Constraints'
+  authors:
+  - F. Barez
+  - H. Hasanbieg
+  - A. Abbate
+  venue: NeurIPS 2022 Workshop
+  type: Workshop
+  topic: Safety & Alignment
+  date: '2022-12-01'
+  venue_label: NeurIPS 2022 Workshop
+  url: ''
+- title: 'PMIC: Improving Multi-Agent RL with Progressive Mutual Information Collaboration'
+  authors:
+  - P. Li
+  - H. Tang
+  - T. Yang
+  - X. Hao
+  - T. Sang
+  - Y. Zheng
+  - J. Hao
+  - M. E. Taylor
+  - Z. Wang
+  - F. Barez
+  venue: ICML 2022
+  type: Conference
+  topic: Safety & Alignment
+  date: '2022-01-01'
+  venue_label: ICML 2022
+  url: ''
+- title: 'ED2: An Environment Dynamics Decomposition Framework'
+  authors:
+  - C. Wang
+  - T. Yang
+  - Y. Zheng
+  - H. Tang
+  - F. Barez
+  - J. Liu
+  - J. Peng
+  - Z. Sun
+  venue: Preprint, 2021
+  type: Preprint
+  topic: Technical Governance
+  date: '2021-01-01'
+  venue_label: Preprint, 2021
+  url: ''
+- title: Discovering Topics and Trends in the UK Government Web Archive
+  authors:
+  - D. Beavan
+  - F. Barez
+  - M. Bel
+  - J. Fitzgerald
+  - E. Goudarouli
+  - K. Kollnig
+  - et al
+  venue: Alan Turing Institute, 2021
+  type: Policy
+  topic: Safety & Alignment
+  date: '2021-01-01'
+  venue_label: Alan Turing Institute, 2021
+  url: ''
