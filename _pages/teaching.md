@@ -18,7 +18,7 @@ nav_order: 3
 
 **2025—Guest Lecturer, Oxford Internet Institute.** University of Oxford.
 
-**2025—Guest Lecturer, Oxford Machine Learning Summer School.** AI safety and mechanistic interpretability.
+**2025, 2026—Guest Lecturer, Oxford Machine Learning Summer School.** AI safety and mechanistic interpretability.
 
 ## Elsewhere
 
