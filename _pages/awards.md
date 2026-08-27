@@ -18,7 +18,7 @@ nav_order: 4
         <!-- <a href="#">Link</a> -->
     </li>
     <li class="award-item">
-        <span class="award-info">MacLaurin MSc Scholarship (Full Tuition)</span>
+        <span class="award-info">MacLaurin Scholarship (Full Tuition)</span>
     </li>
     <li class="award-item">
         <span class="award-info">Sport Excellence Scholarship (Partial Tuition and Stipend)</span>
