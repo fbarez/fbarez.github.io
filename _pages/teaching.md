@@ -20,8 +20,6 @@ nav_order: 3
 
 ## Elsewhere
 
-**2026—Guest Lecturer, College of Computing and Data Science.** Nanyang Technological University.
-
 **2024—Tutorial Instructor, PrivacyML: How To Evaluate AI Privacy.** NeurIPS 2024 tutorial, with Mimee Xu and Dmitrii Usynin.
 
 **2022—Lecturer, Condor Camp.** Cusco, Peru.

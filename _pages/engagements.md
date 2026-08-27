@@ -6,9 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-Getting the public and policy conversation about AI right matters as much as the research itself. I write, speak, and advise on AI safety, interpretability, and governance—for researchers, policymakers, startups, and the public.
-
-**Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
+**Writing & media.** Selected coverage:
 
 - [The Verge](https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning) (2026)—"We're running out of reasons to ignore AI safety", on the OpenAI–Hugging Face incident
 - **Sky News** (2026)—live television interview, *Morning Show*
