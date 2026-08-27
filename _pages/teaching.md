@@ -10,7 +10,7 @@ nav_order: 3
 
 **2027—Interpretability for AI Safety.** Main instructor. Information Engineering, University of Oxford. New graduate course, first running 2027.
 
-**2025—AI Safety and Alignment.** Main instructor. Information Engineering, University of Oxford. Graduate course, designed from scratch and running its third year in 2026/27. Guest lecturers have included Yoshua Bengio, Neel Nanda, David Krueger, Robert Trager and Joslyn Barnhart. [Course site](/AISAA/)
+**2025—AI Safety and Alignment.** Main instructor. Information Engineering, University of Oxford. Graduate course, running its second year in 2026/27. Guest lecturers have included Yoshua Bengio, Neel Nanda, David Krueger, Robert Trager and Joslyn Barnhart. [Course site](/AISAA/)
 
 **2025—Tutor, C19 Deep Learning.** Department of Engineering Science, University of Oxford.
 
