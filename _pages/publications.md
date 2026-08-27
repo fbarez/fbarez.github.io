@@ -52,7 +52,7 @@ nav_order: 2
   }
 </style>
 
-Peer-reviewed papers, workshop contributions, preprints and policy work. Also on [Google Scholar](https://scholar.google.com/citations?user=EAjpNIMAAAAJ).
+Peer-reviewed papers, workshop contributions, preprints and policy work. For the most up-to-date list, see [Google Scholar](https://scholar.google.com/citations?user=EAjpNIMAAAAJ).
 
 <div class="pub-filters">
   <div class="pub-filter-row">
