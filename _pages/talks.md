@@ -30,11 +30,7 @@ nav_order: 4
 
 ## Industry
 
-**2026—Foresight Institute Secure & Sovereign AI Workshop.** Berlin.
-
 **2026—BLISS AI Summer Speaker Series.** Berlin.
-
-**2025—AI Governance and Unlearning.** NVIDIA, Santa Clara.
 
 **2024—AGI: Safety & Security.** Foresight Institute, San Francisco. [Slides](https://docs.google.com/presentation/d/1pkVp8H_rfXYWkLKTqppjXFMsEL9_sDy7vHEvEWCOiqo/edit#slide=id.p) · [Video](https://www.youtube.com/watch?v=bP9V6cmfErQ)
 
