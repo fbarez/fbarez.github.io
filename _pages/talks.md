@@ -47,7 +47,6 @@ Selected talks.
 - **2024—KAIST AI Safety Colloquium.**
 - **2023—Institute for Technology and Humanity.** University of Cambridge.
 - **2023—Measuring Value Alignment.** NeurIPS.
-- **2022—AI Safety Israel.** Technion.
 
 ## Panels
 
