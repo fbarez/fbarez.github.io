@@ -21,6 +21,7 @@ Selected talks.
 
 ## Keynotes & invited talks
 
+- **2026—eXCV Workshop.** ECCV.
 - **2025—Post-AGI Governance and the Risk of Authoritarian Optimization.** Post-AGI Civilizational Equilibria workshop, Vancouver. [Video](https://post-agi.org/talks/barez-political-control)
 - **2025—Post-AGI Civilizational Equilibria.** San Diego.
 - **2024—Keynote: Personalization of Generative AI Systems.** EACL 2024 Personalization Workshop, Malta. [Info](https://genpersonalization.github.io/)

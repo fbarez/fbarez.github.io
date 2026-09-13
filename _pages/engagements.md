@@ -8,8 +8,9 @@ nav_order: 5
 
 **Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
 
+- [France24](https://www.france24.com/fr/%C3%A9co-tech/20260910-intelligence-artificielle-controle-anthropic-claude-openai-menace-humanite-ethique) (2026)—quoted on AI control and existential risk, "Libérées, délivrées : des IA hors de tout contrôle ?"
 - [The Verge](https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning) (2026)—"We're running out of reasons to ignore AI safety", on the OpenAI–Hugging Face incident
-- **Sky News** (2026)—live television interview, *Morning Show*
+- **Sky News** (2026)—live television interview, *Morning Show*, on safety around humanoid robots
 - [Dubai Eye 103.8 FM](https://www.dubaieye1038.com/podcasts/the-agenda/) (2026)—live radio interview, *The Agenda*
 - [The Independent / Irish Independent](https://www.independent.co.uk/) (2026)—AI existential risk and timelines
 - [The Conversation](https://theconversation.com/) (2026)—how AI robots can be tricked into unsafe behaviour
@@ -23,7 +24,7 @@ nav_order: 5
 **Service.**
 
 - Programme Chair, International Association for Safe & Ethical AI (IASEAI)
-- Area Chair, ICLR 2026, EMNLP 2025, ACL 2025
+- Area Chair, ICLR 2027, ICLR 2026, EMNLP 2025, ACL 2025
 - Workshop organisation, Mechanistic Interpretability (NeurIPS 2025, ICML 2024), Technical AI Governance (ICML 2025), PrivacyML tutorial (NeurIPS 2024), Scaling Behaviour of LLMs (EACL 2024)
 - Reviewer, Nature, Science, Nature Machine Intelligence, and the major ML venues
 - Grant review, Future of Life Institute, Schmidt Sciences, Center for Security and Emerging Technology
