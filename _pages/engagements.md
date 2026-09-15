@@ -8,6 +8,7 @@ nav_order: 5
 
 **Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
 
+- **CNN News India** (2026)—live television interview
 - [France24](https://www.france24.com/fr/%C3%A9co-tech/20260910-intelligence-artificielle-controle-anthropic-claude-openai-menace-humanite-ethique) (2026)—quoted on AI control and existential risk, "Libérées, délivrées : des IA hors de tout contrôle ?"
 - [The Verge](https://www.theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning) (2026)—"We're running out of reasons to ignore AI safety", on the OpenAI–Hugging Face incident
 - **Sky News** (2026)—live television interview, *Morning Show*, on safety around humanoid robots
