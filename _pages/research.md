@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-I'm fascinated by intelligence in all its forms. Broadly speaking, I want to understand how it works. Intelligence already exists in nature, and I think much of our job is to explore and discover its principles. In my day-to-day research, I do this by studying neural networks mechanistically, in much the same spirit that we study how brains and other biological systems process information. I think opening up these systems and mapping their internal workings may be one of our clearest paths towards making advanced AI safe and governable.
+I'm fascinated by intelligence in all its forms. Broadly speaking, I want to understand how it works. Intelligence already exists in nature, and I think much of our job is to explore and discover its principles. In my day-to-day research, I do this by studying neural nets mechanistically, in much the same spirit that we study how brains and other biological systems process information. I think opening up these systems and mapping their internal workings may be one of our clearest paths towards making advanced AI safe and governable.
 
 Some questions I'm working on include:
 
