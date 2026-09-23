@@ -18,5 +18,5 @@ I'm interested in intelligence in all its forms. Most of my day-to-day work invo
 **Affiliations:** [Centre for the Study of Existential Risk](https://www.cser.ac.uk/), University of Cambridge; [Institute for Language, Cognition and Computation](https://informatics.ed.ac.uk/ilcc), University of Edinburgh; European Laboratory for Learning and Intelligent Systems ([ELLIS](https://ellis.eu/)); and [Digital Trust Centre](https://www.ntu.edu.sg/dtc), Nanyang Technological University.
 
 <p class="callout">
-I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). I am committed to partnering with researchers from underrepresented and disadvantaged backgrounds.
+I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). <em>I am committed to partnering with researchers from underrepresented and disadvantaged backgrounds.</em>
 </p>
