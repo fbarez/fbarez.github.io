@@ -7,7 +7,9 @@ nav: true
 nav_order: 1
 ---
 
-I'm fascinated by intelligence in all its forms. Broadly speaking, I want to understand how it works. Intelligence already exists in nature, and I think much of our job is to explore and discover its principles. In my day-to-day research, I do this by studying neural nets mechanistically, in much the same spirit that we study how brains and other biological systems process information. I think opening up these systems and mapping their internal workings may be one of our clearest paths towards making advanced AI safe and governable.
+I'm fascinated by intelligence in all its forms. Broadly speaking, I want to understand how it works. Intelligence already exists in nature, and I think much of our job is to explore and discover its principles. In my day-to-day research, I do this by studying neural nets mechanistically, in much the same spirit that we study how brains and other biological systems process information.
+
+Of course, understanding matters: it's basic to doing science, and it matters beyond AI safety and governance. AI models are becoming tools for scientific discovery; work built around them has already won Nobel Prizes. But if we come to rely on their predictions without understanding how they arrive at them, what happens to science as a search for explanations? I want us to learn from these systems, not just use them. Opening them up and mapping their internal workings may be one of our clearest paths towards that understanding—and towards making advanced AI safe and governable.
 
 Some questions I'm working on include:
 
