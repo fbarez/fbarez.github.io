@@ -54,8 +54,8 @@ blockquote {
 // --- Epigraph (Farrokhzad poem, landing page left column) ------------------
 .epigraph {
   font-family: $serif-display; font-style: italic;
-  font-size: 0.75rem; color: #2b2b2b; line-height: 1.7;
-  text-align: left; margin: 14px 0 2px 0;
+  font-size: 0.6rem; color: #2b2b2b; line-height: 1.7;
+  text-align: left; margin: 14px 0 2px 0; white-space: nowrap;
 }
 .epigraph-attr {
   font-size: 0.75rem; color: #666; text-align: right; margin: 0 0 14px 0;
