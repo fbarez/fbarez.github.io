@@ -8,6 +8,10 @@ nav_order: 5
 
 **Writing & media.** I write and comment for a range of outlets, and my work is regularly covered in the press. Selected coverage:
 
+- **Al Jazeera English** (2026)—live television interview on AI risks, control, and governance
+- [Oxford Expert Comment](https://www.ox.ac.uk/news/2026-09-21-expert-comment-flying-blind-into-the-ai-age) (2026)—"Flying blind into the AI age", with Maike Osborne, on evaluating and governing increasingly autonomous AI systems
+- **Deutsche Welle** (2026)—interview on AI control, frontier AI risks, and governance
+- **CNN-News18** (2026)—interview on AI control, frontier AI risks, and governance
 - [Science Media Centre](https://www.sciencemediacentre.org/expert-reaction-to-news-that-open-ai-has-halted-roll-out-of-new-model-over-safety-concerns/) (2026)—expert reaction on OpenAI halting a model roll-out over safety concerns
 - **CNN News India** (2026)—live television interview
 - **BBC Radio Oxford** (2026)—live radio interview on AI development and governance

@@ -1,15 +1,80 @@
 # Generated: merge of TSG Lab publication entries (authoritative metadata)
 # and CV.tex entries with no TSG counterpart. Regenerate, do not hand-edit.
+# NOTE 2026-10-04: no generator script was found in either repo to actually
+# regenerate this file, so recent entries (Code Review Bench, Pretraining
+# Curricula, Chain-of-Thought Is Not Explainability, Beyond Black-Box
+# Obfuscation) were added/updated by hand instead. Keep in sync with
+# tsglab.github.io/content/publication/ and CV.tex if a real generator
+# ever replaces this note.
+- title: Chain-of-Thought Is Not Explainability
+  authors:
+  - F. Barez
+  - T.-Y. Wu
+  - I. Arcuschin
+  - M. Lan
+  - V. Wang
+  - N. Siegel
+  - N. Collignon
+  - C. Neo
+  - I. Lee
+  - A. Paren
+  - J. Yan
+  - A. Bibi
+  - D. Fornasiere
+  - R. Trager
+  - Y. Elazar
+  - Y. Bengio
+  venue: NeurIPS 2026
+  type: Conference
+  topic: Interpretability
+  date: '2026-10-01'
+  venue_label: NeurIPS 2026
+  url: ''
+- title: 'Code Review Bench: An Automated Benchmark for Evaluating the Software Factory'
+  authors:
+  - A. Zhang
+  - N.F. Oozeer
+  - A. Zverianskii
+  - D. Ng
+  - T. Pejovic
+  - A. García
+  - J. Clyne
+  - R. Setia
+  - A. Utture
+  - E.J. Ginsberg
+  - S.K. Upadhyay
+  - F. Barez
+  venue: NeurIPS 2026
+  type: Conference
+  topic: Technical Governance
+  date: '2026-10-01'
+  venue_label: NeurIPS 2026
+  url: ''
+- title: Pretraining Curricula Enable Selective Fine-tuning
+  authors:
+  - K.J. Sandbrink
+  - M. Whitefield
+  - S.A. Bruijns
+  - J. Rubruck
+  - L.T. Hunt
+  - F. Barez
+  - C. Summerfield
+  venue: NeurIPS 2026
+  type: Conference
+  topic: Interpretability
+  date: '2026-10-01'
+  venue_label: NeurIPS 2026
+  url: ''
 - title: Token Taxes Can Mitigate AI's Economic Risks
   authors:
   - L. Irwin
   - T.-Y. Wu
   - F. Barez
-  venue: ICML 2026 (Position Paper)
+  venue: ICML 2026
   type: Conference
   topic: Societal Impact
   date: '2026-03-01'
-  venue_label: ICML 2026 (Position Paper)
+  venue_label: ICML 2026
   url: ''
 - title: 'Old Habits Die Hard: How Conversational History Geometrically Traps LLMs'
   authors:
@@ -62,11 +127,11 @@
   - A. Reusch
   - N. Saphra
   - et al.
-  venue: ICML 2026 (Position Paper)
+  venue: ICML 2026
   type: Conference
   topic: Interpretability
   date: '2026-01-15'
-  venue_label: ICML 2026 (Position Paper)
+  venue_label: ICML 2026
   url: ''
 - title: When AI Systems Learn During Deployment, Our Safety Evaluations Break
   authors:
@@ -107,11 +172,11 @@
   - J. Lehman
   - P. Norvig
   - A. Narayanan
-  venue: ICML 2026 (Position Paper, Spotlight)
+  venue: ICML 2026
   type: Conference
   topic: Safety & Alignment
   date: '2026-01-01'
-  venue_label: ICML 2026 (Position Paper, Spotlight)
+  venue_label: ICML 2026
   url: ''
 - title: 'The Capability Frontier: Benchmarks Miss 82% of Model Performance'
   authors:
@@ -176,11 +241,11 @@
   - C. Arnett
   - F. Barez
   - N. Saphra
-  venue: ICML 2026 (Position Paper, Spotlight)
+  venue: ICML 2026
   type: Conference
   topic: Safety & Alignment
   date: '2026-01-01'
-  venue_label: ICML 2026 (Position Paper, Spotlight)
+  venue_label: ICML 2026
   url: ''
 - title: 'Beyond Alignment: Why Robotic Foundation Models Need Context-Aware Safety'
   authors:
@@ -505,16 +570,16 @@
   date: '2025-06-01'
   venue_label: Preprint
   url: https://arxiv.org/abs/2506.00051
-- title: 'SafetyNet: Detecting Harmful Outputs in LLMs by Modeling and Monitoring Deceptive Behaviors'
+- title: 'Beyond Black-Box Obfuscation: Mechanistic Analysis and Defense of White-Box Monitors'
   authors:
   - M. Chaudhary
   - F. Barez
-  venue: arXiv:2505.14300
-  type: Preprint
+  venue: COLM 2026
+  type: Conference
   topic: Safety & Alignment
-  date: '2025-05-01'
-  venue_label: Preprint
-  url: https://arxiv.org/abs/2505.14300
+  date: '2026-10-01'
+  venue_label: COLM 2026
+  url: ''
 - title: Towards Interpreting Visual Information Processing in Vision-Language Models
   authors:
   - C. Neo
@@ -556,30 +621,6 @@
   date: '2025-03-01'
   venue_label: Preprint
   url: https://arxiv.org/abs/2503.05731
-- title: Chain-of-Thought Is Not Explainability
-  authors:
-  - F. Barez
-  - T.-Y. Wu
-  - I. Arcuschin
-  - M. Lan
-  - V. Wang
-  - N. Siegel
-  - N. Collignon
-  - C. Neo
-  - I. Lee
-  - A. Paren
-  - A. Bibi
-  - R. Trager
-  - D. Fornasiere
-  - J. Yan
-  - Y. Elazar
-  - Y. Bengio
-  venue: Under Review
-  type: Preprint
-  topic: Interpretability
-  date: '2025-02-01'
-  venue_label: Under Review
-  url: ''
 - title: Verification for International AI Governance
   authors:
   - B. Harack

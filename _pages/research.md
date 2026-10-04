@@ -20,3 +20,5 @@ Some questions I'm working on include:
 * As we build and use more capable systems, how do we avoid gradually handing over important decisions in ways that weaken human control, democratic norms, and freedom?
 
 Beyond interpretability, AI safety, and governance, I'm drawn to computational cognitive science, policy, and poetry, among many other things. My work has been published at NeurIPS, ICML, ICLR, ACL, EMNLP, FAccT, and Science Robotics. You can find my publications on [Google Scholar](https://scholar.google.com/citations?user={{ site.scholar_userid }}), or read more about what I hope to work on in my [Research Agenda](/assets/pdf/Automated_interp_Research_Agenda.pdf).
+
+My work is supported by OpenAI, Anthropic, Schmidt Sciences, NVIDIA, and others.
