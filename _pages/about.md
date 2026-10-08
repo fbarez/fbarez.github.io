@@ -17,5 +17,5 @@ Most of my research involves [looking inside neural networks to understand how t
 **Selected affiliations:** Honorary Fellow at the School of Informatics, University of Edinburgh; Visiting Fellow at Barcelona Supercomputing Center; Visiting Scholar at CHAI, UC Berkeley; Research Affiliate at CSER, University of Cambridge, and the Digital Trust Centre, Nanyang Technological University; Member of ELLIS.
 
 <p class="callout">
-I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). I am committed to partnering with researchers from <em>underrepresented and disadvantaged</em> backgrounds.
+I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). I am committed to partnering with researchers from <em>underrepresented</em> and <em>disadvantaged</em> backgrounds.
 </p>
