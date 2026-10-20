@@ -11,11 +11,12 @@ profile:
 news: true
 ---
 
-I lead the [TSG Lab](https://tsglab.github.io/) in [Engineering](https://eng.ox.ac.uk/people/fazl-barez) at the University of Oxford, where I am a Senior Researcher and Governing Body Fellow in AI & Machine Learning at [Reuben College](https://reuben.ox.ac.uk/people/fazl-barez). I am also Technical Director of the [AI Governance Initiative](https://aigi.ox.ac.uk/) and MTS at [Martian](https://www.withmartian.com/).
-Most of my research involves [looking inside neural networks to understand how they work](https://arxiv.org/abs/2305.19911), and asking whether that understanding can help us [evaluate](https://arxiv.org/abs/2603.07427), [control](https://fazlbarez.com/assets/pdf/Automated_interp_Research_Agenda.pdf), and [govern](https://aigi.ox.ac.uk/wp-content/uploads/2025/05/Toward_Resisting_AI_Enabled_Authoritarianism_-4.pdf) increasingly capable AI systems.
+I am a Principal Investigator at the [University of Oxford](https://www.ox.ac.uk/), where I lead the [Technical Safety & Governance (TSG) Lab](https://tsglab.github.io/). I am also a Governing Body Fellow in AI & ML at [Reuben College](https://reuben.ox.ac.uk/) and Technical Director of the [AI Governance Initiative](https://aigi.ox.ac.uk/).
 
-**Selected affiliations:** Honorary Fellow at the School of Informatics, University of Edinburgh; Visiting Fellow at Barcelona Supercomputing Center; Visiting Scholar at CHAI, UC Berkeley; Research Affiliate at CSER, University of Cambridge, and the Digital Trust Centre, Nanyang Technological University; Member of ELLIS.
+My research looks inside [neural networks to understand how they work](https://arxiv.org/abs/2305.19911), and asks whether that understanding can help us [evaluate](https://arxiv.org/abs/2603.07427), [control](https://fazlbarez.com/assets/pdf/Automated_interp_Research_Agenda.pdf), and [govern](https://aigi.ox.ac.uk/wp-content/uploads/2025/05/Toward_Resisting_AI_Enabled_Authoritarianism_-4.pdf) AI systems.
+
+Other appointments: Visiting Assistant Professor at Tsinghua University; Honorary Fellow at the University of Edinburgh; Member of Technical Staff at Martian.
 
 <p class="callout">
-I am looking for students (<a href="https://tsglab.github.io/contact/">how to apply</a>). I am committed to partnering with researchers from <em>underrepresented</em> and <em>disadvantaged</em> backgrounds.
+I am <a href="https://tsglab.github.io/contact/">looking for students</a>, and committed to supporting researchers from <em>disadvantaged</em> or <em>underrepresented</em> backgrounds.
 </p>
