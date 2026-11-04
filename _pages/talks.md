@@ -35,7 +35,7 @@ Selected talks.
 
 ## Academic seminars
 
-- **2026—New York University.**
+- **2026—New York University Abu Dhabi.**
 - **2026—St Cross College, University of Oxford.** Lecture to Chevening Scholars.
 - **2026—Severo Ochoa Research Seminar (SORS).** Barcelona Supercomputing Centre. [Info](https://www.bsc.es/ca/research-and-development/research-seminars/sors-towards-actionable-interpretability)
 - **2026—Language Technology Lab seminar.** University of Cambridge. [Info](http://talks.cam.ac.uk/show/archive/60438)
