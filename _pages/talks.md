@@ -21,6 +21,7 @@ Selected talks.
 
 ## Keynotes & invited talks
 
+- **2026—AICONF-2026, International AI Conference.** Dushanbe. *Keynote.*
 - **2026—eXCV Workshop.** ECCV.
 - **2025—Post-AGI Governance and the Risk of Authoritarian Optimization.** Post-AGI Civilizational Equilibria workshop, Vancouver. [Video](https://post-agi.org/talks/barez-political-control)
 - **2025—Post-AGI Civilizational Equilibria.** San Diego.
@@ -34,6 +35,8 @@ Selected talks.
 
 ## Academic seminars
 
+- **2026—New York University.**
+- **2026—St Cross College, University of Oxford.** Lecture to Chevening Scholars.
 - **2026—Severo Ochoa Research Seminar (SORS).** Barcelona Supercomputing Centre. [Info](https://www.bsc.es/ca/research-and-development/research-seminars/sors-towards-actionable-interpretability)
 - **2026—Language Technology Lab seminar.** University of Cambridge. [Info](http://talks.cam.ac.uk/show/archive/60438)
 - **2026—CSER Work in Progress Seminar.** University of Cambridge.
@@ -48,6 +51,7 @@ Selected talks.
 - **2024—KAIST AI Safety Colloquium.**
 - **2023—Institute for Technology and Humanity.** University of Cambridge.
 - **2023—Measuring Value Alignment.** NeurIPS.
+- **2022—AI Safety Israel.** Technion.
 
 ## Panels
 
