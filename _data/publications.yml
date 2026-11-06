@@ -6,6 +6,41 @@
 # Obfuscation) were added/updated by hand instead. Keep in sync with
 # tsglab.github.io/content/publication/ and CV.tex if a real generator
 # ever replaces this note.
+- title: 'Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety'
+  authors:
+  - F. Barez
+  - T.-Y. Wu
+  - H. Batra
+  - G. Dominici
+  - F. Draye
+  - Y. Elazar
+  - D. Fornasiere
+  - A. García
+  - A. Harrasse
+  - R. Harris
+  - S. Hooker
+  - M. Lan
+  - B. Z. Li
+  - A. Maiwald
+  - N. F. Oozeer
+  - N. Saphra
+  - O. D. Shafran
+  - A. Simhi
+  - R. Trager
+  - S. K. Upadhyay
+  - Z. Yao
+  - Y. Zhao
+  - S. B. Cohen
+  - M. Geva
+  - Y. Bengio
+  - S. Biderman
+  - H. Sajjad
+  venue: arXiv:2611.08438
+  type: Preprint
+  topic: Interpretability
+  date: '2026-11-01'
+  venue_label: Preprint
+  url: https://arxiv.org/abs/2611.08438
 - title: Chain-of-Thought Is Not Explainability
   authors:
   - F. Barez
